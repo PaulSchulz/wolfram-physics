@@ -1,2 +1,21 @@
-# wolfram-physics
-Code and notes relating to the Wolfram Physics Model and related investigations
+#+TITLE: wolfram-physics
+
+* Introduction
+Code and notes relating to the Wolfram Physics Model and related investigations.
+
+*NOTE:* This repository holds a lot of incomplete work that is work in progress.
+If any of it is useful, please let me know. 
+
+** References
+The Wolfram Physics Project Website - https://www.wolframphysics.org/
+
+** Author
+Paul Schulz
+
+* Directories
+- notebooks: Wolfram notebooks (.nb) on various topics
+- src: Source for programs developed to investigate the Wolfram Physics Model
+- studies: Notes on studies on more specific topics
+- wolfram-physics: Clojure code, and sub-project
+
+  
