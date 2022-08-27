@@ -1,0 +1,245 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+"\<Colloquium\>","Title",ExpressionUUID -> "87489620-b626-4b98-8284-f559e8efdd27"],Cell[
+TextData[
+{"Jonathan"," ","Gorard"}],"Text",ExpressionUUID -> "c8255678-b9c2-4a21-acbd-08cead736c8b"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Causal"," ","Sets",StyleBox[RowBox[{" ","&"," "}]],"All"," ","That"}],
+"Chapter",ExpressionUUID -> "e8e3acf7-081f-4b1c-9965-d01f0785066f"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Workshop"," ","Debrief"}],"Subsection",ExpressionUUID -> "dd9a9b96-932c-4642-8297-b94325c6d3bc"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Beyond"," ","Center"," ","-"," ","Sean"," ","Carroll"," ","V"}],
+"Subsubsection",ExpressionUUID -> "4877c007-0aaf-4d79-a05f-8d584af034fb"],Cell[
+TextData[
+{"Constructor"," ","Theory"}],"Text",ExpressionUUID -> "f82af089-7541-4733-82f5-9d3f7c4c116d"],Cell[
+TextData[
+{"Non-degenerate"," ","Riemannian"," ","metrics"," ","on"," ","tensor"," ","networks"}],
+"Text",ExpressionUUID -> "5762c0af-8562-4fde-804b-02cf353d3994"],Cell[
+TextData[{"Meshes"," ","of"," ","Undirected"," ","Edges"}],
+"Text",ExpressionUUID -> "2f62be3a-e109-49e1-9465-8d36b3db413a"],Cell[
+TextData[{"Emerging"," ","General"," ","Relativity"}],
+"Text",ExpressionUUID -> "3d32ed6a-bfb6-40cc-ab45-ebc75b3a19f7"],Cell[
+TextData[{"Lorentzian"," ","Geometry"," ","from"," ","small"," ","causal"," ",StyleBox[
+"diamonds",IgnoreSpellCheck -> True]}],"Text",ExpressionUUID -> "59a6c594-3dd8-4f96-8270-a88ad35cc9f6"],Cell[
+TextData[
+{"Relationship"," ","to"," ","constructor"," ","theory"}],"Text",ExpressionUUID -> "57761c5c-6f7a-4cb9-a747-3febd29147ce"],Cell[
+TextData[
+{"Different"," ","way"," ","of"," ","looking"," ","at"," ","physics"," ","-"," ","other"," ","then"," ","equations"," ","of"," ","motion"}],
+"Text",ExpressionUUID -> "577e24cf-b431-405b-a1f3-977d0c7042ca"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Transitive"," ","closure"," ","of"," ","path"," ","graph"}],
+"Item",ExpressionUUID -> "2c5811e5-e5b7-4f3a-bfee-b5d5a374492e"],Cell[
+TextData[{"Totalitarian"," ","principle"," ","of"," ","quantum"," ","mechanics"}],
+"Item",ExpressionUUID -> "5e83a881-647f-4307-9ca7-fe450ae175ed"],Cell[
+TextData[{"Monoidal"," ","products"," ","of"," ","multiway"," ","systems",StyleBox[
+RowBox[{","," "}]],"vs"," ","Cartesian"," ","products",StyleBox[RowBox[{" ","("}]],"monoidal"," ","products"," ","dominate",")"}],
+"Item",ExpressionUUID -> "beb5d563-243c-4610-8fea-dda41d16f29e"]},Open],ExpressionUUID -> "561a51c5-65c0-4a4c-b04d-c2aaaa574055"],Cell[
+TextData[
+{"Proof"," ","of"," ","why"," ","Quantum"," ","mechanics"," ","is"," ","essential"," ","to"," ","describe"," ","system"}],
+"Text",ExpressionUUID -> "d4c611cc-6f9e-47de-bcba-82f0c7bdd436"]},Open],ExpressionUUID -> "505eb83e-385c-4a69-a44d-b9856293fa23"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Beyond"," ","Centre"," ","II",StyleBox[RowBox[{" ","("}]],"Geometry"," ","of"," ","Arbitrary"," ","Riemannian"," ","Manifolds",StyleBox[
+RowBox[{")"," "}]]}],"Subsubsection",ExpressionUUID -> "d94e1ee7-ba9f-414c-918c-15c271b0ba71"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Information"," ","Graph"}],"Item",ExpressionUUID -> "422d0eab-b90e-450a-a9d9-bb499d106f40"],Cell[
+TextData[
+{" ","Radon"," ","transform"}],"Item",ExpressionUUID -> "bf084aa5-3b4f-4d24-b8a3-78425a5232da"],Cell[
+TextData[
+{" ","Geodesic"," ","submanifold"," "}],"Item",ExpressionUUID -> "6b0096d0-c91e-4a4f-b95e-047a80637ea9"],Cell[
+TextData[
+{" ","Recover"," ","Riemannian"," ","geometry"," ","from"," ","entanglement"}],"Item",
+ExpressionUUID -> "341ff3e4-8939-47db-9387-d7851bc3c231"],Cell[
+TextData[{" ","Tensor"," ","network"}],
+"Item",ExpressionUUID -> "f4074e4b-8e3e-407c-b231-07b3f946c167"]},Open],ExpressionUUID -> "f95451d6-0358-41e2-8880-810857f14e25"]},
+Open],ExpressionUUID -> "3a421d45-05ca-4b5d-92aa-ac3ff5d7c903"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Project"," ","3"," ","-"," ","Graph"," ","Entropy"," ","-Relating"," ","Geometric"," ","Information"," "}],
+"Subsubsection",ExpressionUUID -> "99fd91ec-df15-416a-967c-4f569f620b7e"],Cell[
+TextData[
+{"Graph"," ","entropy"," ","measures",StyleBox[RowBox[{" "," "}]],"relating"," ","to"," ","curvature"," ","measures","."}],
+"Text",ExpressionUUID -> "ae818fa8-965f-45ee-ac5d-0d8adc3b4456"]},Open],ExpressionUUID -> "39860b65-318a-46bd-bd9a-cdf36c17f0dc"]},
+Open],ExpressionUUID -> "0fd287cf-6f74-4711-88fa-f167ed5df512"],Cell[
+CellGroupData[
+{Cell[
+"\<Continuing\>","Section",ExpressionUUID -> "703dcda8-12fb-470d-89e1-e983482ebadd"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Causal"," ","Set"," ","Theory"}],"Subsubsection",ExpressionUUID -> "d12e9891-adaf-4928-a068-2cd62ff0e358"],Cell[
+TextData[
+{" ","Algorithmic"," ","Causal"," ","Sets"}],"Item",ExpressionUUID -> "91fad900-7610-492b-ab92-45dd415a9ae6"],Cell[
+TextData[
+{"Directed"," ","Acyclic"," ","graph"}],"Text",ExpressionUUID -> "6f61d601-aff4-4835-aaac-b4ab0725fe59"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Alexandrof"," ","Interval"}],"Item",ExpressionUUID -> "b17dee3e-12c7-4c2f-b301-144078446ffd"],Cell[
+TextData[
+{"Intersection"," ","of"," ","forward"," ","and"," ","reverse"," ","light"," ","cone"}],
+"Item",ExpressionUUID -> "c230f824-e48e-41a6-8ee0-db47558bb8d4"]},Open],ExpressionUUID -> "25a080d1-7d6f-4486-ae5d-bd58b547c5a2"],Cell[
+TextData[
+{"Local"," ","Finiteness",StyleBox[RowBox[{" "," "}]],"becomes"," ","Local"," ",StyleBox[
+"countability",IgnoreSpellCheck -> True]}],"Text",ExpressionUUID -> "f6532b31-71ac-431e-bd05-fe25eb21b9b5"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Transitive"," ","Closure"}],"Item",ExpressionUUID -> "9aaa8afe-915f-4eaa-93a3-e5b0242a0395"],Cell[
+TextData[
+{"Transitive"," ","Reduction"}],"Item",ExpressionUUID -> "d2e6d16f-2e10-4381-b2f6-f055780949c8"],Cell[
+TextData[
+{"Reflexivity"," ","-"," ","self"," ","loops"}],"Item",ExpressionUUID -> "588dd421-772e-420a-9860-6d55b4fd540d"]},
+Open],ExpressionUUID -> "4bc6764e-b8bf-4bd9-b49e-afbafa94ac14"],Cell[
+TextData[{"I","+/","-"," ","chronological"," ","future"," ","and"," ","past","\n","J","+/","-"," ","-"," ","Causal"," ","future"," ","and"," ","past","\n","On"," ","the"," ","light"," ","cone",StyleBox[
+RowBox[{","," "}]],"causally"," ","connected",StyleBox[RowBox[{","," "}]],"but"," ","not"," ","chronolgical"," ","future",StyleBox[
+RowBox[{"."," "}]],"No"," ","passing"," ","of"," ","time"," ","on"," ","the"," ","light-cone"}],
+"Text",ExpressionUUID -> "acc11db9-9ff5-488c-8fe2-61274ebadd2d"],Cell[
+TextData[{"There"," ","exists"," ","-"," ","Central"," ","Conjecture"," ","of"," ","Causal"," ","Set"," ","Theory"}],
+"Text",ExpressionUUID -> "3bc7cf2c-4a91-4f74-a45c-189206737351"]},Open],ExpressionUUID -> "c0050a19-b207-4c51-832a-9c05250ecddf"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Faithful"," ","Enbedding"," ","II"}],"Subsubsection",ExpressionUUID -> "1e8fc942-8f16-4737-aae3-f49058b1ba5e"],Cell[
+TextData[
+{"Embedding"," ","of"," ","causal"," ","set"," ","C"," ","into"," ","a"," ","Lorentzain"," ","manifold"}],
+"Text",ExpressionUUID -> "0a7c63e9-f51b-4ab3-a391-e4f98127a191"],Cell[
+TextData[{"Poisson"," ","distribution"}],
+"Text",ExpressionUUID -> "1607c692-7c8e-44ed-8d60-54d0a65462dd"],Cell[
+TextData[{"Role"," ","of"," ","Time"," ","-"," ","partial"," ","order"," ","relation"}],
+"Text",ExpressionUUID -> "5f97cff4-7bc9-4242-8155-146ac954cdca"],Cell[
+TextData[{"Dimension"," ","Estimator"}],
+"Text",ExpressionUUID -> "3d50cec7-7bd2-41df-a51d-60168497596d"],Cell[
+BoxData[RowBox[
+{"CurvedSpacetimeSprinkling","[","]"}]],"Input",ExpressionUUID -> "8acb410b-8c71-4f98-9acd-3daa09ccc06d"],Cell[
+BoxData[
+RowBox[{"Spacetime"," ",RowBox[{"Sprinkling","[","]"}]}]],"Input",ExpressionUUID -> "f25cd493-c1b4-47a9-a0ea-55cac42fbacb"],Cell[
+TextData[
+{StyleBox[RowBox[{"d",StyleBox["e",IgnoreSpellCheck -> True]}]],StyleBox[" ",IgnoreSpellCheck -> True],StyleBox[
+"Sitter",IgnoreSpellCheck -> True]," ","Space"}],"Text",ExpressionUUID -> "c1d398e8-9e6a-4754-a5b8-67802dc624ec"],Cell[
+TextData[
+{"Intrinsic"," ","Curvature"," ","-"," ","Gaussian"," ","-"," ","eg"," ","Cylinder"," ","if"," ","flat"}],
+"Text",ExpressionUUID -> "c33ed4ed-1efd-44f1-a6ed-f809138134cf"],Cell[
+TextData[{"Extrinsic"," ","Curvature"," ","-"," ","eg"," ","Cylinder"," ","is"," ","curved"}],
+"Text",ExpressionUUID -> "64e950d3-26f9-4359-bd4b-867a8312478e"]},Open],ExpressionUUID -> "f1635592-ead2-434b-8794-2e4fb5df9566"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Faithful"," ","Embedding"," ","IV"}],"Subsubsection",ExpressionUUID -> "6dd12ca9-2da1-4bb2-a6fd-ae4522ddbe0c"],Cell[
+TextData[
+{"Transitive"," ","Reduction"}],"Text",ExpressionUUID -> "c3b6fa6e-f606-4c34-b990-a7851369e751"],Cell[
+TextData[
+{"Claim",StyleBox[RowBox[{":"," "}]],"Only"," ","way"," ","to"," ","get"," ","Lorentzian"," ","symmetry"," ","of"," ","a"," ","causal"," ","network"," ","unless"," ","vertex"," ","degrees"," ","are"," ","unbounded"}],
+"Text",ExpressionUUID -> "a29c1abf-e455-4958-ad63-0ca8ab267cdf"],Cell[
+TextData[{"Based"," ","on"," ","no-go"," ","theorem"," ","by"," ","Bombelli"}],
+"Text",ExpressionUUID -> "d991640f-7963-4c19-99c7-18e4d30edf32"],Cell[
+TextData[{"Possible"," ","to"," ","construct"," ","causal"," ","set"," "}],
+"Text",ExpressionUUID -> "a47c7912-4d34-40fa-93c1-c4ccbcca1af9"],Cell[
+BoxData[RowBox[
+{"Measure"," ","Theory"}]],"Input",ExpressionUUID -> "c053c8aa-79c7-48cb-b3ec-c19a35790817"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Proof"," ","that"," ","cant"," ","create"," ","preferred"," ","direction"," ","set"}],
+"Item",ExpressionUUID -> "024760ea-bc20-46a5-970b-6f6a26e22877"],Cell[
+TextData[{"G"," ","set"," ","with"," ","group"," ","action"," ","-"," ","Group"," ","with"," ","an"," ","action"}],
+"Item",ExpressionUUID -> "d8255c8e-2e59-4f0c-9b63-9699a1c34535"],Cell[
+TextData[{"Equivalent"," ","map"," ","-"," ","pull"," ","group"," ","action"," ","out"," ","of"," ","map"}],
+"Item",ExpressionUUID -> "f40c0315-df2c-4e3e-9f4e-263fc49d0c64"],Cell[
+TextData[{"Prove"," ","that"," ","no"," ","such"," ","map"," ","exists"}],
+"Item",ExpressionUUID -> "eb19a3cf-4596-42f5-82af-61de4c66d211"]},Open],ExpressionUUID -> "096eb03e-80e3-476c-bbdc-d9f078761e3b"],Cell[
+BoxData[
+RowBox[{"Category"," ","Theory"}]],"Input",ExpressionUUID -> "4fcab3da-f23e-462e-9675-e224dc89a02a"],Cell[
+TextData[
+{" ","Condition"," ","of"," ","Equivariant"," ","Maps"," ","-"," ","Diagram"," ","commute"}],
+"Item",ExpressionUUID -> "ca7f1ef8-ac5c-4512-a94b-e71f68eccb4e"],Cell[
+BoxData[RowBox[
+{"Lorantz"," ","Boosts"}]],"Input",ExpressionUUID -> "83983d4b-824b-4297-a3d2-c2c1eba9be3a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Proof"," ","by"," ","contradiction"}],"Item",ExpressionUUID -> "e20c85b0-5098-4e10-bbdd-5cfaf7ba472f"],Cell[
+TextData[
+{"Hyperboloid"," ","is"," ","non-compact"," ","space"}],"Item",ExpressionUUID -> "503bc674-a415-4f91-bda4-91dea43d57bb"],Cell[
+TextData[
+{"Sufficiently"," ","strong"," ","boost"," ","forces"," ","sets"," ","to"," ","be"," ","disjoint"}],
+"Item",ExpressionUUID -> "243b11d3-d1b2-423d-9c2d-540447778dbf"],Cell[
+TextData[{"Probability"," ","measures"," ","are"," ","disjointly"," ","additive"," ","-"," ","force"," ","to"," ","exceed"," ","1","."}],
+"Item",ExpressionUUID -> "0459c0b2-bae1-4b43-83f1-1bf9fe0634f4"],Cell[
+TextData[{" ","Depends"," ","on"," ","non-compactness"," ","of"," ","manifold"}],
+"Subitem",ExpressionUUID -> "6ff4ddff-9fed-4546-96b2-1fd6774fcbc0"],Cell[
+TextData[
+{"No"," ","contradiction"," ","on"," ","compact"," ","set"," ","-"," ","cyclic"," ","operation"}],
+"Item",ExpressionUUID -> "f0608dff-491e-4521-b748-b1c1ec6d98c3"],Cell[
+TextData[{" ","Measure"," ","does"," ","not"," ","grow"}],
+"Subitem",ExpressionUUID -> "6f78fd43-07f5-4766-b60f-9ce5abcfb1d9"],Cell[
+TextData[
+{"maintain"," ","compatibility"}],"Subitem",ExpressionUUID -> "32fc31ff-a4a8-44f0-83b0-a2c65cefa760"]},
+Open],ExpressionUUID -> "b1548933-74b6-49d1-8dcb-2d5632e1326d"],Cell[
+BoxData[RowBox[
+{RowBox[{"Weakly"," ","Ergotic"}]," ","-"," ",RowBox[{"Univeral"," ","time"," ","function"}]}]],
+"Input",ExpressionUUID -> "1033af4e-04ab-44cf-bdec-12e9b1874c32"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Non-intersecting"," ","hyper"," ","surfaces"}],"Item",ExpressionUUID -> "b0306110-0230-4af0-aab2-3b35aaedf757"],Cell[
+TextData[
+{" ","ADM"," ","decomposition"}],"Item",ExpressionUUID -> "80844af1-c962-4fb2-81cb-051a6d35447e"],Cell[
+TextData[
+{"Induced"," ","spacial"," ","dimension"," ","parameter"}],"Item",ExpressionUUID -> "0224e291-3b8e-4078-885a-b305c4461c82"]},
+Open],ExpressionUUID -> "b02819f4-44c6-4fb5-803a-f054b740eb9f"],Cell[
+"\<\>","Input",
+ExpressionUUID -> "25343188-92d0-4f1d-bccf-e0909e6f3fa7"],Cell[
+TextData[{"Observer"," ","-"," ","observed"," ","output"," ","from"," ","nodes"," ","is"," ","unlimited"," ","-"," ","compatible","/","non-trivial"," ","theorem"," ","addition"}],
+"Text",ExpressionUUID -> "71ec1fe5-a215-4de0-a641-3e4dda3a29c9"],Cell[
+BoxData[RowBox[
+{"Something"," ","like","? - ","\"In the graph, when you boost the hypersefaces, there are more edges between contained between the hyperplanes\""," "}]],
+"Code",ExpressionUUID -> "d268af31-69b9-4f7e-a637-923353991b9c"],Cell[
+BoxData[RowBox[
+{"Symmetry"," ","Groups"}]],"Input",ExpressionUUID -> "44a9355e-f0ce-4f95-82da-df6635ccf41d"],Cell[
+BoxData[
+RowBox[{"Myrheim","-",RowBox[{"Mayer"," ","Dimension"," ","Estimators"}]}]],"Input",
+ExpressionUUID -> "b30c7950-dc77-4465-9fc8-40ea73ca44c3"],Cell[
+BoxData[RowBox[{"Other"," ","Dimension"," ","Estimators"}]],
+"Input",ExpressionUUID -> "d6e4be37-31e3-4acf-8b48-a1645c8027d6"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Taylored"," ","for"," ","curved"," ","spacetimes"}],"Item",
+ExpressionUUID -> "6162ea27-79de-4459-afc1-1b3d5f6db940"],Cell[
+TextData[{"Causal"," ","diamond"," ","is"," ","small"}],
+"Item",ExpressionUUID -> "d4a62715-1816-41ed-bbf7-4d5e71cb83b5"]},Open],ExpressionUUID -> "11fcf520-bf72-488f-88c0-6fcd0922c382"],Cell[
+TextData[
+{"Space"," ","separated"," ","events"}],"Text",ExpressionUUID -> "16d98b1f-fa6f-4d36-a952-6a602ac0efb1"],Cell[
+BoxData[
+RowBox[{"Scalar"," ","field"," ","with"," ","Einstein"," "," ","Metric"}]],"Input",
+ExpressionUUID -> "a81a6397-f879-4cb1-a3eb-92ce5d49f0fa"],Cell[
+TextData[{" ","More"," ","general"," ","construction"}],
+"Item",ExpressionUUID -> "ade90c00-3153-4cb4-aeaf-44fbb0e7c0d1"],Cell[
+BoxData[RowBox[
+{"Quantum"," ","Measures"}]],"Input",ExpressionUUID -> "31f65a22-3db5-457c-9005-2f044cf8e246"],Cell[
+TextData[
+{" ","Measure"," ","from"," ","path"," ","counting"," ","weights"}],"Item",ExpressionUUID -> "2348bb32-84c7-40ca-b99b-a4fed0851bc5"],Cell[
+BoxData[
+RowBox[{"Uniform"," ","Foliation"}]],"Input",ExpressionUUID -> "e8c3b2dd-ddfc-41b7-ad72-d781f8f8998c"],Cell[
+TextData[
+{"QSB"," ","Dynamics"}],"Text",ExpressionUUID -> "047aefa8-d73a-4d08-9b97-328c0c5702c0"]},
+Open],ExpressionUUID -> "d408a38c-01e3-4b69-bab7-6bc1ea908e5d"]},Open],ExpressionUUID -> "bfd7144b-a766-430d-9a74-2167816d567f"],Cell[
+CellGroupData[
+{Cell[
+"\<Discussion\>","Section",ExpressionUUID -> "23178f4e-db97-4318-b18c-d89aec77430e"],Cell[
+BoxData[
+RowBox[{"Networked"," ","Automata"}]],"Input",ExpressionUUID -> "13e5bdd7-3a85-439a-b781-e80de4c5c9b4"],Cell[
+BoxData[
+RowBox[{RowBox[{"What"," ","rulesets"," ","give"," ","rise"," ","to"," ",RowBox[{"increasing"," ","'"}],RowBox[
+{"valence","'"}]," ","in"," ","graphs"}]," ","\[Rule]"," ",RowBox[{"Infinite"," ","valency"}]}]],
+"Input",ExpressionUUID -> "83af169f-154a-4332-9d84-b5d0d4ae1f7f"],Cell[
+TextData[
+{"Statement",StyleBox[RowBox[{":"," "}]],"There"," ","is"," ","no"," ","cononical"," ","updating"," ","order"," ","of"," ","hypergraphs"}],
+"Text",ExpressionUUID -> "43092042-c096-4b6d-89c0-c173dea950a6"],Cell[
+TextData[{" ","Choice"," ","of"," ","foliation"," ","required"}],
+"Item",ExpressionUUID -> "e9d406e8-3eec-44d5-87d4-1dd4da9916cf"],Cell[
+TextData[{"Which"," ","geodesics"," ","are"," ","extremal","?"}],
+"Text",ExpressionUUID -> "0cc0fc9b-d0dd-4592-a712-130b9fc570df"],Cell[
+TextData[{"Chains"," ","can"," ","be"," ","time-like",StyleBox[
+RowBox[{","," "}]],"even"," ","though"," ","all"," ","links"," ","are"," ","light-like","."}],
+"Text",ExpressionUUID -> "1ac51236-c328-4ee7-9c7b-226e4108e8f3"]},Open],ExpressionUUID -> "0818232a-47e5-4364-9319-64a18ca1bbc9"]},
+Open],ExpressionUUID -> "bd29d4c0-a14a-433e-ba8a-633f9d7179cc"]},Open],ExpressionUUID -> "c0371e62-2120-4e64-8253-1427460a88d8"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.1 for Wolfram Cloud 1.56 (September 30, 2020)"]

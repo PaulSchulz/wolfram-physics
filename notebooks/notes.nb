@@ -1,0 +1,43 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+"\<Notes\>","Title",ExpressionUUID -> "90a45cf6-09e5-4468-9318-10a596efe21a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Cheat"," ","Sheet",StyleBox[RowBox[{" ","/"," "}]],"Quick"," ","Guide"}],
+"Subsubsection",ExpressionUUID -> "92c17b62-c1d0-4c79-8df8-6235c0c83a66"],Cell[
+TextData[
+{"Title",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"1","\n","Chapter",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"2","\n","Subchapter",StyleBox[RowBox[{" "," "," "," "," "," "," "," "}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"3","\n","Section",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," ","\t"," "," "," "," "," "," "}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"4","\n","Subsection",StyleBox[RowBox[{" "," "," ","\t"," "," "," "," "," "}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"5","\n","Subsubsection",StyleBox[RowBox[{" "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"6","\n","Text",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"7","\n","Code",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"8","\n","Input",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," "}]],"9","\n","Format",StyleBox[RowBox[{" ","\[FilledRightTriangle]"," "}]],"Style"," ","menu"," ","shortcuts"," ","for"," ","the"," ","default"," ","stylesheet",".","\n","\n","Bold",StyleBox[
+RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Ctrl",StyleBox[
+RowBox[{" ","+"," "}]],"B","\n","Italic",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Ctrl",StyleBox[
+RowBox[{" ","+"," "}]],"I","\n","Underline",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Ctrl",StyleBox[
+RowBox[{" ","+"," "}]],"U","\n","\n","Format",StyleBox[RowBox[{" ","\[FilledRightTriangle]"," "}]],"Face"," ","menu"," ","shortcuts",".","\n","Larger",StyleBox[
+RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," ","="}]],"\n","Smaller",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","\t"}]],"Alt",StyleBox[
+RowBox[{" ","+"," ","-"}]],"\n","\n","Bullet"," ","Points",StyleBox[RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","*<"}]],"space",">","\n","Sub","-","bullet",StyleBox[
+RowBox[{" "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," "," ","*<"}]],"space","><","tab",">"}],
+"Text",ExpressionUUID -> "46698a32-9779-484e-8e6c-e566bb4a1b55"]},Open],ExpressionUUID -> "5f3c7eea-8b89-45f5-bdd9-17ab6e731746"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Suggested"," ","Reading"}],"Section",ExpressionUUID -> "1ae53b9c-a78b-4b01-b575-38f289006d63"],Cell[
+TextData[
+{"Explore"," ",StyleBox["Things",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox[
+"to",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["Know",FontWeight -> Bold],StyleBox[
+RowBox[{","," "}]],"which"," ","has"," ","important"," ","information"," ","about"," ","working"," ","with"," ","Wolfram"," ","Notebooks"," ","and"," ","the"," ","Wolfram"," ","Language","\n","\n","Read"," ","Stephen"," ","Wolfram's"," ",StyleBox[
+"An",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["Elementary",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox["Introduction",FontWeight -> Bold]," ","to"," ","the"," ","Wolfram"," ","Language"," ","or"," ","sign"," ","up"," ","for"," ","the"," ","free"," ","online"," ","course","\n","\n","Browse"," ","through"," ","the"," ","complete"," ",StyleBox[
+"Wolfram",FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold],StyleBox["Language",
+FontWeight -> Bold],StyleBox[RowBox[{StyleBox[" ",FontWeight -> Bold],StyleBox["&",
+FontWeight -> Bold],StyleBox[" ",FontWeight -> Bold]}]],StyleBox["System",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox["Documentation",FontWeight -> Bold],StyleBox[" ",
+FontWeight -> Bold],StyleBox["Center",FontWeight -> Bold]}],"Text",ExpressionUUID -> "059c6d5a-fa46-4d33-bd1c-3e3c2033e64b"]},
+Open],ExpressionUUID -> "b9611005-958b-404e-8ea9-d4cd7fe80783"]},Open],ExpressionUUID -> "13782151-2402-4580-8226-e48e048c6126"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.1 for Wolfram Cloud 1.55 (July 7, 2020)"]

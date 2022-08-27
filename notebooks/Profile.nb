@@ -1,0 +1,221 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Full"," ","Name"}],"Subsubsection",
+ExpressionUUID -> "5cf50ccc-7ef6-4da8-b74f-343ef9daa892"],Cell[
+TextData[{"Paul"," ","Schulz"}],
+"Text",ExpressionUUID -> "f7133a28-4098-4b16-a161-0927b407f326"]},Open],ExpressionUUID -> "cc06ce3d-bb16-4e84-8da9-f6af7acb0478"],Cell[
+CellGroupData[
+{Cell[
+"\<Portrait\>","Subsubsection",ExpressionUUID -> "50a6ba16-8978-4fc5-adeb-8995953f8f9c"],Cell[
+
+"\<TBD\>","Text",ExpressionUUID -> "5f824554-46d5-4fee-a8aa-9d8702f37992"]},Open],
+ExpressionUUID -> "0cc43063-d04b-4ac9-ba71-9f871c61d534"],Cell[
+CellGroupData[{Cell[
+
+"\<Bio\>","Subsubsection",ExpressionUUID -> "aed52fd7-8e90-4875-a774-2a438c8b7b0e"],Cell[
+TextData[
+{"Paul"," ","graduated"," ","from"," ","the"," ","University"," ","of"," ","Adelaide"," ","Physics"," ","Dept",".","in"," ","1991"," ","with"," ","an"," ","Honours"," ","Degree"," ","in"," ","Mathematical"," ","Physics",StyleBox[
+RowBox[{","," "}]],"using"," ","Wolfram's"," ","Mathematica"," ","to"," ","do"," ","symbolic"," ","manipulation"," ","of"," ","electromagnetic"," ","equations",StyleBox[
+RowBox[{"."," "," "}]],"He"," ","spend"," ","5"," ","years"," ","doing",StyleBox[
+RowBox[{","," "}]],"but"," ","not"," ","completing",StyleBox[RowBox[{","," "}]],"a"," ","Ph",".","D",StyleBox[
+RowBox[{"."," "}]],"in"," ","Theoretical"," ","Particle"," ","Physics"," ","at"," ","Adelaide"," ","University",StyleBox[
+RowBox[{"."," "}]],"Subsequently",StyleBox[RowBox[{","," "}]],"he"," ","has"," ","worked"," ","in"," ","a"," ","variety"," ","of"," ","business"," ","sectors"," ","as"," ","a"," ","System's"," ","Administrator"," ","and"," ","Software"," ","Developer",StyleBox[
+RowBox[{"."," "}]],"He"," ","has"," ","been"," ","following"," ","the"," ","Wolfram"," ","Physics"," ","Project"," ","since"," ","it's"," ","announcement"," ","at"," ","the"," ","beginning"," ","of"," ","2020",StyleBox[
+RowBox[{","," "}]],"and"," ","is"," ","rediscovering"," ","Mathematica"," ","and"," ","the"," ","Wolfram"," ","Language",".","\n","\n","Paul"," ","lives"," ","in"," ","Mawson"," ","Lakes",StyleBox[
+RowBox[{","," "}]],"Adelaide",StyleBox[RowBox[{","," "}]],"South"," ","Australia",StyleBox[
+RowBox[{" ","("}]],"UTC",StyleBox[RowBox[{" ","+"}]],"0930",StyleBox[RowBox[{"),"," "}]],"and"," ","looks"," ","forward"," ","to"," ","a"," ","novel"," ","theory"," ","that"," ","combines"," ","General"," ","Relativity"," ","and"," ","Quantum"," ","Mechanics"," ","in"," ","a"," ","consistent"," ","and"," ","well"," ","understood"," ","way","."}],
+"Text",ExpressionUUID -> "c5e1f280-3bd8-4e1f-b665-b24c308c6672"]},Open],ExpressionUUID -> "b32ab0d5-b89c-4014-a5ed-409c1fac7042"],Cell[
+TextData[
+{"Institutional"," ","Affiliation"}],"Subsubsection",ExpressionUUID -> "b352506a-8f95-440b-a87d-386a0fa87402"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Research"," ","Topics"," ","and"," ","Interests"}],"Subsubsection",
+ExpressionUUID -> "2191e364-d654-4bcf-9496-8dc38ca24786"],Cell[
+TextData[{"Particle"," ","Physics"}],
+"Text",ExpressionUUID -> "29422c46-fe8a-48e5-a07d-b60e3026e4c5"],Cell[
+TextData[{"Symmetry"," ","Groups"}],
+"Text",ExpressionUUID -> "1beda89d-b8cb-4849-8017-0504df71b7dc"],Cell[
+TextData[{"New"," ","Physics"}],
+"Text",ExpressionUUID -> "c19f57f2-516e-438a-98ac-c9881086b9e9"],Cell[
+TextData[{"Science"," ","Communication"}],
+"Text",ExpressionUUID -> "6a50a246-60b8-4ef9-8d9f-8d52fffddc5f"]},Open],ExpressionUUID -> "a3611969-0893-4e63-8c12-51dc832d91aa"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Links"," ","to"," ","selected"," ","publications",StyleBox[RowBox[
+{" ","("}]],"URL's"," ","from"," ","Function"," ","Repository"," ","entires",StyleBox[
+RowBox[{","," "}]],"community"," ","posts",StyleBox[RowBox[{","," "}]],"etc",".)"}],
+"Subsubsection",ExpressionUUID -> "a291501b-7671-4281-b69e-902d2a12d144"],Cell[
+TextData[
+{"(","none",")"}],"Text",ExpressionUUID -> "b0bce1e6-d1a2-4499-8df2-37c2787b6e79"]},
+Open],ExpressionUUID -> "9dd95cb0-f380-46e6-8128-7935c96ab688"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Links"," ","to"," ","selected"," ","talks"," ","and"," ","presentations"}],
+"Subsubsection",ExpressionUUID -> "13021437-3c90-4b5c-b964-afbf9bf177a7"],Cell[
+TextData[
+{"(","none",")"}],"Text",ExpressionUUID -> "f15f3541-b651-452c-b44d-51bd7212ddb8"]},
+Open],ExpressionUUID -> "aedd2f53-61f6-4313-a3e2-0e96d14e7897"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Links"," ","to"," ","Stephen"," ","Wolfram"," ","livestreams"," ","in"," ","which"," ","you've"," ","participated"}],
+"Subsubsection",ExpressionUUID -> "5a07bfd7-5574-491a-ab1b-0f41a37fc553"],Cell[
+TextData[
+{"(","none",")"}],"Text",ExpressionUUID -> "3e193cec-3537-40f0-8d87-934237d56396"]},
+Open],ExpressionUUID -> "d22f4cbb-162e-46b6-87a6-2ec66f4a7593"],Cell[
+CellGroupData[
+{Cell[
+"\<Connections\>","Section",ExpressionUUID -> "2e4a83ed-631e-4a2d-9bf9-f1fc07d70482"],Cell[
+BoxData[
+RowBox[{RowBox[{"connections"," ","="," ",RowBox[{"{","\n",RowBox[{RowBox[{"Labeled","[",RowBox[
+{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Paul Davis\""}],","," ","\"lectured by (4th year)\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Reg Potts\""}],","," ","\"lectured by (2nd year)\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Reg Potts\""," ","\[Rule]"," ","\"Potts Model\""}],","," ","\"created\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Rod Crewther\""}],","," ","\"lectured by\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Rod Crewther\""," ","\[Rule]"," ","\"Murray Gell-Mann\""}],","," ","\"had Ph.D. superviser\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Rod Crewther\""," ","\[Rule]"," ","\"Richard Feynman\""}],","," ","\"defended Ph.D. against\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Univerity of Adelaide\""}],","," ","\"attended\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\"","\[Rule]"," ","\"Mathematical Physics\""}],","," ","\"studied\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\"","\[Rule]"," ","\"Tony Thomas\""}],","," ","\"had Ph.D. supervisor\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Peter Szekeres\""}],","," ","\"honours (4th year) supervisor\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Mathematica\""}],","," ","\"used for Symbolic maths in 1991\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Angus Hurst\""}],","," ","\"lectured by\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Angus Hurst\""," ","\[Rule]"," ","\"Ising Model\""}],","," ","\"worked on\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Bert Green\""," ","\[Rule]"," ","\"Ising Model\""}],","," ","\"worked on\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Ising Model\""," ","\[Rule]"," ","\"Fermion Model\""}],","," ","\"lead to\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Ising Model\""," ","\[Rule]"," ","\"Potts Model\""}],","," ","\"generalised to\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Stephen Wolfram\""," ","\[Rule]"," ","\"Mathematica\""}],","," ","\"created\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Paul Schulz\""," ","\[Rule]"," ","\"Reg Cahil\""}],","," ","\"went to lecture by\""}],"]"}],",","\n",RowBox[
+{"Labeled","[",RowBox[{RowBox[{"\"Reg Cahil\""," ","\[Rule]"," ","\"Process Physics\""}],","," ","\"studied\""}],"]"}]}],"\n","}"}]}],";"}]],
+"Input",CellLabel -> "In[102]:= ",ExpressionUUID -> "6de02589-003e-4146-9623-afbc39588320"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"GraphPlot","[","connections",",","\n","GraphLayout"," ","-",StyleBox[
+RowBox[{">"," ","\""}]],"CircularEmbedding","\",","\n","DirectedEdges"," ","-",StyleBox[
+RowBox[{">"," "}]],"True",",","\n","VertexShapeFunction"," ","-",StyleBox[RowBox[
+{">"," ","\""}]],"Square","\",","\n","VertexLabels"," ","-",StyleBox[RowBox[{">"," "}]],"Placed","[\"","Name","\",","Center","],","\n","VertexSize"," ","-",StyleBox[
+RowBox[{">"," ","{"}]],"0",".","2",",","0",".","05","},","\n","VertexLabelStyle"," ","-",StyleBox[
+RowBox[{">"," "}]],"Directive","[","FontFamily"," ","-",StyleBox[RowBox[{">"," ","\""}]],"Arial",StyleBox[
+RowBox[{"\","," "}]],"12","],","\n","EdgeShapeFunction"," ","-",">({","Arrowheads","[{{.","02",",.","6",StyleBox[
+RowBox[{"}}],"," "}]],"Arrow",StyleBox[RowBox[{"[#]}"," ","&),"}]],"\n","EdgeLabeling"," ","-",StyleBox[
+RowBox[{">"," "}]],"True",",","\n","ImageSize"," ","-",StyleBox[RowBox[{">"," "}]],"800","]"}],
+"Input",CellLabel -> "In[106]:= ",ExpressionUUID -> "df848e5a-d966-4c09-aaf0-135a905c28b9"],Cell[
+BoxData[
+GraphicsBox[{{Directive[Opacity[0.7],Hue[0.6,0.7,0.5]],{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.6142127126896673,0.7891405093963928}}]},InsetBox[
+FormBox["\"lectured by (4th year)\"",TraditionalForm],{0.14475662174249151,0.8674788755485139},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.8371664782625282,0.5469481581224258}}]},InsetBox[
+FormBox["\"lectured by (2nd year)\"",TraditionalForm],{0.256233504528922,0.7463826999115304},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.9157733266550576,-0.40169542465297076}}]},InsetBox[
+FormBox["\"lectured by\"",TraditionalForm],{0.29553692872518667,0.272060908523832},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.7357239106731319,-0.6772815716257414}}]},InsetBox[
+FormBox["\"attended\"",TraditionalForm],{0.20551222073422384,0.13426783503744671},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.47594739303707395,-0.8794737512064893}}]},InsetBox[
+FormBox["\"studied\"",TraditionalForm],{0.07562396191619486,0.03317174524707278},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{0.1645945902807345,-0.9863613034027224}}]},InsetBox[
+FormBox["\"had Ph.D. supervisor\"",TraditionalForm],{-0.08005243946197486,-0.020272030851043787},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{-0.1645945902807333,-0.9863613034027223}}]},InsetBox[
+FormBox["\"honours (4th year) supervisor\"",TraditionalForm],{-0.24464702974270877,-0.020272030851043732},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{-0.47594739303707306,-0.8794737512064887}}]},InsetBox[
+FormBox["\"used for Symbolic maths in 1991\"",TraditionalForm],{-0.40032343112087865,0.03317174524707306},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{-0.9694002659393306,0.24548548714079993}}]},InsetBox[
+FormBox["\"lectured by\"",TraditionalForm],{-0.6470498675720074,0.5956513644207174},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.32469946920468423,0.9458172417006349},{-0.6142127126896685,0.7891405093963941}}]},InsetBox[
+FormBox["\"went to lecture by\"",TraditionalForm],{-0.46945609094717633,0.8674788755485145},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{0.8371664782625282,0.5469481581224258},{-0.7357239106731313,-0.6772815716257405}}]},InsetBox[
+FormBox["\"created\"",TraditionalForm],{0.05072128379469848,-0.06516670675165737},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{0.9157733266550576,-0.40169542465297076},{0.9694002659393303,0.24548548714079785}}]},InsetBox[
+FormBox["\"had Ph.D. superviser\"",TraditionalForm],{0.9425867962971939,-0.07810496875608645},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{0.9157733266550576,-0.40169542465297076},{0.9965844930066698,-0.08257934547233368}}]},InsetBox[
+FormBox["\"defended Ph.D. against\"",TraditionalForm],{0.9561789098308637,-0.24213738506265223},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.9694002659393306,0.24548548714079993},{-0.9965844930066698,-0.08257934547233155}}]},InsetBox[
+FormBox["\"worked on\"",TraditionalForm],{-0.9829923794730002,0.0814530708342342},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.9965844930066698,-0.08257934547233155},{-0.7357239106731313,-0.6772815716257405}}]},InsetBox[
+FormBox["\"generalised to\"",TraditionalForm],{-0.8661542018399006,-0.37993045854903607},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.9965844930066698,-0.08257934547233155},{-0.9157733266550572,-0.40169542465296876}}]},InsetBox[
+FormBox["\"lead to\"",TraditionalForm],{-0.9561789098308635,-0.24213738506265015},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{0.32469946920468284,0.9458172417006343},{-0.9965844930066698,-0.08257934547233155}}]},InsetBox[
+FormBox["\"worked on\"",TraditionalForm],{-0.3359425119009935,0.43161894811415136},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-7.044813998280222*^-16,1.0},{-0.47594739303707306,-0.8794737512064887}}]},InsetBox[
+FormBox["\"created\"",TraditionalForm],{-0.2379736965185369,0.06026312439675563},
+ImageScaled[{0.5,0.5}],BaseStyle -> "Graphics"]},{{Arrowheads[{{0.02,0.6}}],ArrowBox[
+{{-0.6142127126896685,0.7891405093963941},{-0.837166478262529,0.5469481581224276}}]},InsetBox[
+FormBox["\"studied\"",TraditionalForm],{-0.7256895954760987,0.6680443337594109},ImageScaled[
+{0.5,0.5}],BaseStyle -> "Graphics"]}},{Directive[Hue[0.6,0.2,0.8],EdgeForm[Directive[
+GrayLevel[0],Opacity[0.7]]]],{RectangleBox[{-0.5011700692046843,0.9016995917006349},
+{-0.1482288692046842,0.9899348917006349}],InsetBox[FormBox[StyleBox["\"Paul Schulz\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{-0.32469946920468423,0.9458172417006349},
+BaseStyle -> "Graphics"]},{RectangleBox[{0.43774211268966723,0.7450228593963928},
+{0.7906833126896673,0.8332581593963928}],InsetBox[FormBox[StyleBox["\"Paul Davis\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{0.6142127126896673,0.7891405093963928},
+BaseStyle -> "Graphics"]},{RectangleBox[{0.6606958782625282,0.5028305081224258},{1.0136370782625281,0.5910658081224258}],InsetBox[
+FormBox[StyleBox["\"Reg Potts\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{0.8371664782625282,0.5469481581224258},BaseStyle -> "Graphics"]},{RectangleBox[
+{-0.9121945106731313,-0.7213992216257405},{-0.5592533106731312,-0.6331639216257405}],InsetBox[
+FormBox[StyleBox["\"Potts Model\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{-0.7357239106731313,-0.6772815716257405},BaseStyle -> "Graphics"]},{RectangleBox[
+{0.7393027266550576,-0.44581307465297076},{1.0922439266550577,-0.35757777465297075}],InsetBox[
+FormBox[StyleBox["\"Rod Crewther\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{0.9157733266550576,-0.40169542465297076},BaseStyle -> "Graphics"]},{RectangleBox[
+{0.7929296659393302,0.20136783714079784},{1.1458708659393304,0.2896031371407979}],InsetBox[
+FormBox[StyleBox["\"Murray Gell-Mann\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{0.9694002659393303,0.24548548714079785},BaseStyle -> "Graphics"]},{RectangleBox[
+{0.8201138930066698,-0.1266969954723337},{1.1730550930066699,-0.038461695472333676}],InsetBox[
+FormBox[StyleBox["\"Richard Feynman\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{0.9965844930066698,-0.08257934547233368},BaseStyle -> "Graphics"]},{RectangleBox[
+{0.5592533106731319,-0.7213992216257414},{0.912194510673132,-0.6331639216257414}],InsetBox[
+FormBox[StyleBox["\"Univerity of Adelaide\"",Directive[FontFamily -> "Arial",12],
+StripOnInput -> False],TraditionalForm],{0.7357239106731319,-0.6772815716257414},
+BaseStyle -> "Graphics"]},{RectangleBox[{0.2994767930370739,-0.9235914012064893},
+{0.6524179930370739,-0.8353561012064893}],InsetBox[FormBox[StyleBox["\"Mathematical Physics\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{0.47594739303707395,-0.8794737512064893},
+BaseStyle -> "Graphics"]},{RectangleBox[{-0.011876009719265529,-1.0304789534027226},
+{0.34106519028073456,-0.9422436534027224}],InsetBox[FormBox[StyleBox["\"Tony Thomas\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{0.1645945902807345,-0.9863613034027224},
+BaseStyle -> "Graphics"]},{RectangleBox[{-0.34106519028073334,-1.0304789534027223},
+{0.011876009719266722,-0.9422436534027223}],InsetBox[FormBox[StyleBox["\"Peter Szekeres\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{-0.1645945902807333,-0.9863613034027223},
+BaseStyle -> "Graphics"]},{RectangleBox[{-0.652417993037073,-0.9235914012064887},
+{-0.29947679303707303,-0.8353561012064887}],InsetBox[FormBox[StyleBox["\"Mathematica\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{-0.47594739303707306,-0.8794737512064887},
+BaseStyle -> "Graphics"]},{RectangleBox[{-1.1458708659393306,0.20136783714079992},
+{-0.7929296659393306,0.28960313714079994}],InsetBox[FormBox[StyleBox["\"Angus Hurst\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{-0.9694002659393306,0.24548548714079993},
+BaseStyle -> "Graphics"]},{RectangleBox[{-1.1730550930066699,-0.12669699547233154},
+{-0.8201138930066698,-0.03846169547233154}],InsetBox[FormBox[StyleBox["\"Ising Model\"",
+Directive[FontFamily -> "Arial",12],StripOnInput -> False],TraditionalForm],{-0.9965844930066698,-0.08257934547233155},
+BaseStyle -> "Graphics"]},{RectangleBox[{0.1482288692046828,0.9016995917006343},{0.5011700692046829,0.9899348917006343}],InsetBox[
+FormBox[StyleBox["\"Bert Green\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{0.32469946920468284,0.9458172417006343},BaseStyle -> "Graphics"]},{RectangleBox[
+{-1.0922439266550572,-0.44581307465296877},{-0.7393027266550571,-0.35757777465296875}],InsetBox[
+FormBox[StyleBox["\"Fermion Model\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{-0.9157733266550572,-0.40169542465296876},BaseStyle -> "Graphics"]},{RectangleBox[
+{-0.17647060000000073,0.95588235},{0.17647059999999934,1.04411765}],InsetBox[FormBox[
+StyleBox["\"Stephen Wolfram\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{-7.044813998280222*^-16,1.0},BaseStyle -> "Graphics"]},{RectangleBox[
+{-0.7906833126896685,0.7450228593963941},{-0.43774211268966845,0.8332581593963941}],InsetBox[
+FormBox[StyleBox["\"Reg Cahil\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{-0.6142127126896685,0.7891405093963941},BaseStyle -> "Graphics"]},{RectangleBox[
+{-1.013637078262529,0.5028305081224276},{-0.660695878262529,0.5910658081224276}],InsetBox[
+FormBox[StyleBox["\"Process Physics\"",Directive[FontFamily -> "Arial",12],StripOnInput -> False],
+TraditionalForm],{-0.837166478262529,0.5469481581224276},BaseStyle -> "Graphics"]}}},
+ImageSize -> 800,FormatType -> TraditionalForm,FrameTicks -> None,ExpressionUUID -> "a39e96ae-01da-451b-9756-b453ca90df92"],
+StandardForm],"Output",CellLabel -> "Out[106]= ",ExpressionUUID -> "9ea01f39-d34e-42c0-8a64-f974aa3ff97f"]},
+Open],ExpressionUUID -> "e91aa5dd-7a66-4a0f-8c14-86d085a7dc8e"]},Open],ExpressionUUID -> "36950dd9-0b69-483e-90ba-f111edb692d4"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.1 for Wolfram Cloud 1.56 (September 30, 2020)"]

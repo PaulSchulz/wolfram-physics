@@ -1,0 +1,14 @@
+* Hypergraph Visualisation
+
+** Preamble
+This application was developed as part of a self-education tutorial into
+developing a GTK4 Application.
+
+See: https://github.com/ToshioCP/Gtk4-tutorial
+
+sudo apt-get install libgtk-4-bin libgtk-4-common libgtk-4-dev libgtk-4-doc
+
+
+
+** Introduction
+

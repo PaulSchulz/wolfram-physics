@@ -1,0 +1,2116 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     79735,       2106]
+NotebookOptionsPosition[     59178,       1718]
+NotebookOutlinePosition[     67690,       1890]
+CellTagsIndexPosition[     67647,       1887]
+WindowTitle->Wolfram Physics Project Functions
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[GridBox[{
+   {GridBox[{
+      {
+       ItemBox[Cell[BoxData[
+         RowBox[{
+          TemplateBox[{8},
+           "Spacer1"], Cell["GUIDE", "PacletNameCell",
+           TextAlignment->Center,ExpressionUUID->
+           "40e4c6dd-e9d7-41b8-bf10-f10ac64276f8"], 
+          TemplateBox[{8},
+           "Spacer1"]}]],
+         TextAlignment->Center,ExpressionUUID->
+         "364a5893-5de7-4bea-b4a7-c1cf87a35a1c"],
+        Background->RGBColor[0.85098, 0.396078, 0],
+        ItemSize->Full], ""}
+     },
+     GridBoxAlignment->{"Rows" -> {{Center}}},
+     GridBoxItemSize->{"Columns" -> {Full, 
+         Scaled[0.02]}, "Rows" -> {{2.5}}}], Cell[TextData[{
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Functions",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            Alignment -> Baseline,
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "8206746a-eef7-4af1-b806-4f71ce749175"]
+         }],ExpressionUUID->"9aef66de-1302-439b-b708-60643362a7ae"],
+         StripOnInput->False], {"\<\"CayleyGraph\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/CayleyGraph"], "\<\"CellularAutomaton\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/CellularAutomaton"], "\<\"FindEquationalProof\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/FindEquationalProof"], "\<\"FindLinearRecurrence\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/FindLinearRecurrence"], "\<\"FindShortestPath\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/FindShortestPath"], "\<\"FindTransientRepeat\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/FindTransientRepeat"], "\<\"FiniteGroupData\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/FiniteGroupData"], "\<\"Graph3D\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/Graph3D"], "\<\"GraphDiameter\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/GraphDiameter"], "\<\"GraphPlot\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/GraphPlot"], "\<\"GraphPlot3D\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/GraphPlot3D"], "\<\"LayeredGraphPlot\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/LayeredGraphPlot"], "\<\"NeighborhoodGraph\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/NeighborhoodGraph"], "\<\"RulePlot\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/RulePlot"], "\<\"SubstitutionSystem\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/SubstitutionSystem"], "\<\"TuringMachine\"\>":>
+        Documentation`HelpLookup[
+        "paclet:ref/TuringMachine"], "\<\"VertexCount\"\>":>
+        Documentation`HelpLookup["paclet:ref/VertexCount"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideFunction"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "26e6f549-8a87-4bb0-8402-aae500b04d16"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "Related Guides",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            Alignment -> Baseline,
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "c1607814-bdd8-47e5-b8b3-84ddff659a44"]
+         }],ExpressionUUID->"ee5e1a2f-bbe4-48ac-9622-e86dd861ea7a"],
+         StripOnInput->False], {"\<\"Graph Theory\"\>":>
+        Documentation`HelpLookup[
+        "paclet:guide/GraphsAndNetworks"], "\<\"Computational Systems & \
+Discovery\"\>":>Documentation`HelpLookup[
+        "paclet:guide/ComputationalSystemsAndDiscovery"], "\<\"Automated \
+Theorem Proving\"\>":>Documentation`HelpLookup["paclet:guide/TheoremProving"]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"GuideMoreAbout"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "fb0002d8-ee5b-4ea4-bac1-a7b46cbdf439"],
+     "\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\[ThickSpace]\
+\[ThickSpace]",
+     Cell[BoxData[
+      TagBox[
+       ActionMenuBox[
+        FrameBox[Cell[TextData[{
+          "URL",
+          " ",
+          Cell[BoxData[
+           GraphicsBox[
+            {GrayLevel[0.66667], Thickness[0.13], 
+             LineBox[{{-1.8, 0.5}, {0, 0}, {1.8, 0.5}}]},
+            Alignment -> Baseline,
+            AspectRatio->1,
+            ImageSize->20,
+            PlotRange->{{-3, 4}, {-1, 1}}]],ExpressionUUID->
+           "709b3eaf-9b65-498b-96cc-9414d36f981d"]
+         }],ExpressionUUID->"873acb38-a1d7-4276-afb4-57efc3e7f931"],
+         StripOnInput->False], {"\<\"FIXME\"\>":>
+        None, "\<\"Copy Wolfram Documentation Center URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell["FIXME"]}, Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; Null], 
+        Delimiter, "\<\"Copy web URL\"\>":>
+        Module[{DocumentationSearch`Private`nb$}, 
+         DocumentationSearch`Private`nb$ = NotebookPut[
+            Notebook[{
+              Cell[
+               BoxData[
+                MakeBoxes[
+                 Hyperlink[
+                 "http://reference.wolfram.com/language/FIXME.html"], 
+                 StandardForm]], "Input", TextClipboardType -> "PlainText"]}, 
+             Visible -> False]]; 
+         SelectionMove[DocumentationSearch`Private`nb$, All, Notebook]; 
+         FrontEndTokenExecute[DocumentationSearch`Private`nb$, "Copy"]; 
+         NotebookClose[DocumentationSearch`Private`nb$]; 
+         Null], "\<\"Go to web URL\"\>":>FrontEndExecute[{
+          NotebookLocate[{
+            URL[
+             StringJoin[
+              If[
+               TrueQ[DocumentationBuild`Make`Private`wsmlinkQ$258766], 
+               "http://reference.wolfram.com/system-modeler/", 
+               "http://reference.wolfram.com/language/"], "FIXME", ".html"]], 
+            None}]}]},
+        Appearance->None,
+        MenuAppearance->Automatic,
+        MenuStyle->"URLMenu"],
+       MouseAppearanceTag["LinkHand"]]],
+      LineSpacing->{1.4, 0},ExpressionUUID->
+      "309ae7b7-7190-45b4-ac84-8152858e832b"]
+    }], "AnchorBar",
+     CacheGraphics->False,ExpressionUUID->
+     "7c4c426c-e8fd-471b-8b53-45b012ff2da1"]}
+  }]], "AnchorBarGrid",
+ CellID->1,ExpressionUUID->"f06d9f0e-c725-4b2c-965d-55ed18858e1a"],
+
+Cell[CellGroupData[{
+
+Cell["Wolfram Physics Project Functions", "GuideTitle",
+ CellID->942062912,ExpressionUUID->"ce315a22-1b4a-489c-a84e-14a333f54807"],
+
+Cell[TextData[{
+ "This page lists some of the functions in the Wolfram Function Repository \
+created to support the ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Wolfram Physics Project"]], "https://wolframphysics.org"},
+   "WebLink",
+   BaseStyle->{"GuideAbstract"}]],ExpressionUUID->
+  "b08cfe23-006e-4a96-a306-247178f8db34"],
+ ", as well as some built-in Wolfram Language functions of particular \
+relevance."
+}], "GuideAbstract",
+ CellID->2001916300,ExpressionUUID->"e04d964a-e0de-4199-906b-5659a8047e29"],
+
+Cell["\t", "GuideDelimiterSubsection",ExpressionUUID->"f31ebe3c-d9a1-421a-8f0e-533d227c0582"],
+
+Cell[CellGroupData[{
+
+Cell["Basic Model Implementation", "GuideFunctionsSubsection",
+ CellID->20809511,ExpressionUUID->"dabe9a53-58f7-4ece-b573-1fc06bec52b4"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModel", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModel"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "fb7389f3-4df0-4945-9b08-cbb0f7b73ffa"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " Wolfram model evolution, causal graphs, etc."
+}], "GuideText",
+ CellID->508110973,ExpressionUUID->"d6c41fc2-4bda-4162-9a3e-abc728ddbcb3"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelEvolutionObject", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelEvolutionObject"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "33e8e287-d5dd-44b1-8382-8e489538220c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " symbolic representation of Wolfram model evolution"
+}], "GuideText",
+ CellID->466082307,ExpressionUUID->"c0124878-35d6-45d5-a783-890efd973201"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelPlot"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "02ffae22-14b0-4341-bd77-fd9840f21f7e"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " visualization of Wolfram model hypergraphs"
+}], "GuideText",
+ CellID->1932528067,ExpressionUUID->"b2bb9cd9-d549-441d-a078-17e8fbd96c04"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rule Structure & Enumeration", "GuideFunctionsSubsection",
+ CellID->780907328,ExpressionUUID->"090fc33e-7a31-4dc9-a7f4-f41ee462a676"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelData", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelData"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "5dc83a05-e94a-4f65-81e0-47923338acb3"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " data on Wolfram models in the ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Registry of Notable Universes"]], 
+    "https://www.wolframphysics.org/universes/"},
+   "WebLink",
+   BaseStyle->{"GuideText"}]],ExpressionUUID->
+  "aaf5221b-2954-4f37-a4cf-b95d9760aa79"]
+}], "GuideText",
+ CellID->376244527,ExpressionUUID->"79cdde3d-7324-4d25-bd1f-978b39b139f3"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "CanonicalWolframModelRule", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CanonicalWolframModelRule"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "659dbd1c-a4f3-4ff7-a279-9e7eb5e12d40"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " find a canonical form for a Wolfram model"
+}], "GuideText",
+ CellID->728244460,ExpressionUUID->"e835337d-2d65-49ba-95b5-4b4d9aea2b1b"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "EnumerateWolframModelRules", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+EnumerateWolframModelRules"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "237d5edb-1477-48e5-9785-156127d3028a"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "RandomWolframModel", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+RandomWolframModel"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "7acf434c-2829-4da2-9d0f-1d5387dc107d"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "ConnectedWolframModelQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+ConnectedWolframModelQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "43b85827-a71e-486a-a369-46c6781959a0"],
+ " "
+}], "InlineGuideFunctionListing",
+ CellID->1311564508,ExpressionUUID->"a5836015-e813-446c-9cdf-a25f00e64f16"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Rule Display & Formatting", "GuideFunctionsSubsection",
+ CellID->639152067,ExpressionUUID->"4d26563a-1248-4cbd-a8cb-bdf64337e267"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["RulePlot"]], "paclet:ref/RulePlot"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "8bb8fecf-a2e8-4e3c-8ba2-a05fe650b033"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " give a visual representation of a Wolfram model rule"
+}], "GuideText",
+ CellID->1661310382,ExpressionUUID->"be16a018-9396-4259-a067-6493802c249e"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelRuleForm", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelRuleForm"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "fd490654-6111-4193-aea6-c332672b045a"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelSignatureForm", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelSignatureForm"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "120ebd2f-1e74-4275-b799-a2aedf684a15"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframModelTraditionalForm", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframModelTraditionalForm"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "f46d2d6b-694e-47b8-9190-5d977cc5e938"]
+}], "InlineGuideFunctionListing",
+ CellID->1118945818,ExpressionUUID->"fbb189b5-5d9e-4b57-91f5-d4a5443964e5"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->555218878,ExpressionUUID->"608bc27e-02d9-4106-859b-38a38c4576d5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Multiway Systems", "GuideFunctionsSubsection",
+ CellID->895155739,ExpressionUUID->"6a514581-f049-42fe-b7ea-547285212a2f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "MultiwaySystem", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MultiwaySystem"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "60210d0c-f12b-40dc-821a-22a615b00107"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " multiway system evolution and properties"
+}], "GuideText",
+ CellID->521525013,ExpressionUUID->"d3330cbc-fc02-4ed4-a204-0f0d7e764b0f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "GenerationalMultiwaySystem", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GenerationalMultiwaySystem"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "689f2043-9aa9-434e-8a0e-577aaf1f405f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "MultiwayEvolutionPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MultiwayEvolutionPlot"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "b3d90109-930d-4ad4-8089-1eff9f852832"]
+}], "InlineGuideFunctionListing",
+ CellID->705490273,ExpressionUUID->"38d498d6-a91e-48fa-8c50-b7175d2aee1b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Causal Invariance Functions", "GuideFunctionsSubsection",
+ CellID->612762712,ExpressionUUID->"33222834-5965-4400-87cc-401e5dfdae15"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "CausalInvariantQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CausalInvariantQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "abb200b6-9df6-4eb2-a5b6-4c98a3f61b43"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "TotalCausalInvariantQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+TotalCausalInvariantQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "cf067ab8-ee2a-4a5b-8f34-984f17952176"]
+}], "InlineGuideFunctionListing",
+ CellID->916514307,ExpressionUUID->"65594b59-8e1f-41ad-a6a0-9922d9084560"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "BranchPairs", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+BranchPairs"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "305c57dc-138b-452e-9842-d6ec3f663c5b"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "BranchPairResolutions", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+BranchPairResolutions"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "ea6f25f3-add5-4720-8596-a657799d3026"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "CanonicalBranchPairs", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CanonicalBranchPairs"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "6c11bfe2-e491-43c8-a946-3ca6cb5e586e"]
+}], "InlineGuideFunctionListing",
+ CellID->43867661,ExpressionUUID->"2c5d5d91-8b85-4852-b9c6-f541f10bcf9c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "KnuthBendixCompletion", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+KnuthBendixCompletion"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "3cc93eb6-56d9-4434-9d59-06a643eb226b"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "CanonicalKnuthBendixCompletion", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CanonicalKnuthBendixCompletion"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "d7673e5a-ce58-4514-8855-277db36f4484"]
+}], "InlineGuideFunctionListing",
+ CellID->1194404181,ExpressionUUID->"416b9350-f0c8-4ba8-8e62-65985ada4233"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["String Overlap Functions", "GuideFunctionsSubsection",
+ CellID->764940204,ExpressionUUID->"8cfae40f-973f-4ff9-84e7-26add902d742"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "StringOverlapsQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+StringOverlapsQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "45c4e6f9-176e-48ed-a3b3-6ad6a14215e1"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "StringOverlaps", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+StringOverlaps"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "57a23ea7-e79c-43a9-ae59-f7fb5bc21fed"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "OverlapFreeStringTuples", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+OverlapFreeStringTuples"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "bd865942-37cd-43dc-bbe2-cdadb3dcaff7"]
+}], "InlineGuideFunctionListing",
+ CellID->1704730278,ExpressionUUID->"a18bdb64-666b-4aed-9614-3b9052b00dd7"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Automated Theorem Proving", "GuideFunctionsSubsection",
+ CellID->1764921247,ExpressionUUID->"129f2e06-e28e-414e-8cb4-39e60d4c4e90"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "FindStringProof", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindStringProof"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "88c3cf52-8da5-4786-873b-2330efc70fff"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "FindListProof", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindListProof"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "d062d817-bab5-4c42-9d5e-2950b1b96908"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "FindWolframModelProof", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindWolframModelProof"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "7a3e5661-4e98-4798-99ba-cfeb0698fe08"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FindEquationalProof"]], "paclet:ref/FindEquationalProof"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "5f5fae01-96e2-4f60-b0ae-b29fd7c5e550"]
+}], "InlineGuideFunctionListing",
+ CellID->1457544792,ExpressionUUID->"5ed849e3-4522-485a-990a-68cc5ae58ba8"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->938911264,ExpressionUUID->"8149adbd-e744-4f36-97bb-1c937cc515ec"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["String Substitution Systems", "GuideFunctionsSubsection",
+ CellID->104982172,ExpressionUUID->"b7244a3d-fe01-481c-a42e-c30718778d98"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SubstitutionSystem"]], "paclet:ref/SubstitutionSystem"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "a157e32a-2f97-4ba4-b70c-34a4700906fe"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " evolution of substitution systems"
+}], "GuideText",
+ CellID->1595490809,ExpressionUUID->"78ec403c-344a-4584-994f-a7ad45638434"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "EnumerateSubstitutionSystemRules", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+EnumerateSubstitutionSystemRules"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "3fe5d1c4-9bb2-4aa4-9895-e4ccd77d8868"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "StringTuples", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+StringTuples"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "a0a7b1d7-d69b-4989-92b6-53b1dfa48918"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "SubstitutionSystemPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SubstitutionSystemPlot"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "239ea2cb-0699-4bb9-8e29-9064bad9c7fb"]
+}], "InlineGuideFunctionListing",
+ CellID->1680981180,ExpressionUUID->"9faded27-13a7-4356-9398-7d84363bbaff"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "SubstitutionSystemCausalGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SubstitutionSystemCausalGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "af43242b-ddf5-4859-bcec-6e41db0504f9"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "SubstitutionSystemCausalPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SubstitutionSystemCausalPlot"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "c00dcd6e-48b1-4753-9791-99c353719d72"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "SubstitutionSystemCausalEvolution", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SubstitutionSystemCausalEvolution"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2be437af-7447-4201-a3da-c203717f9ba6"]
+}], "InlineGuideFunctionListing",
+ CellID->1260991870,ExpressionUUID->"b8e1ad05-858a-4302-a3d5-2c7b9e1da981"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "SequentialSubstitutionSystem", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SequentialSubstitutionSystem"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "7c523199-2ea7-4aa7-adb0-c82a5ea08d92"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "PrioritizedSubstitutionSystem", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+PrioritizedSubstitutionSystem"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "46a741f8-cba2-48ca-af3b-e1a42fbb464f"],
+ " "
+}], "InlineGuideFunctionListing",
+ CellID->1494231103,ExpressionUUID->"1118347b-06c5-40d9-adc3-5eac39aedf45"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Subset Substitution Systems", "GuideFunctionsSubsection",
+ CellID->2025718966,ExpressionUUID->"5cc79f4c-a504-4091-88c5-40388caafac6"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SubsetReplace"]], "paclet:ref/SubsetReplace"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "98751fb4-985d-4f97-86bf-f00671eb97c3"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SubsetCases"]], "paclet:ref/SubsetCases"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "86601d1e-a3e9-47c8-a2a4-453b749d5bdc"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["SubsetPosition"]], "paclet:ref/SubsetPosition"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "78178f75-755f-48d3-949f-3eb24a735f59"]
+}], "InlineGuideFunctionListing",
+ CellID->1199289602,ExpressionUUID->"b98e4d2a-79d5-40f1-924b-5499f471c5ad"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->311258892,ExpressionUUID->"a91407d5-e5c6-4d76-b84e-2ba7bee1bc6a"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Cellular Automata", "GuideFunctionsSubsection",
+ CellID->584025858,ExpressionUUID->"4f95964a-07fb-4d77-96f5-df188af44a39"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["CellularAutomaton"]], "paclet:ref/CellularAutomaton"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "94fdc318-134a-49e1-b154-68afb82f9960"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "BlockCellularAutomaton", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+BlockCellularAutomaton"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2cf7f349-0cce-40ee-b0e8-fd3624050552"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "SequentialCellularAutomaton", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+SequentialCellularAutomaton"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "32609b7c-1634-48da-8145-46889a1eec11"]
+}], "InlineGuideFunctionListing",
+ CellID->1388040421,ExpressionUUID->"27bf88e8-2eb3-4f42-93d6-a57409cdc973"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "CellularAutomatonFromNumber", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CellularAutomatonFromNumber"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "50d46f25-01fd-41b5-84d4-2b3a96b58d2c"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "CellularAutomatonNumber", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CellularAutomatonNumber"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2a91d650-f175-4e99-8f2b-1f36c7f93429"]
+}], "InlineGuideFunctionListing",
+ CellID->1346738540,ExpressionUUID->"20d62036-6913-4cb6-bd94-7a3a1d300a28"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Turing Machines", "GuideFunctionsSubsection",
+ CellID->2031664401,ExpressionUUID->"cc83bd80-cc50-4f34-a75a-7c676dbd9b64"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["TuringMachine"]], "paclet:ref/TuringMachine"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "157a6800-1d5d-44de-84ae-161a3ad8f2b5"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "TuringMachineCausalGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+TuringMachineCausalGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "52ddc78d-b872-4d15-8daf-9b4529ac7307"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["RulePlot"]], "paclet:ref/RulePlot"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "a8635807-5d18-47b6-9a99-b025baf4f86d"],
+ " "
+}], "InlineGuideFunctionListing",
+ CellID->1926844297,ExpressionUUID->"9d97c0dd-7cce-4029-a6c0-a9e58ada9b76"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Mobile Automata, etc.", "GuideFunctionsSubsection",
+ CellID->1504971237,ExpressionUUID->"e211395c-ab91-4f52-a90a-f2a33083b67c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "MobileAutomatonPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MobileAutomatonPlot"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  CellDingbat->Cell[
+    BoxData[
+     TooltipBox[
+      Cell["devinr      ", "TentativeID"], "2020-08-06"]], "TentativeWrapper"],
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "29a6b975-79ca-4ae0-8ec1-e26a301dace2"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "IteratedFiniteAutomaton", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+IteratedFiniteAutomaton"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  CellDingbat->Cell[
+    BoxData[
+     TooltipBox[
+      Cell["devinr      ", "TentativeID"], "2020-08-06"]], "TentativeWrapper"],
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "b3c96038-a981-4d4c-866b-295bc663667e"]
+}], "InlineGuideFunctionListing",ExpressionUUID->"576e4078-155e-461a-b753-\
+69682ee0b442"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->1335553784,ExpressionUUID->"1c529439-8e3d-41fb-933a-dc8211d242ab"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Additional Multiway Systems", "GuideFunctionsSubsection",
+ CellID->759535974,ExpressionUUID->"03cdc51b-e48d-4f27-bc76-eaa762d17b29"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "MultiwayTuringMachine", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MultiwayTuringMachine"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "e4e73b59-4b8b-49d2-a0b0-08a84b87c940"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "MultiwayCombinator", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MultiwayCombinator"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "68a6c3bf-f7fc-43fe-ae68-6eed269b7111"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "MultiwayFunctionSystem", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+MultiwayFunctionSystem"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "ed84a9a6-3364-4349-8ddb-0eb534184dce"]
+}], "InlineGuideFunctionListing",
+ CellID->1923026453,ExpressionUUID->"63431be8-55fc-4955-96c6-d6dbf437bcbd"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Groups", "GuideFunctionsSubsection",
+ CellID->578361962,ExpressionUUID->"31fb0903-5118-41f9-98eb-6608dd8c4519"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["CayleyGraph"]], "paclet:ref/CayleyGraph"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "163e5b5f-7971-43a6-9db5-a01803eddef2"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FiniteGroupData"]], "paclet:ref/FiniteGroupData"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "1d64e1ff-a905-4e25-93a6-11f748dfd8f7"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "CayleyNestGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CayleyNestGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "17175a56-7f43-4fd5-9c1a-49e7e26701d2"]
+}], "InlineGuideFunctionListing",
+ CellID->104363906,ExpressionUUID->"1f914423-64c0-4c71-a4a0-340389d0c639"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->624050526,ExpressionUUID->"04af6d6d-51b5-4801-9434-53ce156b94b0"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Quantum Computing", "GuideFunctionsSubsection",
+ CellID->1308128428,ExpressionUUID->"51a1fd77-6512-4bf9-9050-5d695793d983"],
+
+Cell[TextData[Cell[BoxData[
+ TemplateBox[{
+  "QuantumToMultiwaySystem", 
+   "https://resources.wolframcloud.com/FunctionRepository/resources/\
+QuantumToMultiwaySystem"},
+  "ResourceFunctionTemplate"]], "InlineFormula",
+ FontFamily->
+  "Source Sans Pro",ExpressionUUID->"e3ec108b-ecce-4355-8f35-7989ecf7302a"]], \
+"InlineGuideFunctionListing",
+ CellID->1874681059,ExpressionUUID->"0b35e550-c081-4f4c-92d0-036f07c80a54"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->1753468535,ExpressionUUID->"81a16b48-f1a7-4c7b-aa6b-6ad8351e9976"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hypergraphs", "GuideFunctionsSubsection",
+ CellID->1479391909,ExpressionUUID->"3d367a67-a4d2-4431-9bf9-f24307871e72"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "EnumerateHypergraphs", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+EnumerateHypergraphs"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "a36e5e5d-3e9f-4a7c-a54e-2e324bede995"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "RandomHypergraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+RandomHypergraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "921850aa-2147-4576-907c-87d94305d749"]
+}], "InlineGuideFunctionListing",
+ CellID->58033752,ExpressionUUID->"13c029bb-f95f-450d-9031-ab6fddc5164a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "CanonicalHypergraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CanonicalHypergraph"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "2545ef54-a40f-426c-9c5d-dac9765cf50c"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " convert a hypergraph to canonical form"
+}], "GuideText",
+ CellID->797594828,ExpressionUUID->"b474a6fe-0269-43db-a6a0-e748ff84fdb4"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "IsomorphicHypergraphQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+IsomorphicHypergraphQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "f65419c6-3831-4463-bc22-ab99e0a78d51"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "FindHypergraphIsomorphism", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindHypergraphIsomorphism"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "0e49a504-d03b-4d28-8c2d-b7125447450e"]
+}], "InlineGuideFunctionListing",
+ CellID->34363116,ExpressionUUID->"1fc79c69-11a5-46f7-8815-afee721d7ee5"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Hypergraph Properties", "GuideFunctionsSubsection",
+ CellID->1804796711,ExpressionUUID->"397ca381-c531-433b-aed4-68404e9b7004"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "ConnectedHypergraphQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+ConnectedHypergraphQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "1eb87fd8-6978-43df-90b8-df12a072b757"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "HypergraphAdjacencyMatrix", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HypergraphAdjacencyMatrix"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2b015fb2-6da0-4475-949b-4dd8f9084530"]
+}], "InlineGuideFunctionListing",
+ CellID->320637834,ExpressionUUID->"55b21e6e-36aa-49d4-a5da-fc1b9e83bd8a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "HypergraphNeighborhoods", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HypergraphNeighborhoods"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "bc9533b2-02c2-4b72-86fb-52f71fae2d82"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "HypergraphNeighborhoodVolumes", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HypergraphNeighborhoodVolumes"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "339c22f7-048c-42ad-a5b0-d39392fb75a6"]
+}], "InlineGuideFunctionListing",
+ CellID->474511756,ExpressionUUID->"c6e34034-4ba1-4591-bf74-e9962075110f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "HypergraphToGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HypergraphToGraph"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "529ff26b-0224-4089-885e-66510ba80d70"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " convert to an ordinary graph by turning hyperedges into subgraphs"
+}], "GuideText",
+ CellID->1197849350,ExpressionUUID->"fb397d41-6d57-4f0d-9760-fdf23ef8e2fa"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ordered Hypergraphs", "GuideFunctionsSubsection",
+ CellID->1384415773,ExpressionUUID->"b1f8f17c-27f8-4d47-90db-ee7bb737a634"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "IsomorphicOrderedHypergraphQ", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+IsomorphicOrderedHypergraphQ"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "7d4636fa-e691-49b0-922d-2e99be297642"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "FindOrderedHypergraphIsomorphism", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindOrderedHypergraphIsomorphism"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "3227f373-8e74-4852-b9e6-4efb07ea0d9c"]
+}], "InlineGuideFunctionListing",
+ CellID->415366892,ExpressionUUID->"469c47ef-5814-4a32-95ef-88274dea196c"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Generalized Graphs", "GuideFunctionsSubsection",
+ CellID->769704930,ExpressionUUID->"55fd429f-cac4-4351-8d0a-dfbc07771a4e"],
+
+Cell[TextData[Cell[BoxData[
+ TemplateBox[{
+  "OrderedGraphModelPlot", 
+   "https://resources.wolframcloud.com/FunctionRepository/resources/\
+OrderedGraphModelPlot"},
+  "ResourceFunctionTemplate"]], "InlineFormula",
+ FontFamily->
+  "Source Sans Pro",ExpressionUUID->"60e9f63b-58d2-4660-aae5-d069b790ebcd"]], \
+"InlineGuideFunctionListing",
+ CellID->980853843,ExpressionUUID->"c66c5230-dbe7-4faf-ae16-132bf9c8be08"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->842510578,ExpressionUUID->"bef899dc-dfbe-414a-8d20-2d32e9821394"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ TemplateBox[{
+   Cell[
+    TextData["Graph Properties \[RightGuillemet]"]], 
+   "paclet:guide/GraphPropertiesAndMeasurements"},
+  "OrangeLink",
+  BaseStyle->"GuideFunctionsSubsection"]], "GuideFunctionsSubsection",
+ CellID->462710319,ExpressionUUID->"5318a3bc-3b87-44e0-b394-d0c73f4de4b1"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphNeighborhoodVolumes", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphNeighborhoodVolumes"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "12466228-55cb-4d5d-9d11-bec1937521b7"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["NeighborhoodGraph"]], "paclet:ref/NeighborhoodGraph"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "5485a5c2-923a-4900-996c-bf8e9bcdad1a"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FindShortestPath"]], "paclet:ref/FindShortestPath"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "3865f2af-ebc8-4750-9616-e346d94b519d"]
+}], "InlineGuideFunctionListing",
+ CellID->2012767733,ExpressionUUID->"dec5ff37-fe75-4ddb-b054-4a6840a32d5a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["VertexCount"]], "paclet:ref/VertexCount"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "4c5ea9cd-2b06-4925-a272-efcf48036fc8"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["GraphDiameter"]], "paclet:ref/GraphDiameter"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "65c56a96-a790-4b5a-8817-4132d70690a1"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphAntipodes", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphAntipodes"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "7529c20c-56a9-4f60-9737-ae87b45064c1"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphMinors", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphMinors"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "9b485183-40bd-4d95-84d2-34af5b27d0ff"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["..."]], "paclet:guide/GraphPropertiesAndMeasurements"},
+   "RefLinkPlain",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "067cddae-244b-4fe6-8b1f-207cabd4a6a1"]
+}], "InlineGuideFunctionListing",
+ CellID->568510072,ExpressionUUID->"f1be8030-be52-4b3c-b4f9-2f9778ad5992"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "CausalConnectionGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+CausalConnectionGraph"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "34f4823a-aac9-4b3b-b2cc-9750462d411b"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " summarize future overlaps in a causal graph"
+}], "GuideText",
+ CellID->535549135,ExpressionUUID->"a5d87478-29eb-4413-a6b0-803cd72ffb0b"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Graph Visualization", "GuideFunctionsSubsection",
+ CellID->757888104,ExpressionUUID->"93b6add5-face-4e6f-a02a-e2dcbc31f17c"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["GraphPlot"]], "paclet:ref/GraphPlot"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "80fd812f-794b-49ff-9537-121d4649c0cb"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["GraphPlot3D"]], "paclet:ref/GraphPlot3D"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "520604ea-747c-4b5e-ab72-8fabba6d1c78"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["LayeredGraphPlot"]], "paclet:ref/LayeredGraphPlot"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "7a3307d8-a05d-4879-b276-62cf2159c21f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "LayeredGraphPlot3D", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+LayeredGraphPlot3D"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "d1be96a9-5bbf-4b01-b7f4-8469b5530c89"]
+}], "InlineGuideFunctionListing",
+ CellID->687976289,ExpressionUUID->"c459f59d-f440-46c7-94d6-268da22c6950"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "DistanceLayeredGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+DistanceLayeredGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "2ab4e47e-70a9-4d00-8d84-383fba91835f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["Graph3D"]], "paclet:ref/Graph3D"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "a62134e5-c3b2-4a53-abf5-c2cb444f7fc2"]
+}], "InlineGuideFunctionListing",
+ CellID->166114550,ExpressionUUID->"a072fc6d-68b7-4315-99eb-676f00b2b456"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphReconstructedSurface", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphReconstructedSurface"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "a0bf9903-bbec-4187-b902-0e6e40cc6287"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " render a graph in 3D with an approximate surface"
+}], "GuideText",
+ CellID->1161788053,ExpressionUUID->"965b738d-5353-4f25-bab4-00e209dc2edc"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphFunctionPlot", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphFunctionPlot"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "ef495e03-18db-4991-9fb4-9968b7e2dada"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " visualize a function on a graph"
+}], "GuideText",
+ CellID->545699639,ExpressionUUID->"f0255af4-a762-4b7e-9e68-3bf71ca8ee3f"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Graph Generation", "GuideFunctionsSubsection",
+ CellID->586875507,ExpressionUUID->"0d846f0d-0c35-4b09-90f8-8a56dca7ba20"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "TorusGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+TorusGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "03dada34-fb39-4c7c-b3a3-e714479231c0"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "GeneralizedGridGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GeneralizedGridGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "18e3655c-0ff3-45c3-9b1e-1e7d59811e21"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "HexagonalGridGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HexagonalGridGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "f3559230-5ee7-4606-8cf9-26407eaca7e4"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "HexagonalTorusGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+HexagonalTorusGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "fd1a92e5-fcbe-4407-8ba5-182d2e292491"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "BuckyballGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+BuckyballGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "94a1d9e9-2633-4e91-a91e-90f47cad2e43"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "GeodesicSphereGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GeodesicSphereGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "0781ee29-3e58-4230-82b7-003354e1a591"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[FilledVerySmallSquare]", "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "RegularHyperbolicTilingGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+RegularHyperbolicTilingGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "6e9fe073-5191-4982-b48d-d9236a6e278b"],
+ " "
+}], "InlineGuideFunctionListing",
+ CellID->597016141,ExpressionUUID->"2ad26629-2b17-4e1b-889d-005c56e6886a"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["MeshConnectivityGraph"]], "paclet:ref/MeshConnectivityGraph"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "c15e679d-c19e-4094-a6bb-ce528c0e9774"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "GraphicsMetricGraph", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+GraphicsMetricGraph"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "b3eabd1b-41d3-4740-b7f8-8252a9570926"]
+}], "InlineGuideFunctionListing",
+ CellID->641706995,ExpressionUUID->"362ad152-2937-4ce0-b884-162072f63746"],
+
+Cell["\t", "GuideDelimiterSubsection",
+ CellID->1393338371,ExpressionUUID->"71dadb4a-6a4c-4949-b2ed-23aa17d94aa1"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Analysis Utilities", "GuideFunctionsSubsection",
+ CellID->2036003683,ExpressionUUID->"ff6fbd3b-00d2-4946-a821-fbef73f4c697"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "RaggedMeanAround", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+RaggedMeanAround"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "ff16afdc-1b5e-4ed5-81e9-10f864c6858d"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "LogDifferences", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+LogDifferences"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "5094ac4f-64c4-436d-b00c-4a3fbdb0162f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FindLinearRecurrence"]], "paclet:ref/FindLinearRecurrence"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "351a51e0-2889-4cd8-b2eb-7afebb83b3e7"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+   "FindLinearRecurrenceEquations", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+FindLinearRecurrenceEquations"},
+   "ResourceFunctionTemplate"]], "InlineFormula",
+  FontFamily->"Source Sans Pro",ExpressionUUID->
+  "bdccb5fc-eb89-42c6-9bb5-2f822382fe6f"],
+ "\[NonBreakingSpace]",
+ StyleBox["\[MediumSpace]\[FilledVerySmallSquare]\[MediumSpace]", 
+  "InlineSeparator"],
+ " ",
+ Cell[BoxData[
+  TemplateBox[{
+    Cell[
+     TextData["FindTransientRepeat"]], "paclet:ref/FindTransientRepeat"},
+   "RefLink",
+   BaseStyle->{"InlineFunctionSans"}]], "InlineFunctionSans",ExpressionUUID->
+  "1de5ba7d-2295-4768-94b3-a6ca28cbcb7b"]
+}], "InlineGuideFunctionListing",
+ CellID->901006528,ExpressionUUID->"07c9e033-c0d5-4618-8f81-289de87d7bba"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Computational Experiment Utilities", "GuideFunctionsSubsection",
+ CellID->618512162,ExpressionUUID->"6e1c5a92-9bbb-4a52-97a1-4621c781c97f"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "WolframPhysicsProjectStyleData", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+WolframPhysicsProjectStyleData"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "e7ac6c2c-55d9-4abf-9562-e291af726393"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " standardized rendering styles"
+}], "GuideText",
+ CellID->2008168071,ExpressionUUID->"5ae87cbd-8b8b-469b-9b99-9edebde7b2ba"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "InteractiveListSelector", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+InteractiveListSelector"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "2847a1a7-f977-4f91-a195-f41f7ad6e5cc"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " render a list with interactive element selection"
+}], "GuideText",
+ CellID->785666938,ExpressionUUID->"1abbb0fe-a905-471f-a1bd-b1caacd9292d"],
+
+Cell[TextData[{
+ Cell[BoxData[
+  TemplateBox[{
+   "ParallelMapMonitored", 
+    "https://resources.wolframcloud.com/FunctionRepository/resources/\
+ParallelMapMonitored"},
+   "ResourceFunctionTemplate"]],ExpressionUUID->
+  "b0e79b09-f847-4b99-be89-87d37753b05a"],
+ " ",
+ StyleBox["\[LongDash]", "GuideEmDash"],
+ " run a parallel computation with dynamic monitoring"
+}], "GuideText",
+ CellID->489650574,ExpressionUUID->"d37913ec-7bb1-41c8-be7f-1e851257f60d"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[BoxData[GridBox[{
+   {
+    DynamicBox[FEPrivate`ImportImage[
+      FrontEnd`FileName[{"Documentation", "FooterIcons"}, "RelatedGuide.png"]],
+     ImageSizeCache->{50., {27., 33.}}], GridBox[{
+      {
+       StyleBox[
+        RowBox[{"Related", " ", "Guides"}], "GuideMoreAboutSection"]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Graph Theory"]], "paclet:guide/GraphsAndNetworks"},
+          "RefLinkPlain",
+          BaseStyle->{"GuideMoreAbout"}]], "GuideMoreAbout",ExpressionUUID->
+         "362370b0-b051-4d92-8553-4e9f0fcee460"]}]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Computational Systems & Discovery"]], 
+           "paclet:guide/ComputationalSystemsAndDiscovery"},
+          "RefLinkPlain",
+          BaseStyle->{"GuideMoreAbout"}]], "GuideMoreAbout",ExpressionUUID->
+         "531b2dce-25dc-42ae-83a3-d40eeb672aa3"]}]},
+      {
+       RowBox[{"\[FilledVerySmallSquare]", Cell[BoxData[
+         TemplateBox[{
+           Cell[
+            TextData["Automated Theorem Proving"]], 
+           "paclet:guide/TheoremProving"},
+          "RefLinkPlain",
+          BaseStyle->{"GuideMoreAbout"}]], "GuideMoreAbout",ExpressionUUID->
+         "0737348a-d8b1-457d-b8d7-bf486666b9de"]}]}
+     }]}
+  }]], "GuideMoreAboutSection",ExpressionUUID->"b2f042b8-0420-4e8c-89f0-\
+7c57105cb05e"],
+
+Cell[BoxData[GridBox[{
+   {
+    TemplateBox[{29},
+     "Spacer1"], GridBox[{
+      {
+       RowBox[{
+        TemplateBox[{17},
+         "Spacer1"], 
+        StyleBox[
+         RowBox[{"Related", " ", "Links"}], "GuideRelatedLinksSection"]}]},
+      {Cell[
+       "Wolfram Physics Project Home Page", "GuideRelatedLinks",
+        ExpressionUUID->"d2123a1e-eaf6-4473-ac27-d002615af823"]},
+      {Cell[
+       "Hands-On Introduction to the Wolfram Physics Project", 
+        "GuideRelatedLinks",ExpressionUUID->
+        "d123eca7-bad1-4040-ad07-6321588d3e1c"]},
+      {Cell[
+       "Wolfram Physics Project: Technical Introduction", "GuideRelatedLinks",
+        ExpressionUUID->"f450710d-1acc-4545-a182-29b79e74c937"]}
+     }]}
+  }]], "GuideRelatedLinksSection",ExpressionUUID->"7fd6518b-d6e6-43c3-857f-\
+9a9ff2adeacc"],
+
+Cell[" ", "FooterCell",ExpressionUUID->"6d05b459-3b72-4ca1-85ad-4634973b95bd"]
+},
+Saveable->False,
+ScreenStyleEnvironment->"Working",
+WindowSize->{900, 830},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+WindowTitle->"Wolfram Physics Project Functions",
+DockedCells->{},
+TaggingRules->{
+ "ModificationHighlight" -> False, "ColorType" -> "", "LinkTrails" -> "", 
+  "ExampleCounter" -> 1, "NeedPlatMsgIn" -> None, 
+  "Openers" -> {
+   "PrimaryExamplesSection" -> Open, "ExampleSection" -> {"0" -> Open}}, 
+  "NewStyles" -> True, "RootCaptions" -> "", 
+  "Metadata" -> {
+   "built" -> "{2020, 8, 13, 8, 55, 40.341788}", 
+    "history" -> {"12.1", "", "", ""}, "context" -> "System`", 
+    "keywords" -> {}, "specialkeywords" -> {}, 
+    "tutorialcollectionlinks" -> {}, "index" -> True, "label" -> "Guide", 
+    "language" -> "en", "paclet" -> "", "status" -> "None", "summary" -> 
+    "This page lists some of the functions in the Wolfram Function Repository \
+created to support the Wolfram Physics Project, as well as some built-in \
+Wolfram Language functions of particular relevance.", "synonyms" -> {}, 
+    "tabletags" -> DocumentationBuild`Make`Private`tabletaggingrules$258408, 
+    "title" -> "Wolfram Physics Project Functions", "titlemodifier" -> "", 
+    "windowtitle" -> "Wolfram Physics Project Functions", "type" -> "Guide", 
+    "uri" -> "FIXME", "WorkflowDockedCell" -> ""}, "SearchTextTranslated" -> 
+  ""},
+CacheGraphics->False,
+FrontEndVersion->"12.1 for Mac OS X x86 (64-bit) (March 13, 2020)",
+StyleDefinitions->Notebook[{
+   Cell[
+    StyleData[
+    StyleDefinitions -> FrontEnd`FileName[{"Wolfram"}, "Reference.nb"]]], 
+   Cell[
+    StyleData["ResourceFunctionTemplate"], 
+    TemplateBoxOptions -> {
+     DisplayFunction -> (PaneSelectorBox[{False -> TagBox[
+           ButtonBox[
+            TagBox[
+             StyleBox[
+              GridBox[{{
+                 StyleBox[
+                  AdjustmentBox[
+                   GraphicsBox[{
+                    Thickness[0.0625], 
+                    FaceForm[{
+                    RGBColor[0.8750000000000001, 0.278, 0.031], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.200200000000001, 
+                    12.7998}, {5.200200000000001, 14.9998}, {
+                    1.0002000000000004`, 14.9998}, {1.0002000000000004`, 
+                    12.999799999999999`}, {1.0002000000000004`, 12.7998}, {
+                    1.0002000000000004`, 3.1997999999999998`}, {
+                    1.0002000000000004`, 2.6997999999999998`}, {
+                    1.0002000000000004`, 0.9997999999999987}, {
+                    5.200200000000001, 0.9997999999999987}, {
+                    5.200200000000001, 3.1997999999999998`}, {
+                    3.1002000000000005`, 3.1997999999999998`}, {
+                    3.1002000000000005`, 12.7998}}}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    4.8, 11.1}, {11.1, 11.1}, {11.1, 4.6}, {4.8, 4.6}}}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, {{{10.7998, 15.}, {10.7998, 
+                    12.8}, {12.9008, 12.8}, {12.9008, 3.1999999999999993`}, {
+                    10.7998, 3.1999999999999993`}, {10.7998, 1.}, {14.9998, 
+                    1.}, {14.9998, 2.6999999999999993`}, {14.9998, 
+                    3.1999999999999993`}, {14.9998, 12.8}, {14.9998, 13.}, {
+                    14.9998, 15.}}}]}, AspectRatio -> Automatic, 
+                    ImageSize -> {8., 8.}, 
+                    PlotRange -> {{0., 16.}, {0., 16.}}], 
+                   BoxBaselineShift -> -0.4], "ResourceFunctionIcon"], 
+                 StyleBox[
+                  StyleBox[#, "InlineFunctionSans"], ShowStringCharacters -> 
+                  False, FontSize -> Inherited]}}], 
+              GridBoxOptions -> {
+               FrameStyle -> GrayLevel[1, 0], 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{1.3}}}, 
+                GridBoxSpacings -> {
+                 "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+             "FunctionResourceBox", 
+              RGBColor[
+              0.8745098039215686, 0.2784313725490196, 
+               0.03137254901960784], #}], BaseStyle -> "Hyperlink", 
+            ButtonData -> {
+              URL[#2], None}], 
+           MouseAppearanceTag["LinkHand"]], True -> TagBox[
+           ButtonBox[
+            TagBox[
+             StyleBox[
+              GridBox[{{
+                 StyleBox[
+                  AdjustmentBox[
+                   GraphicsBox[{
+                    Thickness[0.0625], 
+                    FaceForm[{
+                    RGBColor[0.8750000000000001, 0.278, 0.031], 
+                    Opacity[1.]}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, {{{5.200200000000001, 
+                    12.7998}, {5.200200000000001, 14.9998}, {
+                    1.0002000000000004`, 14.9998}, {1.0002000000000004`, 
+                    12.999799999999999`}, {1.0002000000000004`, 12.7998}, {
+                    1.0002000000000004`, 3.1997999999999998`}, {
+                    1.0002000000000004`, 2.6997999999999998`}, {
+                    1.0002000000000004`, 0.9997999999999987}, {
+                    5.200200000000001, 0.9997999999999987}, {
+                    5.200200000000001, 3.1997999999999998`}, {
+                    3.1002000000000005`, 3.1997999999999998`}, {
+                    3.1002000000000005`, 12.7998}}}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}}}, {{{
+                    4.8, 11.1}, {11.1, 11.1}, {11.1, 4.6}, {4.8, 4.6}}}], 
+                    
+                    FilledCurveBox[{{{0, 2, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 0}, {0, 1, 
+                    0}, {0, 1, 0}, {0, 1, 0}}}, {{{10.7998, 15.}, {10.7998, 
+                    12.8}, {12.9008, 12.8}, {12.9008, 3.1999999999999993`}, {
+                    10.7998, 3.1999999999999993`}, {10.7998, 1.}, {14.9998, 
+                    1.}, {14.9998, 2.6999999999999993`}, {14.9998, 
+                    3.1999999999999993`}, {14.9998, 12.8}, {14.9998, 13.}, {
+                    14.9998, 15.}}}]}, AspectRatio -> Automatic, 
+                    ImageSize -> {8., 8.}, 
+                    PlotRange -> {{0., 16.}, {0., 16.}}], 
+                   BoxBaselineShift -> -0.4], "ResourceFunctionIcon"], 
+                 StyleBox[
+                  
+                  StyleBox[#, "InlineFunctionSans", FontColor -> 
+                   RGBColor[0.9686274509803922, 0.4666666666666667, 0.]], 
+                  ShowStringCharacters -> False, FontSize -> Inherited]}}], 
+              GridBoxOptions -> {
+               FrameStyle -> GrayLevel[1, 0], 
+                GridBoxAlignment -> {
+                 "Columns" -> {{Left}}, "Rows" -> {{Automatic}}}, 
+                GridBoxFrame -> {"Columns" -> {{True}}, "Rows" -> {{True}}}, 
+                GridBoxItemSize -> {
+                 "Columns" -> {{Automatic}}, "Rows" -> {{1.3}}}, 
+                GridBoxSpacings -> {
+                 "Columns" -> {{0.25}}, "Rows" -> {-0.1, {}, 0}}}], {
+             "FunctionResourceBox", 
+              RGBColor[
+              0.8745098039215686, 0.2784313725490196, 
+               0.03137254901960784], #}], BaseStyle -> "Hyperlink", 
+            ButtonData -> {
+              URL[#2], None}], 
+           MouseAppearanceTag["LinkHand"]]}, 
+        Dynamic[
+         CurrentValue["MouseOver"]]]& )}]}, Visible -> False, FrontEndVersion -> 
+  "12.1 for Mac OS X x86 (64-bit) (March 13, 2020)", StyleDefinitions -> 
+  "Default.nb"],
+ExpressionUUID->"3a433a2b-b3b0-435a-a722-748592ce1d79"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[605, 21, 7019, 165, 57, "AnchorBarGrid",ExpressionUUID->"f06d9f0e-c725-4b2c-965d-55ed18858e1a",
+ CellID->1],
+Cell[CellGroupData[{
+Cell[7649, 190, 130, 1, 61, "GuideTitle",ExpressionUUID->"ce315a22-1b4a-489c-a84e-14a333f54807",
+ CellID->942062912],
+Cell[7782, 193, 522, 13, 62, "GuideAbstract",ExpressionUUID->"e04d964a-e0de-4199-906b-5659a8047e29",
+ CellID->2001916300],
+Cell[8307, 208, 93, 0, 24, "GuideDelimiterSubsection",ExpressionUUID->"f31ebe3c-d9a1-421a-8f0e-533d227c0582"],
+Cell[CellGroupData[{
+Cell[8425, 212, 136, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"dabe9a53-58f7-4ece-b573-1fc06bec52b4",
+ CellID->20809511],
+Cell[8564, 215, 433, 12, 31, "GuideText",ExpressionUUID->"d6c41fc2-4bda-4162-9a3e-abc728ddbcb3",
+ CellID->508110973],
+Cell[9000, 229, 469, 12, 31, "GuideText",ExpressionUUID->"c0124878-35d6-45d5-a783-890efd973201",
+ CellID->466082307],
+Cell[9472, 243, 440, 12, 31, "GuideText",ExpressionUUID->"b2bb9cd9-d549-441d-a078-17e8fbd96c04",
+ CellID->1932528067]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[9949, 260, 139, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"090fc33e-7a31-4dc9-a7f4-f41ee462a676",
+ CellID->780907328],
+Cell[10091, 263, 672, 20, 31, "GuideText",ExpressionUUID->"79cdde3d-7324-4d25-bd1f-978b39b139f3",
+ CellID->376244527],
+Cell[10766, 285, 456, 12, 31, "GuideText",ExpressionUUID->"e835337d-2d65-49ba-95b5-4b4d9aea2b1b",
+ CellID->728244460],
+Cell[11225, 299, 1206, 33, 29, "InlineGuideFunctionListing",ExpressionUUID->"a5836015-e813-446c-9cdf-a25f00e64f16",
+ CellID->1311564508]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[12468, 337, 136, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"4d26563a-1248-4cbd-a8cb-bdf64337e267",
+ CellID->639152067],
+Cell[12607, 340, 440, 12, 29, "GuideText",ExpressionUUID->"be16a018-9396-4259-a067-6493802c249e",
+ CellID->1661310382],
+Cell[13050, 354, 1274, 34, 29, "InlineGuideFunctionListing",ExpressionUUID->"fbb189b5-5d9e-4b57-91f5-d4a5443964e5",
+ CellID->1118945818],
+Cell[14327, 390, 113, 1, 24, "GuideDelimiterSubsection",ExpressionUUID->"608bc27e-02d9-4106-859b-38a38c4576d5",
+ CellID->555218878]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[14477, 396, 127, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"6a514581-f049-42fe-b7ea-547285212a2f",
+ CellID->895155739],
+Cell[14607, 399, 433, 12, 31, "GuideText",ExpressionUUID->"d3330cbc-fc02-4ed4-a204-0f0d7e764b0f",
+ CellID->521525013],
+Cell[15043, 413, 798, 21, 30, "InlineGuideFunctionListing",ExpressionUUID->"38d498d6-a91e-48fa-8c50-b7175d2aee1b",
+ CellID->705490273]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[15878, 439, 138, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"33222834-5965-4400-87cc-401e5dfdae15",
+ CellID->612762712],
+Cell[16019, 442, 797, 21, 29, "InlineGuideFunctionListing",ExpressionUUID->"65594b59-8e1f-41ad-a6a0-9922d9084560",
+ CellID->916514307],
+Cell[16819, 465, 1232, 34, 29, "InlineGuideFunctionListing",ExpressionUUID->"2c5d5d91-8b85-4852-b9c6-f541f10bcf9c",
+ CellID->43867661],
+Cell[18054, 501, 857, 22, 29, "InlineGuideFunctionListing",ExpressionUUID->"416b9350-f0c8-4ba8-8e62-65985ada4233",
+ CellID->1194404181]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[18948, 528, 135, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"8cfae40f-973f-4ff9-84e7-26add902d742",
+ CellID->764940204],
+Cell[19086, 531, 1234, 34, 29, "InlineGuideFunctionListing",ExpressionUUID->"a18bdb64-666b-4aed-9614-3b9052b00dd7",
+ CellID->1704730278]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[20357, 570, 137, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"129f2e06-e28e-414e-8cb4-39e60d4c4e90",
+ CellID->1764921247],
+Cell[20497, 573, 1597, 45, 29, "InlineGuideFunctionListing",ExpressionUUID->"5ed849e3-4522-485a-990a-68cc5ae58ba8",
+ CellID->1457544792],
+Cell[22097, 620, 113, 1, 24, "GuideDelimiterSubsection",ExpressionUUID->"8149adbd-e744-4f36-97bb-1c937cc515ec",
+ CellID->938911264]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[22247, 626, 138, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"b7244a3d-fe01-481c-a42e-c30718778d98",
+ CellID->104982172],
+Cell[22388, 629, 441, 12, 29, "GuideText",ExpressionUUID->"78ec403c-344a-4584-994f-a7ad45638434",
+ CellID->1595490809],
+Cell[22832, 643, 1262, 34, 29, "InlineGuideFunctionListing",ExpressionUUID->"9faded27-13a7-4356-9398-7d84363bbaff",
+ CellID->1680981180],
+Cell[24097, 679, 1310, 34, 29, "InlineGuideFunctionListing",ExpressionUUID->"b8e1ad05-858a-4302-a3d5-2c7b9e1da981",
+ CellID->1260991870],
+Cell[25410, 715, 844, 22, 29, "InlineGuideFunctionListing",ExpressionUUID->"1118347b-06c5-40d9-adc3-5eac39aedf45",
+ CellID->1494231103]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[26291, 742, 139, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"5cc79f4c-a504-4091-88c5-40388caafac6",
+ CellID->2025718966],
+Cell[26433, 745, 1074, 31, 28, "InlineGuideFunctionListing",ExpressionUUID->"b98e4d2a-79d5-40f1-924b-5499f471c5ad",
+ CellID->1199289602],
+Cell[27510, 778, 113, 1, 24, "GuideDelimiterSubsection",ExpressionUUID->"a91407d5-e5c6-4d76-b84e-2ba7bee1bc6a",
+ CellID->311258892]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[27660, 784, 128, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"4f95964a-07fb-4d77-96f5-df188af44a39",
+ CellID->584025858],
+Cell[27791, 787, 1218, 33, 29, "InlineGuideFunctionListing",ExpressionUUID->"27bf88e8-2eb3-4f42-93d6-a57409cdc973",
+ CellID->1388040421],
+Cell[29012, 822, 855, 22, 29, "InlineGuideFunctionListing",ExpressionUUID->"20d62036-6913-4cb6-bd94-7a3a1d300a28",
+ CellID->1346738540]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[29904, 849, 127, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"cc83bd80-cc50-4f34-a75a-7c676dbd9b64",
+ CellID->2031664401],
+Cell[30034, 852, 1076, 31, 29, "InlineGuideFunctionListing",ExpressionUUID->"9d97c0dd-7cce-4029-a6c0-a9e58ada9b76",
+ CellID->1926844297]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[31147, 888, 133, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"e211395c-ab91-4f52-a90a-f2a33083b67c",
+ CellID->1504971237],
+Cell[31283, 891, 1051, 29, 29, "InlineGuideFunctionListing",ExpressionUUID->"576e4078-155e-461a-b753-69682ee0b442"],
+Cell[32337, 922, 114, 1, 24, "GuideDelimiterSubsection",ExpressionUUID->"1c529439-8e3d-41fb-933a-dc8211d242ab",
+ CellID->1335553784]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[32488, 928, 138, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"03cdc51b-e48d-4f27-bc76-eaa762d17b29",
+ CellID->759535974],
+Cell[32629, 931, 1190, 32, 29, "InlineGuideFunctionListing",ExpressionUUID->"63431be8-55fc-4955-96c6-d6dbf437bcbd",
+ CellID->1923026453]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[33856, 968, 117, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"31fb0903-5118-41f9-98eb-6608dd8c4519",
+ CellID->578361962],
+Cell[33976, 971, 1123, 32, 29, "InlineGuideFunctionListing",ExpressionUUID->"1f914423-64c0-4c71-a4a0-340389d0c639",
+ CellID->104363906],
+Cell[35102, 1005, 113, 1, 24, "GuideDelimiterSubsection",ExpressionUUID->"04af6d6d-51b5-4801-9434-53ce156b94b0",
+ CellID->624050526]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35252, 1011, 129, 1, 37, "GuideFunctionsSubsection",ExpressionUUID->"51a1fd77-6512-4bf9-9050-5d695793d983",
+ CellID->1308128428],
+Cell[35384, 1014, 418, 9, 70, "InlineGuideFunctionListing",ExpressionUUID->"0b35e550-c081-4f4c-92d0-036f07c80a54",
+ CellID->1874681059],
+Cell[35805, 1025, 114, 1, 70, "GuideDelimiterSubsection",ExpressionUUID->"81a16b48-f1a7-4c7b-aa6b-6ad8351e9976",
+ CellID->1753468535]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[35956, 1031, 123, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"3d367a67-a4d2-4431-9bf9-f24307871e72",
+ CellID->1479391909],
+Cell[36082, 1034, 775, 21, 70, "InlineGuideFunctionListing",ExpressionUUID->"13c029bb-f95f-450d-9031-ab6fddc5164a",
+ CellID->58033752],
+Cell[36860, 1057, 441, 12, 70, "GuideText",ExpressionUUID->"b474a6fe-0269-43db-a6a0-e748ff84fdb4",
+ CellID->797594828],
+Cell[37304, 1071, 845, 22, 70, "InlineGuideFunctionListing",ExpressionUUID->"1fc79c69-11a5-46f7-8815-afee721d7ee5",
+ CellID->34363116]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[38186, 1098, 133, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"397ca381-c531-433b-aed4-68404e9b7004",
+ CellID->1804796711],
+Cell[38322, 1101, 844, 22, 70, "InlineGuideFunctionListing",ExpressionUUID->"55b21e6e-36aa-49d4-a5da-fc1b9e83bd8a",
+ CellID->320637834],
+Cell[39169, 1125, 858, 22, 70, "InlineGuideFunctionListing",ExpressionUUID->"c6e34034-4ba1-4591-bf74-e9962075110f",
+ CellID->474511756],
+Cell[40030, 1149, 465, 12, 70, "GuideText",ExpressionUUID->"fb397d41-6d57-4f0d-9760-fdf23ef8e2fa",
+ CellID->1197849350]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[40532, 1166, 131, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"b1f8f17c-27f8-4d47-90db-ee7bb737a634",
+ CellID->1384415773],
+Cell[40666, 1169, 874, 22, 70, "InlineGuideFunctionListing",ExpressionUUID->"469c47ef-5814-4a32-95ef-88274dea196c",
+ CellID->415366892]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[41577, 1196, 129, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"55fd429f-cac4-4351-8d0a-dfbc07771a4e",
+ CellID->769704930],
+Cell[41709, 1199, 413, 9, 70, "InlineGuideFunctionListing",ExpressionUUID->"c66c5230-dbe7-4faf-ae16-132bf9c8be08",
+ CellID->980853843],
+Cell[42125, 1210, 113, 1, 70, "GuideDelimiterSubsection",ExpressionUUID->"bef899dc-dfbe-414a-8d20-2d32e9821394",
+ CellID->842510578]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[42275, 1216, 304, 7, 70, "GuideFunctionsSubsection",ExpressionUUID->"5318a3bc-3b87-44e0-b394-d0c73f4de4b1",
+ CellID->462710319],
+Cell[42582, 1225, 1044, 29, 70, "InlineGuideFunctionListing",ExpressionUUID->"dec5ff37-fe75-4ddb-b054-4a6840a32d5a",
+ CellID->2012767733],
+Cell[43629, 1256, 1885, 55, 70, "InlineGuideFunctionListing",ExpressionUUID->"f1be8030-be52-4b3c-b4f9-2f9778ad5992",
+ CellID->568510072],
+Cell[45517, 1313, 450, 12, 70, "GuideText",ExpressionUUID->"a5d87478-29eb-4413-a6b0-803cd72ffb0b",
+ CellID->535549135]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46004, 1330, 130, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"93b6add5-face-4e6f-a02a-e2dcbc31f17c",
+ CellID->757888104],
+Cell[46137, 1333, 1480, 43, 70, "InlineGuideFunctionListing",ExpressionUUID->"c459f59d-f440-46c7-94d6-268da22c6950",
+ CellID->687976289],
+Cell[47620, 1378, 764, 21, 70, "InlineGuideFunctionListing",ExpressionUUID->"a072fc6d-68b7-4315-99eb-676f00b2b456",
+ CellID->166114550],
+Cell[48387, 1401, 464, 12, 70, "GuideText",ExpressionUUID->"965b738d-5353-4f25-bab4-00e209dc2edc",
+ CellID->1161788053],
+Cell[48854, 1415, 430, 12, 70, "GuideText",ExpressionUUID->"f0255af4-a762-4b7e-9e68-3bf71ca8ee3f",
+ CellID->545699639]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[49321, 1432, 127, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"0d846f0d-0c35-4b09-90f8-8a56dca7ba20",
+ CellID->586875507],
+Cell[49451, 1435, 2705, 77, 70, "InlineGuideFunctionListing",ExpressionUUID->"2ad26629-2b17-4e1b-889d-005c56e6886a",
+ CellID->597016141],
+Cell[52159, 1514, 790, 21, 70, "InlineGuideFunctionListing",ExpressionUUID->"362ad152-2937-4ce0-b884-162072f63746",
+ CellID->641706995],
+Cell[52952, 1537, 114, 1, 70, "GuideDelimiterSubsection",ExpressionUUID->"71dadb4a-6a4c-4949-b2ed-23aa17d94aa1",
+ CellID->1393338371]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[53103, 1543, 130, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"ff6fbd3b-00d2-4946-a821-fbef73f4c697",
+ CellID->2036003683],
+Cell[53236, 1546, 1987, 56, 70, "InlineGuideFunctionListing",ExpressionUUID->"07c9e033-c0d5-4618-8f81-289de87d7bba",
+ CellID->901006528]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[55260, 1607, 145, 1, 70, "GuideFunctionsSubsection",ExpressionUUID->"6e1c5a92-9bbb-4a52-97a1-4621c781c97f",
+ CellID->618512162],
+Cell[55408, 1610, 455, 12, 70, "GuideText",ExpressionUUID->"5ae87cbd-8b8b-469b-9b99-9edebde7b2ba",
+ CellID->2008168071],
+Cell[55866, 1624, 459, 12, 70, "GuideText",ExpressionUUID->"1abbb0fe-a905-471f-a1bd-b1caacd9292d",
+ CellID->785666938],
+Cell[56328, 1638, 455, 12, 70, "GuideText",ExpressionUUID->"d37913ec-7bb1-41c8-be7f-1e851257f60d",
+ CellID->489650574]
+}, Open  ]]
+}, Open  ]],
+Cell[56810, 1654, 1464, 36, 70, "GuideMoreAboutSection",ExpressionUUID->"b2f042b8-0420-4e8c-89f0-7c57105cb05e"],
+Cell[58277, 1692, 816, 22, 70, "GuideRelatedLinksSection",ExpressionUUID->"7fd6518b-d6e6-43c3-857f-9a9ff2adeacc"],
+Cell[59096, 1716, 78, 0, 70, "FooterCell",ExpressionUUID->"6d05b459-3b72-4ca1-85ad-4634973b95bd"]
+}
+]
+*)
+
+(* End of internal cache information *)
+

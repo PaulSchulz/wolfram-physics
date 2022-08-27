@@ -1,0 +1,755 @@
+Notebook[{Cell[
+TextData[{"Wolfram",StyleBox[RowBox[{" "," "}]],"Physics"," ","Project"}],
+"Chapter",ExpressionUUID -> "5a8d5258-4310-4665-99e8-e5522c34256e"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Working"," ","Session"}],"Title",ExpressionUUID -> "70eafebc-55fb-4dd7-8ccc-a917d69bf261"],Cell[
+TextData[
+{"June"," ","9",StyleBox[RowBox[{","," "}]],"2020",StyleBox[RowBox[{" ","|"," "}]],"3pm"," ","EDT"}],
+"Text",ExpressionUUID -> "71f2d9df-c7e4-46bc-9710-d3bb1b0d5a94"],Cell[
+CellGroupData[
+{Cell[
+"\<Transcript\>","Chapter",ExpressionUUID -> "4bbbc743-9045-497f-9d4b-581f049c7c6b"],Cell[
+BoxData[
+RowBox[{"2",":",RowBox[{"16"," ","SW"}]}]],"Code",ExpressionUUID -> "e804d41b-e3ec-444f-b316-377543e53912"],Cell[
+TextData[
+{"So",StyleBox[RowBox[{","," "}]],"Hi"," ","everyone",StyleBox[RowBox[{","," "}]],"So",StyleBox[
+RowBox[{","," "}]],"today"," ","we"," ","are"," ","here"," ","for"," ","a"," ","Wolfram"," ","Physics"," ","Project"," ","Working"," ","session",StyleBox[
+RowBox[{"."," "}]],"A"," ","little"," ","different"," ","setup"," ","from"," ","previous"," ","times",StyleBox[
+RowBox[{"."," "}]],"I"," ","have"," ","been"," ","working"," ","on"," ","a"," ","little"," ","bit"," ","of"," ","a"," ","project",StyleBox[
+RowBox[{"."," "}]],"Mostly"," ","I"," ","have"," ","been"," ","doing"," ","it"," ","on"," ","my"," ","own",StyleBox[
+RowBox[{","," "}]],"and"," ","I"," ","though"," ","I"," ","would"," ","kind"," ","of"," ","share"," ","the"," ","process"," ","with"," ","you"," ","this"," ","afternoon",StyleBox[
+RowBox[{"."," "}]],"We"," ","do"," ","have"," ","a"," ","couple"," ","of"," ","other"," ","people"," ","here"," ","who"," ","may"," ","help",StyleBox[
+RowBox[{"."," "}]],"I"," ","am"," ","hoping"," ","that"," ","folks"," ","on"," ","the"," ","live"," ","stream"," ","will"," ","also"," ","help",StyleBox[
+RowBox[{","," "}]],"but"," ","usually"," ","the"," ","things"," ","I"," ","will"," ","be"," ","doing"," ","are"," ","mostly"," ","things"," ","that"," ","I"," ","will"," ","be"," ","doing"," ","quietly"," ","by"," ","myself",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "14fd86d1-df49-44e1-83bc-71747d1b41d0"],Cell[
+TextData[
+{"Now",StyleBox[RowBox[{","," "}]],"for"," ","people"," ","who"," ","are"," ","really"," ","curious",StyleBox[
+RowBox[{","," "}]],"I've"," ","been"," ","doing"," ","video"," ","work"," ","logs",StyleBox[
+RowBox[{","," "}]],"where"," ","even"," ","where"," ","I"," ","have"," ","been"," ","doing"," ","stuff"," ","on"," ","my"," ","own",StyleBox[
+RowBox[{","," "}]],"I"," ","record"," ","the"," ","screen",StyleBox[RowBox[{"."," "}]],"No"," ","sound",StyleBox[
+RowBox[{","," "}]],"not"," ","even",StyleBox[RowBox[{","," "}]],"no"," ","audio"," ","is"," ","turned"," ","on",StyleBox[
+RowBox[{","," "}]],"no"," ","sound"," ","of"," ","me"," ","whistling"," ","to"," ","myself"," ","which"," ","sometimes"," ","happens"," ","I"," ","think"," ","but"," ","I"," ","don't"," ","really"," ","know"," ","it",StyleBox[
+RowBox[{","," "}]],"but"," ","it"," ","is"," ","just"," ","the"," ","process"," ","of"," ","building"," ","things"," ","up","."}],
+"Text",ExpressionUUID -> "2019bef0-14c0-4357-b571-5f07827868c3"],Cell[
+BoxData[RowBox[
+{"3",":",RowBox[{"16"," ","SW"}]}]],"Code",ExpressionUUID -> "376fe2a3-e1b8-41ce-a17b-a2d1341f8366"],Cell[
+TextData[
+{"OK",StyleBox[RowBox[{","," "}]],"so"," ","the"," ","thing"," ","that"," ","I"," ","am"," ","working"," ","on"," ","right"," ","now"," ","is"," ","a"," ","kind"," ","of"," ","a"," ","version"," ","of"," ","multiway"," ","systems",StyleBox[
+RowBox[{","," "}]],"I"," ","will"," ","talk"," ","about"," ","more"," ","details"," ","in"," ","a"," ","minute",StyleBox[
+RowBox[{"."," "}]],"The"," ","goal"," ","is"," ","to"," ","produce"," ","another"," ","one"," ","of"," ","these"," ","Wolfram"," ","Physics"," ","Project"," ","Bulletins",StyleBox[
+RowBox[{"."," "}]],"This"," ","is"," ","our"," ","kind"," ","of"," ","approach"," ","to"," ","kind"," ","of"," ","what"," ","journal"," ","publishing"," ","was"," ","back"," ","in"," ","the"," ","1600's"," ","and"," ","what"," ","I"," ","think"," ","it"," ","might"," ","be"," ","again",StyleBox[
+RowBox[{","," "}]],"it's"," ","kind"," ","of"," ","slightly"," ","a"," ","more"," ","informal"," ","approach"," ","than"," ","people"," ","people"," ","have"," ","typically"," ","had"," ","and"," ","these"," ","are"," ","really"," ","bulletins"," ","about"," ","things",StyleBox[
+RowBox[{","," "}]],"progress"," ","we"," ","are"," ","making",StyleBox[RowBox[{"."," "}]],"We"," ","will"," ","be"," ","uploading"," ","them"," ","to"," ","places"," ","like"," ","ArXiv",StyleBox[
+RowBox[{","," "}]],"but"," ","primarily"," ","that"," ","will"," ","live"," ","on"," ","our"," ","site"," ","and"," ","we"," ","will"," ","have"," ","a"," ","section"," ","about"," ","Wolfram"," ","Physics"," ","Project"," ","Bulletins",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "36885252-0eef-45a0-af24-193c46526a28"],Cell[
+TextData[
+{"So"," ","I"," ","just"," ","put"," ","one"," ","up"," ","today"," ","that"," ","is"," ","here",StyleBox[
+RowBox[{"."," "}]],"It's"," ","called",StyleBox[RowBox[{" ","\""}]],"Exploring"," ","Rulial"," ","Space",StyleBox[
+RowBox[{":"," "}]],"The"," ","Case"," ","of"," ","Turing"," ","Machines",StyleBox[
+RowBox[{"\","," "}]],"and"," ","you"," ","know"," ","it"," ","was"," ","one"," ","of"," ","these"," ","things"," ","where"," ","it"," ","was"," ","supposed"," ","to"," ","be"," ","just"," ","two"," ","or"," ","three"," ","pages"," ","long",StyleBox[
+RowBox[{","," "}]],"turns"," ","out"," ","in"," ","actuality"," ","it's"," ","70"," ","pages"," ","long"," ","and"," ","I"," ","think"," ","it"," ","came"," ","out"," ","pretty"," ","interesting",StyleBox[
+RowBox[{"."," "}]],"I"," ","mean"," ","it's"," ","the"," ","beginning",StyleBox[RowBox[
+{" "," "}]],"of"," ","exploring"," ","this"," ","very"," ","abstract"," ","idea"," ","of"," ","rulial"," ","space",StyleBox[
+RowBox[{","," "}]],"in"," ","this"," ","case"," ","in"," ","the"," ","context"," ","of"," ","Turing"," ","Machines",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "3a588db7-824b-4c27-a02c-086b89b1455e"],Cell[
+TextData[
+{"A"," ","bunch"," ","of"," ","interesting"," ","things"," ","came"," ","up",StyleBox[
+RowBox[{","," "}]],"kind"," ","of"," ","the"," ","group"," ","structure"," ","of"," ","Turing"," ","Machines",StyleBox[
+RowBox[{","," "}]],"a"," ","bunch"," ","of"," ","things"," ","about"," ","the"," ","group"," ","structure",StyleBox[
+RowBox[{"."," "}]],"I"," ","don't"," ","know",StyleBox[RowBox[{","," "}]],"I've"," ","been"," ","struggling"," ","getting"," ","this"," ","group"," ","theory"," ","right",StyleBox[
+RowBox[{","," "}]],"and"," ","I'm"," ","not"," ","sure"," ","it's"," ","completely"," ","correct"," ","yet",StyleBox[
+RowBox[{","," "}]],"but"," ","there"," ","is"," ","another"," ","feature"," ","of"," ","these"," ","bulletins"," ","is"," ","that"," ","they"," ","are"," ","subject"," ","to"," ","updating","."}],
+"Text",ExpressionUUID -> "bb1be434-bdb1-480e-be81-116f67f4fbd6"],Cell[
+BoxData[RowBox[
+{"4",":",RowBox[{"53"," ","SW"}]}]],"Code",ExpressionUUID -> "76cf0de8-7360-4f6b-bb4d-fac8006587cb"],Cell[
+TextData[
+{"Then",StyleBox[RowBox[{","," "}]],"lets"," ","see",StyleBox[RowBox[{"."," "}]],"Coming"," ","on"," ","down"," ","here"," ","are"," ","some"," ","fun"," ","stuff",StyleBox[
+RowBox[{","," "}]],"I"," ","think"," ","I"," ","mentioned"," ","it"," ","in"," ","the"," ","update"," ","on"," ","Thursday"," ","about"," ","being"," ","able"," ","to"," ","actually"," ","estimate"," ","the"," ","value"," ","of"," ","the"," ","maximum"," ","speed"," ","in"," ","rulial"," ","space",StyleBox[
+RowBox[{","," "}]],"those"," ","kind"," ","of"," ","things","."}],"Text",ExpressionUUID -> "0e36904f-8b4b-49e9-8bf1-2ed11ddf438b"],Cell[
+TextData[
+{"Anyway",StyleBox[RowBox[{","," "}]],"this"," ","just"," ","went"," ","up",StyleBox[
+RowBox[{"."," "}]],"So",StyleBox[RowBox[{","," "}]],"given"," ","that"," ","this"," ","bulletin"," ","is"," ","done",StyleBox[
+RowBox[{","," "}]],"I"," ","am"," ","onto"," ","the"," ","next"," ","bulletin",StyleBox[
+RowBox[{","," "}]],"and"," ","the"," ","next"," ","bulletin"," ","is"," ","going"," ","to"," ","be"," ","about"," ","multiway"," ","systems"," ","based"," ","on"," ","numbers",StyleBox[
+RowBox[{"."," "}]],"So"," ","let"," ","me"," ","switch"," ","now"," ","more"," ","to",StyleBox[
+RowBox[{".."," "}]],"let"," ","me"," ","go"," ","ahead"," ","and"," ","switch"," ","this"," ","to"," ","just",StyleBox[
+RowBox[{".."," "}]],"OK",StyleBox[RowBox[{"."," "}]],"Let"," ","me"," ","concentrate"," ","on"," ","the"," ","screen"," ","here",StyleBox[
+RowBox[{","," "}]],"and"," ","I"," ","will"," ","show"," ","you"," ","what"," ","I"," ","have"," ","been"," ","working"," ","on"," ","and"," ","our"," ","job"," ","for"," ","this"," ","afternoon"," ","is"," ","to"," ","make"," ","more"," ","progress"," ","on"," ","this","."}],
+"Text",ExpressionUUID -> "8cb1f545-d49c-4056-874f-6040d69bf9ac"],Cell[
+BoxData[RowBox[
+{"5",":",RowBox[{"58"," ","SW"}]}]],"Code",ExpressionUUID -> "06bc97d3-8b3c-49c5-80f9-f0d362198624"],Cell[
+TextData[
+{"I"," ","have"," ","to"," ","say",StyleBox[RowBox[{","," "}]],"multiway"," ","systems"," ","based"," ","on"," ","numbers"," ","are"," ","really"," ","kind"," ","of"," ","cool",StyleBox[
+RowBox[{","," "}]],"and"," ","I"," ","am"," ","sort"," ","of"," ","upset"," ","that"," ","I"," ","didn't"," ","investigate"," ","them"," ","years"," ","ago",StyleBox[
+RowBox[{"."," "}]],"I"," ","have"," ","one"," ","note"," ","in"," ","MKS"," ","about"," ","them"}],
+"Text",ExpressionUUID -> "2d135635-99ef-48e6-8a2e-1047273063e9"],Cell[
+TextData[{"Ok",StyleBox[
+RowBox[{","," "}]],"let"," ","me"," ","show"," ","you"," ","what"," ","I"," ","got"," ","so"," ","far"," ","here",StyleBox[
+RowBox[{","," "}]],"hold"," ","on"," ","one"," ","second",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[
+RowBox[{","," "}]],"this"," ","is"," ","my"," ","draft"," ","bulletin"," ","so"," ","far",StyleBox[
+RowBox[{"."," "}]],"Let's"," ","make"," ","this"," ","a"," ","bit"," ","bigger",StyleBox[
+RowBox[{","," "}]],"and"," ","everything"," ","here"," ","is"," ","subject"," ","to"," ","change","."}],
+"Text",ExpressionUUID -> "b9e42bb3-a834-46ad-b18e-becd4199b9d5"],Cell[
+TextData[{"I"," ","am"," ","one"," ","of"," ","these"," ","people"," ","who"," ","if"," ","I"," ","am"," ","going"," ","to"," ","write"," ","something",StyleBox[
+RowBox[{","," "}]],"I"," ","have"," ","to"," ","write"," ","the"," ","introduction"," ","first"," ","but"," ","then"," ","I"," ","write"," ","the"," ","thing"," ","and"," ","than"," ","I"," ","write"," ","the"," ","introduction"," ","again"," ","last",StyleBox[
+RowBox[{","," "}]],"but"," ","I"," ","have"," ","to"," ","write"," ","the"," ","introduction"," ","first"," ","just"," ","to"," ","give"," ","me"," ","a"," ","sense"," ","of"," ","where"," ","I"," ","am"," ","going",StyleBox[
+RowBox[{","," "}]],"and"," ","that"," ","is"," ","what"," ","I"," ","have"," ","done"," ","here",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "8184166a-04b1-4847-a1fc-3a0fddf76ab1"],Cell[
+TextData[
+{"So"," ","we"," ","are"," ","talking"," ","about"," ","where"," ","we"," ","have"," ","gotten"," ","to"," ","so"," ","far"," ","and"," ","what"," ","the"," ","current"," ","issues"," ","are","."}],
+"Text",ExpressionUUID -> "1da3eac6-ce0e-4bad-93ce-18fbc009d0e3"],Cell[
+TextData[{"Let"," ","me"," ","set"," ","the"," ","stage"," ","here"," ","and"," ","what"," ","we"," ","are"," ","talking"," ","about",StyleBox[
+RowBox[{"."," "}]],"So"," ","this"," ","is"," ","a"," ","simple"," ","version"," ","of"," ","a"," ","multiway"," ","system",StyleBox[
+RowBox[{"."," "}]],"It"," ","is"," ","basically"," ","saying",StyleBox[RowBox[{","," "}]],"take"," ","a"," ","state"," ","X"," ","and"," ","iteratively"," ","map"," ","it"," ","to"," ","f1","[","x",StyleBox[
+RowBox[{"]"," "}]],"amd"," ","f2","[","x",StyleBox[RowBox[{"]."," "}]],"So"," ","of"," ","we"," ","do"," ","that"," ","with"," ","symbolic"," ","f1"," ","and"," ","f2"," ","we"," ","have"," ","a"," ","tree"," ","that"," ","looks"," ","like"," ","this",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"So"," ","now"," ","the"," ","question"," ","is"," ","what"," ","happens"," ","if"," ","you"," ","do"," ","that"," ","in"," ","practice"," ","in"," ","the"," ","wild",StyleBox[
+RowBox[{"."," "}]],"So"," ","lets"," ","take"," ","a"," ","look"," ","at"," ","that",StyleBox[
+RowBox[{"."," "}]],"Let"," ","me"," ","show"," ","you"," ","an"," ","example"," ","to"," ","get"," ","started",StyleBox[
+RowBox[{"."," "}]],"This"," ","is"," ","the"," ","example"," ","from"," ","MKS",StyleBox[
+RowBox[{"."," "}]],"This"," ","is"," ","the"," ","example",StyleBox[RowBox[{","," "}]],"let"," ","me"," ","open"," ","this"," ","up",StyleBox[
+RowBox[{"."," "}]],"Well",StyleBox[RowBox[{","," "}]],"alright"," ","let"," ","me"," ","do"," ","this",StyleBox[
+RowBox[{","," "}]],"hold"," ","on"," ","one"," ","sec",StyleBox[RowBox[{"."," "}]],"Let"," ","me"," ","start"," ","this"," ","of"," ","here",StyleBox[
+RowBox[{","," "}]],"make"," ","this"," ","bigger",StyleBox[RowBox[{","," "}]],"Ok",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "65219a67-0697-469f-856f-1669ad9ea4c0"],Cell[
+BoxData[
+RowBox[{"7",":",RowBox[{"48"," ","SW"}]}]],"Code",ExpressionUUID -> "8af1a812-cdf2-4012-9934-09c054d14ee5"],Cell[
+TextData[
+{"So"," ","this"," ","is"," ","going"," ","to"," ","be"," ","the"," ","multiway"," ","system"," ","that"," ","says"," ","that"," ","n",StyleBox[
+RowBox[{"->"," "}]],"2n",StyleBox[RowBox[{","," "}]],"that"," ","thing"," ","is"," ","our"," ","nice"," ","little"," ","infix"," ","form"," ","for"," ","the"," ","function"," ","function",StyleBox[
+RowBox[{"."," "}]],"I"," ","recommend"," ","it",StyleBox[RowBox[{"."," "}]],"It"," ","just"," ","means"," ","a"," ","function"," ","n"," ","to"," ","2n",StyleBox[
+RowBox[{","," "}]],"n","+","1",StyleBox[RowBox[{"."," "}]],"Actually",StyleBox[RowBox[
+{","," "}]],"as"," ","I"," ","using"," ","this"," ","in"," ","doing"," ","this"," ","work",StyleBox[
+RowBox[{","," "}]],"I"," ","really"," ","like"," ","this"," ","way"," ","of"," ","representing"," ","our"," ","work",StyleBox[
+RowBox[{","," "}]],"normally"," ","that"," ","would"," ","be",StyleBox[RowBox[{","," "}]],"normally"," ","in"," ","the"," ","Wolfram"," ","Language"," ","function"," ","it"," ","would"," ","just"," ","be"," ","function"," ","of"," ","n"," ","and"," ","then"," ","the",StyleBox[
+RowBox[{" "," "}]],"2n",StyleBox[RowBox[{" ",","," "}]],"n","+","1",StyleBox[RowBox[
+{","," "}]],"but"," ","I"," ","really"," ","like"," ","this"," ","notation"," ","here",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"lets"," ","take"," ","a"," ","look"," ","at"," ","what"," ","this"," ","did","."}],
+"Text",ExpressionUUID -> "a71d8013-0a80-46a2-a896-a38187851c50"],Cell[
+BoxData[RowBox[
+{"8",":",RowBox[{"30"," ","SW"}]}]],"Code",ExpressionUUID -> "d26fa763-eadd-4d7c-b9d8-668c808b0b48"],Cell[
+TextData[
+{"So",StyleBox[RowBox[{","," "}]],"I'm"," ","and"," ","I'm"," ","hoping",StyleBox[
+RowBox[{","," "}]],"we"," ","have"," ","Ed"," ","here"," ","right",StyleBox[RowBox[
+{"."," "}]],"Do"," ","we"," ","have"," ","Ed"," ","here","?"}],"Text",ExpressionUUID -> "24f4ecad-b3db-4d4f-9119-98723a3b6aed"],Cell[
+BoxData[
+RowBox[{"8",":",RowBox[{"37"," ","E"}]}]],"Code",ExpressionUUID -> "ec025b5d-6fa1-46f0-b5d4-92c0b82142d6"],Cell[
+
+"\<Yes\>","Text",ExpressionUUID -> "8cec407c-33fb-48e6-b0b6-b39afad2ddbf"],Cell[
+BoxData[
+RowBox[{"8",":",RowBox[{"38"," ","SW"}]}]],"Code",ExpressionUUID -> "073c0216-6359-4bbb-b19f-efba5207f96e"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"I"," ","am"," ","just"," ","just"," ","making"," ","sure"," ","Ed"," ","is"," ","fully"," ","on"," ","board"," ","with"," ","what"," ","is"," ","going"," ","on"," ","because"," ","I"," ","am"," ","going"," ","to"," ","need"," ","to"," ","ask"," ","you"," ","a"," ","bunch"," ","of"," ","questions"," ","soon","."}],
+"Text",ExpressionUUID -> "c9a63cfe-6686-4094-ad23-c250836fd564"],Cell[
+TextData[{"Ok",StyleBox[
+RowBox[{","," "}]],"wat"," ","we"," ","are"," ","saying"," ","here"," ","is"," ","that"," ","n"," ","goes"," ","to"," ","2n"," ","or"," ","n","+","1",StyleBox[
+RowBox[{"."," "}]],"So"," ","in"," ","this"," ","case"," ","we"," ","go"," ","from"," ","zero",StyleBox[
+RowBox[{"."," "}]],"That"," ","maps"," ","to"," ","back"," ","to"," ","zero"," ","with"," ","2n",StyleBox[
+RowBox[{","," "}]],"and"," ","maps"," ","to"," ","1"," ","with"," ","n","+","1",StyleBox[
+RowBox[{"."," "}]],"Both"," ","1"," ","maps"," ","to"," ","2"," ","with"," ","both"," ","2n"," ","and"," ","n","+","1",StyleBox[
+RowBox[{"."," "}]],"Here"," ","is"," ","branches"," ","and"," ","so"," ","on",StyleBox[
+RowBox[{"."," "}]],"Now"," ","what"," ","is"," ","interesting"," ","here"," ","is"," ","that"," ","we"," ","also"," ","get"," ","these"," ","kinds"," ","of"," ","mergings",StyleBox[
+RowBox[{","," "}]],"right",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"that"," ","is"," ","our"," ","setting",StyleBox[
+RowBox[{"."," "}]],"Let"," ","me"," ","show"," ","you"," ","what"," ","I've"," ","figured"," ","out"," ","so"," ","far"," ","and"," ","then"," ","we"," ","will"," ","get"," ","into"," ","research",StyleBox[
+RowBox[{","," "}]],"so"," ","to"," ","speak","."}],"Text",ExpressionUUID -> "a3116962-c2db-4dd7-a244-9063aadc583d"],Cell[
+BoxData[
+RowBox[{"9",":",RowBox[{"20"," ","SW"}]}]],"Code",ExpressionUUID -> "38ed3fd5-def4-47ef-97c7-94f5fb1faad4"],Cell[
+TextData[
+{"So",StyleBox[RowBox[{","," "}]],"if"," ","I"," ","continue"," ","this"," ","a"," ","while"," ","longer",StyleBox[
+RowBox[{"."," "}]],"Remember",StyleBox[RowBox[{","," "}]],"this"," ","is"," ","just"," ","n"," ","goes"," ","to"," ","2n",StyleBox[
+RowBox[{","," "}]],"n","+","1",StyleBox[RowBox[{","," "}]],"if"," ","I"," ","continue"," ","it"," ","for"," ","11"," ","steps"," ","lets"," ","say",StyleBox[
+RowBox[{","," "}]],"I"," ","will"," ","get",StyleBox[RowBox[{"."," "}]],"It'll"," ","render"," ","it",StyleBox[
+RowBox[{"."," "}]],"The"," ","beginning",StyleBox[RowBox[{","," "}]],"the"," ","middle"," ","there",StyleBox[
+RowBox[{"."," "}]],"So",StyleBox[RowBox[{","," "}]],"the"," ","first"," ","question"," ","for"," ","this",StyleBox[
+RowBox[{"."," "}]],"I"," ","think"," ","what"," ","I"," ","figured"," ","out"," ","is"," ","that",StyleBox[
+RowBox[{","," "}]],"let's"," ","see",StyleBox[RowBox[{"."," "}]],"This"," ","function"," ","N_t",StyleBox[
+RowBox[{","," "}]],"which"," ","is"," ","the"," ","number"," ","of"," ","nodes"," ","that"," ","you"," ","get"," ","to",StyleBox[
+RowBox[{","," "}]],"going"," ","a"," ","distance"," ","t"," ","from"," ","the"," ","centre"," ","is"," ","Fibonachi"," ","function"," ","of"," ","t-1",StyleBox[
+RowBox[{"."," "}]],"What"," ","we"," ","are"," ","going"," ","to"," ","do",StyleBox[
+RowBox[{","," "}]],"what"," ","I"," ","am"," ","trying"," ","to"," ","understand"," ","is",StyleBox[
+RowBox[{".."," "}]],"the",StyleBox[RowBox[{".."," "," "}]],"Question",StyleBox[RowBox[
+{","," "}]],"is"," ","part"," ","of"," ","a"," ","symmetry"," ","group","? Well, that is an interesting question isn't it. That is going to come up some more. Let's think about that for a second. The.. you know, can we think about these as generators of a group. Well, it isn't a group right now because it doesn't have.. the inverses are not there. So, actually I'm really curious now, now that you've mentioned that. Let me try that. Lets try putting in the inverses. The inverses will be n/2, I think and n-1. But now that is going to mess things up immediately right as n/2, as soon as that.. just for three steps. Lets see physics, working material, 2020. Where is it? Have to keep this organised. And these things by the way people may have noticed, these are getting uploaded every day whatever I've been doing, so this is \"Multiway Numerical 03\". Oops \"multiway-numerical03\"."}],
+"Text",ExpressionUUID -> "e3720a54-4417-4f1d-a052-85a5142d5e83"],Cell[
+BoxData[RowBox[
+{"11",":",RowBox[{"30"," ","SW"}]}]],"Code",ExpressionUUID -> "cd826954-95c6-4e26-b983-ac9f8f334c40"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"so"," ","actually",StyleBox[RowBox[{" "," "}]],"I"," ","don't"," ","understand"," ","why"," ","this"," ","worked",StyleBox[
+RowBox[{"."," "}]],"Why"," ","did"," ","we"," ","not"," ","start"," ","getting"," ","n","/","2's",StyleBox[
+RowBox[{"."," "}]],"Oh",StyleBox[RowBox[{","," "}]],"I"," ","bet"," ","we"," ","do",StyleBox[
+RowBox[{"."," "}]],"I"," ","bet"," ","some"," ","of"," ","those"," ","things"," ","are"," ","rational"," ","numbers",StyleBox[
+RowBox[{"."," "}]],"Yes"," ","they"," ","are",StyleBox[RowBox[{"."," "}]],"So"," ","this"," ","thing",StyleBox[
+RowBox[{".."," "}]],"this"," ","is"," ","going"," ","to"," ","be"," ","very"," ","interesting",StyleBox[
+RowBox[{"."," "}]],"We"," ","will"," ","look"," ","at"," ","this",StyleBox[RowBox[
+{"."," "}]],"Good"," ","idea",StyleBox[RowBox[{"."," "}]],"Thank"," ","you"," ","for"," ","that"," ","suggestion",StyleBox[
+RowBox[{"."," "}]],"One"," ","question"," ","would"," ","be",StyleBox[RowBox[{","," "}]],"can"," ","we"," ","make"," ","something"," ","which"," ","has"," ","inverses",StyleBox[
+RowBox[{","," "}]],"in"," ","general",StyleBox[RowBox[{"."," "}]],"So",StyleBox[RowBox[
+{","," "}]],"for"," ","example",StyleBox[RowBox[{","," "}]],"in"," ","this"," ","case"," ","if"," ","we"," ","just"," ","had"," ","n","+","1",StyleBox[
+RowBox[{","," "}]],"n-1",StyleBox[RowBox[{"."," "}]],"Let's"," ","just"," ","do"," ","that"," ","one"," ","to"," ","begin"," ","with",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"we"," ","get"," ","that",StyleBox[
+RowBox[{"."," "}]],"That"," ","is"," ","a"," ","group"," ","case",StyleBox[RowBox[
+{"."," "}]],"Let's"," ","say"," ","we"," ","also"," ","have"," ","n","+","2"," ","and"," ","n-2"," ","here",StyleBox[
+RowBox[{"."," "}]],"That's"," ","a"," ","big"," ","mess",StyleBox[RowBox[{"."," "}]],"Let's"," ","try"," ","taking"," ","lets"," ","say"," ","n","+","5",StyleBox[
+RowBox[{","," "}]],"n-5",StyleBox[RowBox[{","," "}]],"and"," ","see"," ","if"," ","that"," ","generates"," ","something"," ","different",StyleBox[
+RowBox[{"."," "}]],"Oo",StyleBox[RowBox[{","," "}]],"that's"," ","generating"," ","a"," ","grid",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"so"," ","let's"," ","take"," ","a"," ","look"," ","at"," ","this"," ","guy",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "b6bedb41-f52c-4bfa-b82f-2fd86ca5813b"],Cell[
+TextData[
+{"So"," ","lets"," ","look"," ","at"," ","that"," ","guy"," ","running"," ","a"," ","little"," ","bit"," ","longer",StyleBox[
+RowBox[{"."," "}]],"Instead"," ","of"," ","3"," ","steps",StyleBox[RowBox[{","," "}]],"lets"," ","try"," ","6"," ","steps"," ","here"," ","and",StyleBox[
+RowBox[{" "," "}]],"lets"," ","get"," ","rid"," ","of"," ","the"," ","labels"," ","here",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"So"," ","I"," ","bet"," ","that"," ","that"," ","is"," ","true",StyleBox[
+RowBox[{","," "}]],"that"," ","that"," ","is"," ","the"," ","Cayley"," ","Graph"," ","of"," ","a"," ","group",StyleBox[
+RowBox[{"."," "}]],"So"," ","let's"," ","try"," ","to"," ","understand"," ","that"," ","for"," ","a"," ","second",StyleBox[
+RowBox[{"."," "}]],"Let's"," ","see",StyleBox[RowBox[{"."," "}]],"In"," ","Hunph",StyleBox[
+RowBox[{"."," "}]],"Need"," ","help"," ","here",StyleBox[RowBox[{","," "}]],"need"," ","help",StyleBox[
+RowBox[{"."," "}]],"Let's"," ","create"," ","a"," ","3D"," ","graph"," ","of"," ","this",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"so"," ","that"," ","is"," ","going"," ","to"," ","have"," ","this"," ","sort"," ","of"," ","tubular"," ","structure"," ","like"," ","that",StyleBox[
+RowBox[{"."," "}]],"I"," ","bet"," ","what"," ","we"," ","do",StyleBox[RowBox[{"."," "}]],"I"," ","think"," ","what"," ","we"," ","can"," ","do",StyleBox[
+RowBox[{","," "}]],"if"," ","those"," ","are"," ","kind"," ","of"," ","non","-","comenserate"," ","um",StyleBox[
+RowBox[{".."," "}]],"let's"," ","try"," ","something"," ","like"," ","this"," ","n","-","4",StyleBox[
+RowBox[{","," "}]],"n","+","4",StyleBox[RowBox[{","," "}]],"n","+","7",StyleBox[RowBox[
+{","," "}]],"n","-","7",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"I"," ","recon"," ","that's"," ","going"," ","to"," ","make"," ","something"," ","that"," ","is"," ","kind"," ","of"," ","like"," ","this"," ","tube"," ","type"," ","structure",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"That's"," ","going"," ","to"," ","make"," ","a"," ","tube",StyleBox[
+RowBox[{"."," "}]],"So",StyleBox[RowBox[{","," "," "}]],"Interestingly"," ","that"," ","tube"," ","looks"," ","to"," ","be"," ","the"," ","same"," ","tube",StyleBox[
+RowBox[{","," "}]],"there"," ","it"," ","is",StyleBox[RowBox[{","," "}]],"looks"," ","like"," ","one"," ","of"," ","those"," ","carbon"," ","nanotube"," ","things",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"so"," ","that"," ","tube",StyleBox[
+RowBox[{","," "}]],"the"," ","question"," ","is",StyleBox[RowBox[{","," "}]],"does"," ","it"," ","make"," ","any"," ","difference"," ","that"," ","we"," ","have"," ","the"," ","inverses"," ","there",StyleBox[
+RowBox[{"."," "}]],"Because"," ","those"," ","inverses",StyleBox[RowBox[{","," "}]],"I"," ","don't"," ","think"," ","it"," ","does",StyleBox[
+RowBox[{"."," "}]],"I"," ","think",StyleBox[RowBox[{" "," "}]],"those"," ","inverses"," ","dont"," ","make"," ","any"," ","difference"," ","because"," ","those"," ","inverses"," ","are"," ","just"," ","making"," ","double"," ","edges","."}],
+"Text",ExpressionUUID -> "384e2970-79c0-4585-a99b-cf538d727707"],Cell[
+BoxData[RowBox[
+{"13",":",RowBox[{"47"," ","E"}]}]],"Code",ExpressionUUID -> "b0f8ceb1-d250-4bf0-bf0e-f07dbcafaf6d"],Cell[
+
+"\<Yes\>","Text",ExpressionUUID -> "5e185d10-880e-4275-89d3-f4ad01582c16"],Cell[
+BoxData[
+RowBox[{"13",":",RowBox[{"50"," ","SW"}]}]],"Code",ExpressionUUID -> "e892fbf7-233c-44dd-b194-912a9f97255c"],Cell[
+TextData[
+{"So",".."}],"Text",ExpressionUUID -> "f3b5da08-d571-4277-835e-392837756702"],Cell[
+BoxData[
+RowBox[{"13",":",RowBox[{"55"," ","F"}]}]],"Code",ExpressionUUID -> "bf88d544-803f-4131-836e-cafc71d8946b"],Cell[
+TextData[
+{"You"," ","also"," ","have"," ","the"," ","tube"," ","circumference",StyleBox[RowBox[
+{","," "}]],"it's"," ","4"," ","squared"," ","plus"," ","7"," ","squared",StyleBox[
+RowBox[{","," "}]],"square"," ","root"," ","of"," ","that","."}],"Text",ExpressionUUID -> "eb6abffa-8318-45c9-9a11-5137bfeb98c3"],Cell[
+BoxData[
+RowBox[{"13",":",RowBox[{"58"," ","SW"}]}]],"Code",ExpressionUUID -> "b6f0fc09-657d-48ce-87fa-ba9525e16258"],Cell[
+TextData[
+{"Yes",StyleBox[RowBox[{"."," "}]],"Actually"," ","you"," ","know"," ","I"," ","was"," ","showing"," ","this"," ","thing"," ","to"," ","some",StyleBox[
+RowBox[{","," "}]],"one"," ","of"," ","my"," ","little"," ","hobby"," ","things"," ","was"," ","teaching"," ","computational"," ","thinking"," ","and"," ","other"," ","things"," ","to"," ","fairly"," ","young"," ","kids",StyleBox[
+RowBox[{","," "}]],"and"," ","I"," ","was",StyleBox[RowBox[{","," "}]],"I"," ","though"," ","that"," ","this"," ","would"," ","be"," ","a"," ","good"," ","example"," ","thing"," ","to"," ","show",StyleBox[
+RowBox[{","," "}]],"and"," ","so"," ","one"," ","high"," ","school"," ","age"," ","kid",StyleBox[
+RowBox[{","," "}]],"she"," ","very"," ","quickly"," ","figured"," ","out"," ","the"," ","same"," ","thing"," ","that"," ","you"," ","figured"," ","out",StyleBox[
+RowBox[{","," "}]],"that"," ","that"," ","thing"," ","was"," ","a"," ","square"," ","root",StyleBox[
+RowBox[{"."," "}]],"Let's"," ","go"," ","through"," ","actually"," ","why"," ","that's"," ","true",StyleBox[
+RowBox[{"."," "," "}]],"Lets"," ","see",StyleBox[RowBox[{","," "}]],"you"," ","were"," ","sent"," ","some"," ","mail"," ","actually"," ","with"," ","some"," ","explanation"," ","of"," ","this",StyleBox[
+RowBox[{"."," "}]],"Let"," ","me"," ","pull"," ","that"," ","up","."}],"Text",ExpressionUUID -> "58202d7c-a2aa-4296-8059-42e971c4fccc"],Cell[
+BoxData[
+RowBox[{"14",":",RowBox[{"35"," ","E"}]}]],"Code",ExpressionUUID -> "3198bdbb-b60a-4504-af98-95ad163287f0"],Cell[
+
+"\<Yes\>","Text",ExpressionUUID -> "41da7bd1-c60c-4e9e-b4d1-cd5752666b3f"],Cell[
+BoxData[
+RowBox[{"14",":",RowBox[{"40"," ","SW"}]}]],"Code",ExpressionUUID -> "ff79fae8-66df-403d-bc4c-5b22c2d6480a"],Cell[
+TextData[
+{"Tube"," ","circumference",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"This"," ","is"," ","Ed's"," ","tube"," ","circumference"," ","analysis",StyleBox[
+RowBox[{"."," "}]],"Did"," ","you"," ","save"," ","this"," ","in"," ","a"," ","dropbox"," ","or"," ","not","? You didn't I think. Ok. So lets take a look at this. Ooo. Nice. So what you've done here. This is the n+4, n+7 tube, and.. what the heck is that? More editable. What do you mean by that?  "}],
+"Text",ExpressionUUID -> "d3892936-7246-4448-8049-563f6c02d73a"],Cell[
+BoxData[RowBox[
+{"15",":",RowBox[{"10"," ","E"}]}]],"Code",ExpressionUUID -> "4ef06a18-b6b6-467d-900e-1b244005eb81"],Cell[
+TextData[
+{"I"," ","wanted"," ","to"," ","move"," ","the"," ","points"," ","around",StyleBox[
+RowBox[{","," "}]],"so"," ","I"," ","could"," ","see"," ","what"," ","was"," ","going"," ","on"," ","and"," ","that's"," ","the"," ","second",StyleBox[
+RowBox[{","," "}]],"uh",StyleBox[RowBox[{","," "}]],"third"," ","picture"," ","in"," ","this",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "20b6bb5e-7360-4db5-ae41-6312d5a95051"],Cell[
+BoxData[
+RowBox[{"15",":",RowBox[{"17"," ","SW"}]}]],"Code",ExpressionUUID -> "2197af39-447a-4cbe-a8a6-4fe06098dc4b"],Cell[
+TextData[
+{"How"," ","do"," ","you"," ","move"," ","the"," ","points"," ","here","?"}],"Text",
+ExpressionUUID -> "563ce62b-2961-4dc1-8a3e-382a7b428508"],Cell[
+BoxData[RowBox[{"15",":",RowBox[
+{"18"," ","E"}]}]],"Code",ExpressionUUID -> "95334458-a35a-4fe2-9b96-331896a9f38b"],Cell[
+TextData[
+{"It's"," ","with"," ","graphplot",StyleBox[RowBox[{"."," "}]],"You're"," ","able"," ","to"," ","move"," ","points"," ","around","."}],
+"Text",ExpressionUUID -> "ebdd3343-b98e-4b3b-9abd-ecfa9e374c09"],Cell[
+BoxData[RowBox[
+{"15",":",RowBox[{"23"," ","SW"}]}]],"Code",ExpressionUUID -> "cf3237e7-872f-4632-816e-cb9ee1be1195"],Cell[
+TextData[
+{"How","?"}],"Text",ExpressionUUID -> "2257a617-6fee-44bc-bce7-c39648d5fcbb"],Cell[
+BoxData[
+RowBox[{"15",":",RowBox[{"26"," ","E"}]}]],"Code",ExpressionUUID -> "aa9d1003-9493-4a28-82a8-67a93dc07e54"],Cell[
+TextData[
+{"I"," ","might"," ","have"," ","dropped"," ","in"," ","12",".","1",StyleBox[RowBox[
+{","," "}]],"you"," ","can"," ","do"," ","it"," ","in"," ","12",".","0"," ","though","."}],
+"Text",ExpressionUUID -> "56fec441-c552-4d71-a3fd-4bbe550cb637"],Cell[
+BoxData[RowBox[
+{"15",":",RowBox[{"33"," ","SW"}]}]],"Code",ExpressionUUID -> "45d982ef-a3c3-42c8-ade5-3cc8e2c35d53"],Cell[
+TextData[
+{"Oh",StyleBox[RowBox[{","," "}]],"the"," ","crazy"," ","java"," ","applet"," ","thingy",StyleBox[
+RowBox[{"."," "}]],"Is"," ","that"," ","the"," ","thing","?"}],"Text",ExpressionUUID -> "7238453e-cc0b-4a5d-af1b-ea21cdc662c3"],Cell[
+BoxData[
+RowBox[{"15",":",RowBox[{"38"," ","E"}]}]],"Code",ExpressionUUID -> "f8e10b23-e0ea-4b48-988c-afbd34f8a371"],Cell[
+
+"\<Right\>","Text",ExpressionUUID -> "de03e5a6-cc4e-4d5d-b48f-8352ebcdb609"],Cell[
+BoxData[
+RowBox[{"15",":",RowBox[{"38"," ","SW"}]}]],"Code",ExpressionUUID -> "782ae233-07ed-4b0d-ab7f-abccaebe0dd0"],Cell[
+TextData[
+{"It"," ","will"," ","be"," ","back",StyleBox[RowBox[{"."," "}]],"But",StyleBox[RowBox[
+{","," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"Alright",StyleBox[RowBox[{"."," "}]],"So"," ","what"," ","you're"," ","saying"," ","is",StyleBox[
+RowBox[{","," "}]],"OK",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"yeah",StyleBox[
+RowBox[{","," "}]],"I've"," ","seen"," ","something"," ","like"," ","this",StyleBox[
+RowBox[{"."," "}]],"So"," ","what"," ","are"," ","you"," ","doing"," ","here","? You've got, what is this now? What did you do here? It makes a grid and I think I had that in my blurb here. You get, for a while you just get a grid. And then at the LCM of 4 and 7 you get it joining up, right?"}],
+"Text",ExpressionUUID -> "2994e87d-5f14-4d5a-b167-6672a86c25c4"],Cell[
+BoxData[RowBox[
+{"16",":",RowBox[{"14"," ","E"}]}]],"Code",ExpressionUUID -> "ae3e5934-4da4-4cf8-85de-f8a7f74c4b84"],Cell[
+
+"\<Correct\>","Text",ExpressionUUID -> "d9446e7f-d834-41c8-9a23-6e606c586b7b"],Cell[
+BoxData[
+RowBox[{"16",":",RowBox[{"17"," ","SW"}]}]],"Code",ExpressionUUID -> "c7a2d55e-e85b-4eb9-b632-3c8af6bf10f4"],Cell[
+TextData[
+{"..","but"," ","you"," ","have"," ","a"," ","better"," ","representation"," ","of"," ","that",StyleBox[
+RowBox[{"."," "}]],"What"," ","are"," ","you"," ","doing"," ","here","? What's this? Is that the ??? version of this?"}],
+"Text",ExpressionUUID -> "e3f51413-8ced-4d06-9c97-143956278260"],Cell[
+BoxData[RowBox[
+{"16",":",RowBox[{"26"," ","E"}]}]],"Code",ExpressionUUID -> "83a49db0-5651-42a4-9db2-d8ba8d8505c3"],Cell[
+TextData[
+{"Yeah"," ","that"," ","is"," ","the"," ","flat"," ","version",StyleBox[RowBox[{","," "}]],"'cause"," ","I"," ","wanted"," ","to"," ","see"," ","what"," ","was"," ","going"," ","on"," ","and"," ","than"," ","I"," ","made"," ","the"," ","tube"," ","again",StyleBox[
+RowBox[{","," "}]],"and"," ","just"," ","basically"," ","made"," ","a"," ","slice"," ","through"," ","it"," ","and"," ","it"," ","wasn't"," ","until"," ","I"," ","saw"," ","the"," ","final"," ","picture"," ","thatI"," ","figured"," ","out"," ","what"," ","was"," ","going"," ","on","."}],
+"Text",ExpressionUUID -> "b7bf620f-910f-43ba-83e8-cc4119e1dea8"],Cell[
+BoxData[RowBox[
+{"16",":",RowBox[{"42"," ","SW"}]}]],"Code",ExpressionUUID -> "7baff602-c7d8-4d1f-880b-fc100e0cb27e"],Cell[
+TextData[
+{"Right",StyleBox[RowBox[{","," "}]],"well"," ","this",StyleBox[RowBox[{","," "}]],"whatever"," ","she"," ","was",StyleBox[
+RowBox[{","," "}]],"15"," ","year"," ","old"," ","was"," ","ahead"," ","of"," ","you",StyleBox[
+RowBox[{"."," "}]],"But",StyleBox[RowBox[{","," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"So"," ","lets"," ","understand"," ","this",StyleBox[
+RowBox[{"."," "}]],"So"," ","if"," ","I"," ","label"," ","this",StyleBox[RowBox[{"."," "}]],"If"," ","I"," ","say"," ","edges"," ","here",StyleBox[
+RowBox[{"."," "}]],"So",StyleBox[RowBox[{","," "}]],"presumable"," ","on"," ","this"," ","do"," ","you"," ","have"," ","genuine"," ","vertex"," ","labels"," ","here","? Do you label them with the correct values?"}],
+"Text",ExpressionUUID -> "2eb5746e-4c74-4b89-822e-d7534814884c"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"08"," ","E"}]}]],"Code",ExpressionUUID -> "e96ba663-e3ac-4d92-9257-50574e64bee8"],Cell[
+TextData[
+{"Yes",StyleBox[RowBox[{","," "}]],"basically"," ","1",",","1",StyleBox[RowBox[{" "," "}]],"is"," ","at"," ","1",",","1"}],
+"Text",ExpressionUUID -> "b827ff83-24db-440a-8bef-59b0c537e26b"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"18"," ","SW"}]}]],"Code",ExpressionUUID -> "b39911af-f7fc-4bcf-86bf-a01d602de772"],Cell[
+TextData[
+{"Why"," ","is"," ","there"," ","a"," ","1",",","1","? Why are there two numbers here?"}],
+"Text",ExpressionUUID -> "aedd753a-a31a-4cb9-a942-7ab3cda4316a"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"20"," ","E"}]}]],"Code",ExpressionUUID -> "4363d151-d298-4881-ba12-efdbf9c451f4"],Cell[
+TextData[
+{"Those"," ","are"," ","the"," ","coordinates",StyleBox[RowBox[{"."," "}]],"The"," ","vertices"," ","are"," ","the"," ","coordinates","."}],
+"Text",ExpressionUUID -> "3a4e64fd-4079-4c5e-9907-d72c209cae04"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"27"," ","SW"}]}]],"Code",ExpressionUUID -> "c7a71b89-63c7-4856-93ff-e35c3cd5335f"],Cell[
+TextData[
+{"But"," ","what"," ","is"," ","the"," ","value"," ","in"," ","the"," ","original"," ","iteration",StyleBox[
+RowBox[{"."," "}]],"What's"," ","the"," ","value"," ","that"," ","should"," ","be"," ","associated"," ","to"," ","each"," ","of"," ","those"," ","points","?"}],
+"Text",ExpressionUUID -> "7d920e57-e9dc-417a-a5c1-622d266a788c"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"34"," ","E"}]}]],"Code",ExpressionUUID -> "506b1af7-9b68-4305-9b04-52e8b39f3c44"],Cell[
+TextData[
+{"Oh",StyleBox[RowBox[{","," "}]],"this"," ","is"," ","the"," ","same"," ","thing","."}],
+"Text",ExpressionUUID -> "99c03a56-97f6-415a-b478-257c3993a48f"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"40"," ","SW"}]}]],"Code",ExpressionUUID -> "1ab853e0-eb6f-4221-b995-44cf06b8588a"],Cell[
+TextData[
+{"I"," ","don't"," ","understand"," ","that",StyleBox[RowBox[{"."," "}]],"Look",StyleBox[
+RowBox[{"."," "}]],"Here",StyleBox[RowBox[{"."," "}]],"If"," ","I"," ","take"," ","this",StyleBox[
+RowBox[{"."," "}]],"I"," ","have"," ","a"," ","single"," ","number"," ","n"," ","at"," ","each"," ","point","."}],
+"Text",ExpressionUUID -> "0f3686ec-7337-4357-a1ca-47d0941bc787"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"48"," ","E"}]}]],"Code",ExpressionUUID -> "5e37fe0a-9e9d-4e72-a898-cc209e0f55f7"],Cell[
+TextData[
+{"Oh"," ","right","."}],"Text",ExpressionUUID -> "cc65b16f-0e10-4375-bcd1-495cd1048ab6"],Cell[
+BoxData[
+RowBox[{"17",":",RowBox[{"49"," ","SW"}]}]],"Code",ExpressionUUID -> "968c6eb5-7cd8-4e6b-b5cd-54b2bf9fae21"],Cell[
+TextData[
+{"What"," ","is"," ","that"," ","n"," ","at"," ","each"," ","of"," ","these"," ","points","?"}],
+"Text",ExpressionUUID -> "04690fe1-3ac5-4af1-920f-9ec9ea0f31e2"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"50"," ","E"}]}]],"Code",ExpressionUUID -> "249ef048-cb38-4bb1-9173-43d64167ab0c"],Cell[
+TextData[
+{"I"," ","didn't"," ","do"," ","the"," ","mapping"," ","back"," ","to"," ","the"," ","original"," ","first"," ","graph","."}],
+"Text",ExpressionUUID -> "563d34f7-555c-4ca4-b5ef-c93b8462bad9"],Cell[
+BoxData[RowBox[
+{"17",":",RowBox[{"56"," ","SW"}]}]],"Code",ExpressionUUID -> "6260b80f-ac01-47b3-a9cd-6b25918554be"],Cell[
+TextData[
+{"Well",StyleBox[RowBox[{"."," "}]],"lets"," ","do"," ","it"}],"Text",ExpressionUUID -> "7ec67e42-4887-486c-a998-17eb1e8f8b3d"],Cell[
+BoxData[
+RowBox[{"17",":",RowBox[{"57"," ","E"}]}]],"Code",ExpressionUUID -> "2c619ea9-6c8e-4f1d-9899-509109c3b90e"],Cell[
+TextData[
+{"I"," ","did"," ","the"," ","equivalent",StyleBox[RowBox[{","," "}]],"semi","-","equivalent"," ","graph"," ","with"," ","the"," ","grid","."}],
+"Text",ExpressionUUID -> "03386d34-643a-4c24-b0c1-98655ddf6e4e"],Cell[
+BoxData[RowBox[
+{"18",":",RowBox[{"01"," ","SW"}]}]],"Code",ExpressionUUID -> "1c18c5ab-7fb2-44bc-b25f-5fd4497a954b"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"but"," ","lets"," ","do"," ","that"," ","mapping"," ","because"," ","what"," ","you're"," ","showing"," ","me"," ","here",StyleBox[
+RowBox[{","," "}]],"this"," ","is"," ","going"," ","to"," ","be"," ","where"," ","our"," ","understanding",StyleBox[
+RowBox[{"..."," "}]],"this"," ","is"," ","basically"," ","a"," ","torus"," ","that"," ","is"," ","being"," ","constructed"," ","right",StyleBox[
+RowBox[{","," "}]],"because"," ","what"," ","you're"," ","saying"," ","is",StyleBox[
+RowBox[{","," "}]],"this"," ","whole"," ","thing"," ","is"," ","a"," ","one"," ","way"," ","square",StyleBox[
+RowBox[{","," "}]],"and"," ","it"," ","is"," ","being"," ","connected"," ","by"," ","this"," ","two","-","way"," ","thing",StyleBox[
+RowBox[{"."," "}]],"Right","?"}],"Text",ExpressionUUID -> "49d692fa-b871-4f40-85ca-abb24afa2e24"],Cell[
+BoxData[
+RowBox[{"18",":",RowBox[{"24"," ","E"}]}]],"Code",ExpressionUUID -> "873c8546-0f9f-41d4-be9f-761aa7543bd3"],Cell[
+
+"\<Right\>","Text",ExpressionUUID -> "caebcd0c-9c95-440c-b94e-32db2d8d97c8"],Cell[
+BoxData[
+RowBox[{"18",":",RowBox[{"25"," ","SW"}]}]],"Code",ExpressionUUID -> "e48836a0-ac66-4007-bac2-f301c0b5beeb"],Cell[
+TextData[
+{StyleBox[RowBox[{".."," "}]],"and"," ","so"," ","what"," ","you're"," ","saying"," ","is",StyleBox[
+RowBox[{".."," "}]],"I"," ","don't"," ","understand"," ","why"," ","this"," ","is"," ","an"," ","n","+","4",StyleBox[
+RowBox[{","," "}]],"right",StyleBox[RowBox[{","," "}]],"here",StyleBox[RowBox[{","," "}]],"but"," ","what"," ","is"," ","this"," ","thing"," ","here","? Do you see what I'm saying? There should be an n+4 going.. why are there two things going.. doing.."}],
+"Text",ExpressionUUID -> "9dbe88e5-bcb6-4a3f-ab9f-66bd450301f9"],Cell[
+BoxData[RowBox[
+{"18",":",RowBox[{"42"," ","E"}]}]],"Code",ExpressionUUID -> "0013adca-c982-478a-b135-8853d8137e80"],Cell[
+TextData[
+{"This"," ","is"," ","a"," ","different"," ","graph",StyleBox[RowBox[{","," "}]],"it"," ","just"," ","looks"," ","similar","."}],
+"Text",ExpressionUUID -> "75866c76-686f-4766-aa00-c3220f627e9f"],Cell[
+BoxData[RowBox[
+{"18",":",RowBox[{"17"," ","SW"}]}]],"Code",ExpressionUUID -> "04bdbfe7-6024-49bd-883a-d9397ddf6271"],Cell[
+TextData[
+{"Is"," ","it"," ","an"," ","unraveling"," ","of"," ","this"," ","graph"," ","or"," ","not","? Do you understand what I am askng? So, this graph is the graph from the iteration right? "}],
+"Text",ExpressionUUID -> "c7414c0f-1eb0-4ac0-b212-ce2712c81839"],Cell[
+BoxData[RowBox[
+{"19",":",RowBox[{"01"," ","E"}]}]],"Code",ExpressionUUID -> "73c6e20b-dd09-44c3-b65c-946c642d22ca"],Cell[
+
+"\<Correct\>","Text",ExpressionUUID -> "75c52311-39e5-4e8c-b6cd-5fd0cb0e5afd"],Cell[
+BoxData[
+RowBox[{"19",":",RowBox[{"02"," ","SW"}]}]],"Code",ExpressionUUID -> "39951533-534b-4dba-880c-4a956d18c27f"],Cell[
+TextData[
+{"Is"," ","this"," ","graph"," ","the"," ","same"," ","graph"," ","but"," ","just"," ","with"," ","a"," ","different"," ","rendering","?"}],
+"Text",ExpressionUUID -> "26e8efe4-1f9b-4945-b329-ff47dbc60450"],Cell[
+BoxData[RowBox[
+{"19",":",RowBox[{"08"," ","E"}]}]],"Code",ExpressionUUID -> "542df2a6-8002-4b6e-8171-e2ffaf035c9c"],Cell[
+TextData[
+{"No",StyleBox[RowBox[{"."," "}]],"There"," ","is"," ","some"," ","more"," ","noise",StyleBox[
+RowBox[{"."," "}]],"Some"," ","more"," ","two"," ","vertices"," ","from"," ","the"," ","original"," ","graph",StyleBox[
+RowBox[{"."," "}]],"I"," ","can"," ","do"," ","the"," ","full"," ","mapping","."}],
+"Text",ExpressionUUID -> "2489f9c8-aa08-421c-8dea-15002e99a563"],Cell[
+BoxData[RowBox[
+{"19",":",RowBox[{"20"," ","SW"}]}]],"Code",ExpressionUUID -> "5aeef9c2-4a9c-4367-a707-bc5f53e44815"],Cell[
+TextData[
+{"Let's"," ","figure"," ","it"," ","out",StyleBox[RowBox[{"."," "}]],"Right",StyleBox[
+RowBox[{","," "}]],"let's"," ","figure"," ","out"," ","what"," ","it"," ","should"," ","be",StyleBox[
+RowBox[{"."," "}]],"I"," ","mean",StyleBox[RowBox[{","," "}]],"so",StyleBox[RowBox[
+{","," "}]],"in"," ","other"," ","words",StyleBox[RowBox[{","," "}]],"so"," ","now",StyleBox[
+RowBox[{","," "}]],"explain"," ","your"," ","understanding"," ","of",StyleBox[RowBox[
+{".."," "}]],"I"," ","don't"," ","understand"," ","this","."}],"Text",ExpressionUUID -> "adac53b4-da20-48d3-a2d5-e4dbfb481100"],Cell[
+BoxData[
+RowBox[{"19",":",RowBox[{"35"," ","E"}]}]],"Code",ExpressionUUID -> "415141d7-aa23-4757-a90d-b346be80f36f"],Cell[
+TextData[
+{"So"," ","in"," ","this"," ","tube"," ","right"," ","above",StyleBox[RowBox[{","," "}]],"if"," ","you"," ","go"," ","through"," ","2",",","7"," ","and"," ","4",",","4"," ","you"," ","get"," ","slice"," ","through"," ","the"," ","tube"," ","and"," ","I"," ","also"," ","figured"," ","out"," ","what"," ","edges"," ","would"," ","be"," ","sliced",StyleBox[
+RowBox[{","," "}]],"and"," ","when"," ","I"," ","approximated"," ","all"," ","the"," ","points"," ","in"," ","one"," ","slice"," ","of"," ","the"," ","circumference"," ","I"," ","got"," ","the"," ","picture"," ","at"," ","the"," ","bottom",StyleBox[
+RowBox[{"."," "}]],"And"," ","then"," ","it"," ","was"," ","clear"," ","that"," ","the"," ","circumference"," ","basicly"," ","followed"," ","the"," ","same"," ","distance"," ","as"," ","one"," ","of"," ","these"," ","diagonals","."}],
+"Text",ExpressionUUID -> "789ba697-1fa7-43d1-828f-ea46849576ca"],Cell[
+BoxData[RowBox[
+{"20",":",RowBox[{"08"," ","SW"}]}]],"Code",ExpressionUUID -> "a5d8fca7-faa4-4bca-ad63-32f26f357629"],Cell[
+TextData[
+{"I"," ","want"," ","to"," ","understand"," ","this",StyleBox[RowBox[{","," "}]],"but"," ","also"," ","according"," ","to"," ","by"," ","high"," ","school"," ","age"," ","informant",StyleBox[
+RowBox[{","," "}]],"she"," ","claimed"," ","that"," ","you"," ","have"," ","to"," ","divide"," ","by"," ","the"," ","GCD","."}],
+"Text",ExpressionUUID -> "ef54e726-d080-45e1-8443-95fc465a1387"],Cell[
+BoxData[RowBox[
+{"20",":",RowBox[{"20"," ","E"}]}]],"Code",ExpressionUUID -> "834e0ed6-4837-4e44-bfc0-d0fbfd4934c1"],Cell[
+TextData[
+{"Yes"," ","you"," ","do","."}],"Text",ExpressionUUID -> "1d8b05be-9bdb-4ae3-8741-045aa6fc6d41"],Cell[
+BoxData[
+RowBox[{"20",":",RowBox[{"24"," ","SW"}]}]],"Code",ExpressionUUID -> "5447b72b-1a37-4a03-a718-caa6a0862c15"],Cell[
+TextData[
+{"But",StyleBox[RowBox[{","," "}]],"Ok",StyleBox[RowBox[{","," "}]],"I"," ","mean",StyleBox[
+RowBox[{","," "}]],"I"," ","want"," ","to"," ","understand"," ","this"," ","unraveling",StyleBox[
+RowBox[{"."," "}]],"There"," ","should"," ","be"," ","a"," ","way"," ","of"," ","labeling"," ","every"," ","point"," ","here"," ","if"," ","this"," ","is"," ","the"," ","same"," ","connectivity",StyleBox[
+RowBox[{"."," "}]],"You're"," ","saying"," ","that"," ","this"," ","is"," ","almost",StyleBox[
+RowBox[{","," "}]],"'cause"," ","what"," ","we"," ","are"," ","seeing"," ","is",StyleBox[
+RowBox[{","," "}]],"if"," ","we"," ","do"," ","just",StyleBox[RowBox[{"."," "}]],"So"," ","which"," ","one"," ","gives"," ","a"," ","pure"," ","grid",StyleBox[
+RowBox[{"."," "}]],"Can"," ","we"," ","get",StyleBox[RowBox[{","," "}]],"OK",StyleBox[
+RowBox[{"."," "}]],"Before"," ","we"," ","reach"," ","the"," ","GCD"," ","we"," ","will"," ","get"," ","a"," ","pure"," ","grid",StyleBox[
+RowBox[{"."," "}]],"Right","? I'm sorry, before we reach the LCM we'll get a pure grid. Am I making sense?"}],
+"Text",ExpressionUUID -> "1806b1c1-54ed-4ddb-8e2d-9ab8a69e93d3"],Cell[
+BoxData[RowBox[
+{"20",":",RowBox[{"57"," ","E"}]}]],"Code",ExpressionUUID -> "9aa6d438-50f1-46b7-8b03-6e756c69557f"],Cell[
+TextData[
+{"Yes",StyleBox[RowBox[{","," "}]],"with"," ","the",StyleBox[RowBox[{","," "}]],"say"," ","you"," ","use"," ","4"," ","and"," ","8","."}],
+"Text",ExpressionUUID -> "b39c1483-1be2-4483-bef9-73f8478c6b34"],Cell[
+BoxData[RowBox[
+{"21",":",RowBox[{"05"," ","SW"}]}]],"Code",ExpressionUUID -> "eb8ad0a5-ed97-4638-8678-aed6b33bd4db"],Cell[
+TextData[
+{"No",StyleBox[RowBox[{","," "}]],"4"," ","and"," ","8"," ","would"," ","degenerate"," ","into"," ","nothing",StyleBox[
+RowBox[{"."," "}]],"What"," ","we"," ","want"," ","to"," ","do"," ","is"," ","to"," ","use"," ","two"," ","relatively"," ","prime"," ","numbers"," ","that"," ","are"," ","lets"," ","say",StyleBox[
+RowBox[{","," "}]],"I"," ","don't"," ","know",StyleBox[RowBox[{","," "}]],"if"," ","I"," ","use"," ","9"," ","and"," ","17"," ","or"," ","something",StyleBox[
+RowBox[{","," "}]],"it"," ","will"," ","go"," ","for"," ","ages"," ","just"," ","as"," ","a"," ","grid",StyleBox[
+RowBox[{","," "}]],"right",StyleBox[RowBox[{"."," "}]],"Until"," ","we"," ","get"," ","to"," ","the"," ","LCM"," ","of"," ","9"," ","and"," ","17",StyleBox[
+RowBox[{","," "," "}]],"it"," ","will"," ","be"," ","a"," ","grid","."}],"Text",ExpressionUUID -> "1cfc92f0-7c41-4008-b7a7-b36be53a4782"],Cell[
+BoxData[
+RowBox[{"21",":",RowBox[{"26","E"}]}]],"Code",ExpressionUUID -> "3003a8ee-f2e0-406e-8738-2aca967bb1e3"],Cell[
+
+"\<Correct\>","Text",ExpressionUUID -> "3d583496-759c-4df5-80c6-7f0bf5962087"],Cell[
+BoxData[
+RowBox[{"21",":",RowBox[{"28"," ","SW"}]}]],"Code",ExpressionUUID -> "a02f999a-76c1-4fd3-b7d0-fda6bee128d6"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"so"," ","what"," ","we"," ","want"," ","to"," ","write"," ","down"," ","then",StyleBox[
+RowBox[{","," "}]],"is",StyleBox[RowBox[{","," "}]],"in"," ","that"," ","grid"," ","these"," ","vectors"," ","correspond"," ","to",StyleBox[
+RowBox[{".."," "}]],"so"," ","lets"," ","see",StyleBox[RowBox[{","," "}]],"what"," ","we"," ","getting"," ","here",StyleBox[
+RowBox[{","," "}]],"and"," ","in"," ","fact"," ","I"," ","figured"," ","this"," ","out"," ","last"," ","night",StyleBox[
+RowBox[{","," "}]],"if"," ","I"," ","show"," ","you"," ","something",StyleBox[RowBox[
+{","," "}]],"this"," ","is"," ","now",StyleBox[RowBox[{".."," "}]],"\n","Ok",StyleBox[
+RowBox[{","," "}]],"we"," ","are"," ","going"," ","to"," ","talk"," ","about"," ","causal"," ","invariance",StyleBox[
+RowBox[{"."," "}]],"We"," ","are"," ","going"," ","to"," ","talk"," ","about"," ","the"," ","continuum"," ","analog"," ","of"," ","causal"," ","invariance"," ","in"," ","a"," ","little"," ","while"," ","here",".","\n","What"," ","I"," ","had"," ","figured"," ","out",StyleBox[
+RowBox[{".."," "}]],"where"," ","had"," ","I"," ","put"," ","this",StyleBox[RowBox[
+{".."," "}]],"help",StyleBox[RowBox[{".."," "}]],"\n","Oh",StyleBox[RowBox[{","," "}]],"it"," ","must"," ","be"," ","up"," ","here",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"Here"," ","we"," ","go","."}],
+"Text",ExpressionUUID -> "693ad9d3-a777-4365-bfe4-0248173ef635"],Cell[
+BoxData[RowBox[
+{"22",":",RowBox[{"16"," ","SW"}]}]],"Code",ExpressionUUID -> "ab7edff3-90d2-4d60-85a1-e2de42f145ff"],Cell[
+TextData[
+{"Alright",StyleBox[RowBox[{","," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"So",StyleBox[
+RowBox[{","," "}]],"lets"," ","consider"," ","the"," ","case"," ","n"," ","goes"," ","to"," ","n","+","a",StyleBox[
+RowBox[{","," "}]],"n","+","b",StyleBox[RowBox[{" ","."," "}]],"Ok",StyleBox[RowBox[
+{","," "}]],"and"," ","Jonathan",StyleBox[RowBox[{","," "}]],"if"," ","you"," ","were"," ","going"," ","to"," ","pay"," ","attention"," ","sometime"," ","this"," ","would"," ","be"," ","a"," ","good"," ","time","."}],
+"Text",ExpressionUUID -> "5136f268-ee5c-4a96-a9c8-0ce27deefa9a"],Cell[
+BoxData[RowBox[
+{"22",":",RowBox[{"28"," ","JG"}]}]],"Code",ExpressionUUID -> "019896e2-e19e-4b97-bf58-4d8d8c1c6f59"],Cell[
+
+"\<Ok\>","Text",ExpressionUUID -> "182dad70-f822-411c-90b0-9a26db628553"],Cell[
+BoxData[
+RowBox[{"22",":",RowBox[{"29"," ","SW"}]}]],"Code",ExpressionUUID -> "1a42c079-2c6d-45f1-9e65-6b7d5844fe34"],Cell[
+TextData[
+{"There",StyleBox[RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{"."," "}]],"So",StyleBox[
+RowBox[{","," "}]],"what"," ","we"," ","are"," ","doing"," ","then"," ","is"," ","we"," ","are"," ","saying"," ","lets"," ","imagine"," ","that"," ","this"," ","was"," ","the"," ","symbolic"," ","n","+","a",",","n","+","b",StyleBox[
+RowBox[{"."," "}]],"Ok",StyleBox[RowBox[{","," "}]],"and"," ","I"," ","have"," ","this"," ","code"," ","here",StyleBox[
+RowBox[{"."," "}]],"What"," ","this"," ","is"," ","showing"," ","is"," ","which"," ","branch"," ","number","..","Ok",StyleBox[
+RowBox[{","," "}]],"1s"," ","and"," ","2s",StyleBox[RowBox[{".."," "," "}]],"Do"," ","you"," ","understand"," ","the"," ","notation","? This means go down the 1 branch, then the 2 branch. This means go down the 2 branch than the 1 branch. So a+b you can get to by either by going down the 1 branch and then the 2 branch, or down the 2 branch and then the 1 branch. Right, it's commutative.  Make sense? Eddie, are you on board, you understand this?"}],
+"Text",ExpressionUUID -> "18cd0f3c-274b-4e3f-8568-5ed3af2e71d0"],Cell[
+BoxData[RowBox[
+{"23",":",RowBox[{"20"," ","E"}]}]],"Code",ExpressionUUID -> "eb4cae0e-1512-40eb-a560-e2d395f473de"],Cell[
+
+"\<Yes\>","Text",ExpressionUUID -> "f32548ec-31ba-49bd-b152-30517b69eb97"],Cell[
+BoxData[
+RowBox[{"23",":",RowBox[{"26"," ","SW"}]}]],"Code",ExpressionUUID -> "55f3cd4b-2347-4bcb-b4f0-ad2ee8a4a292"],Cell[
+TextData[
+{"So",StyleBox[RowBox[{","," "}]],"our"," ","mission"," ","here",StyleBox[RowBox[
+{"."," "}]],"Which"," ","of"," ","these"," ","branches"," ","are"," ","going"," ","to"," ","be"," ","coincident","? Ok. Where do we get merges? Right? Those merges will correspond to, given a and b, we need to find all those integers p_i and q _i for which p_i times a plus q_i times b is equal. Do you understand the question?"}],
+"Text",ExpressionUUID -> "1a6a14d0-c8ec-4a54-a326-cf197c21bf61"],Cell[
+BoxData[RowBox[
+{"23",":",RowBox[{"55"," ","E"}]}]],"Code",ExpressionUUID -> "73a34631-e0da-442d-b834-ca4cf629e0d2"],Cell[
+
+"\<Yes\>","Text",ExpressionUUID -> "b925caec-2abd-4d34-a55a-383f15409b17"],Cell[
+BoxData[
+RowBox[{"23",":",RowBox[{"56"," ","SW"}]}]],"Code",ExpressionUUID -> "1329b131-bd28-417a-9a22-d3793164f774"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"what's"," ","the"," ","answer","? Is it related to extended GCD? or anything like that? I don't even understand how extended GCD works.  But, is it related to the Chinese Remainder Theorem? What is it related too? How do we figure that out? "}],
+"Text",ExpressionUUID -> "e5410f9f-c03e-4439-b2d8-3476f1a38b38"],Cell[
+BoxData[RowBox[
+{"24",":",RowBox[{"09"," ","E"}]}]],"Code",ExpressionUUID -> "0cfe4fde-b3b5-43ba-b9ec-ae6d2f768496"],Cell[
+TextData[
+{"We"," ","can"," ","just"," ","try"," ","testing"," ","it",StyleBox[RowBox[{"."," "}]],"For"," ","the"," ","9",StyleBox[
+RowBox[{","," "}]],"17"," ","graph"," ","try"," ","putting"," ","in"," ","like"," ","30"," ","or"," ","something",".."}],
+"Text",ExpressionUUID -> "30b3edeb-42b2-498f-85cd-65d320505fed"],Cell[
+BoxData[RowBox[
+{"24",":",RowBox[{"19"," ","SW"}]}]],"Code",ExpressionUUID -> "697bf813-d260-4190-ae69-94dc73571136"],Cell[
+TextData[
+{"I"," ","know"," ","how"," ","to"," ","work"," ","it"," ","out",StyleBox[RowBox[
+{"."," "}]],"Look",StyleBox[RowBox[{","," "}]],"look",StyleBox[RowBox[{"."," "}]],"I"," ","mean",StyleBox[
+RowBox[{","," "}]],"if"," ","we"," ","say",StyleBox[RowBox[{".."," "}]],"understand",StyleBox[
+RowBox[{".."," "}]],"it's"," ","going"," ","to"," ","work",StyleBox[RowBox[{"."," "}]],"I"," ","want"," ","to"," ","know"," ","what"," ","is"," ","the"," ","mathematical"," ","way"," ","to"," ","think"," ","about"," ","this"," ","particular"," ","thing",StyleBox[
+RowBox[{"."," "}]],"Right","? Its a diaphantine. Its a simple linear diaphantine problem."}],
+"Text",ExpressionUUID -> "ab1a4cf3-7685-4115-8ad1-c1f6b0b7d633"],Cell[
+BoxData[RowBox[
+{"24",":",RowBox[{"33"," ","E"}]}]],"Code",ExpressionUUID -> "e9c9bb8e-3b10-43be-9f58-959d537b9050"],Cell[
+TextData[
+{"For"," ","that"," ","one"," ","it's"," ","the"," ","Chinese"," ","Remainder"," ","Theorem","."}],
+"Text",ExpressionUUID -> "19be6289-6ef2-4808-aa93-3e287712e494"],Cell[
+BoxData[RowBox[
+{"24",":",RowBox[{"36"," ","SW"}]}]],"Code",ExpressionUUID -> "2fa44a6f-dc30-482a-9243-22cf33d2a487"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "," "}]],"so"," ","what"," ","is"," ","our"," ","function"," ","for"," ","Chinese"," ","Remainder"," ","Theorem","? That's.. that's.."}],
+"Text",ExpressionUUID -> "a49fa3c1-74fe-481d-a124-374323874537"],Cell[
+BoxData[RowBox[
+{"24",":",RowBox[{"40"," ","E"}]}]],"Code",ExpressionUUID -> "85a78da8-6aed-4fb4-a089-6eb3f2419b96"],Cell[
+TextData[
+{"The"," ","least"," ","common"," ","multiple"," ","I"," ","believe","."}],"Text",
+ExpressionUUID -> "5857b0fa-4f63-44ab-8973-3948524a3abd"],Cell[
+BoxData[RowBox[{"24",":",RowBox[
+{"44"," ","SW"}]}]],"Code",ExpressionUUID -> "cde5934a-5169-4b20-acb8-c6e4e0ad4936"],Cell[
+TextData[
+{"No",StyleBox[RowBox[{","," "}]],"it's"," ","just"," ","Chinese"," ","Remainder",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "29d121c5-323f-480e-aab3-7ab022c3c8f0"],Cell[
+BoxData[
+RowBox[{"24",":",RowBox[{"47"," ","E"}]}]],"Code",ExpressionUUID -> "335f5074-b06c-48d1-a0ed-9d446c360a0f"],Cell[
+
+"\<OK\>","Text",ExpressionUUID -> "61165dd4-e311-4ca9-9725-84096ace0866"],Cell[
+BoxData[
+RowBox[{"24",":",RowBox[{"48"," ","SW"}]}]],"Code",ExpressionUUID -> "34fda9ac-0bbb-4826-8e37-896df0d89ba8"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{"."," "}]],"So",StyleBox[RowBox[{","," "}]],"lets"," ","understand"," ","how"," ","this"," ","works",StyleBox[
+RowBox[{"."," "}]],"The"," ","Chinese"," ","Remainder"," ","Theorem",StyleBox[RowBox[
+{","," "}]],"that"," ","satisfies"," ","all"," ","the"," ","integer"," ","congruences"," ","x"," ","mod"," ","n",StyleBox[
+RowBox[{" "," "}]],"equals"," ","r"," ","mod"," ","m",StyleBox[RowBox[{","," "}]],"but"," ","how"," ","do"," ","we"," ","use"," ","the"," ","Chinese"," ","Remainder"," ","Theorem"," ","in"," ","this","?"}],
+"Text",ExpressionUUID -> "76d5ad92-2ee6-4e58-97ec-8e22eb609f29"],Cell[
+BoxData[RowBox[
+{"25",":",RowBox[{"04"," ","E"}]}]],"Code",ExpressionUUID -> "bccee9ff-4354-47e7-b75c-abd3bbbd548c"],Cell[
+TextData[
+{"Remainder"," ","1"," ","I"," ","believe","."}],"Text",ExpressionUUID -> "645fc007-c2f0-4adf-8aef-39261fd18975"],Cell[
+BoxData[
+RowBox[{"25",":",RowBox[{"09"," ","SW"}]}]],"Code",ExpressionUUID -> "c434c36a-db63-4043-960d-937c063ae2b1"],Cell[
+TextData[
+{"I"," ","don't"," ","understand",StyleBox[RowBox[{"."," "}]],"Ed",StyleBox[RowBox[
+{","," "}]],"do"," ","you"," ","understand"," ","what"," ","I"," ","am"," ","trying"," ","to"," ","do","? I am trying to find out, for given a and b, right, so what we are going to do is generate table p times let's say a is 4 and b is 7, so that is 4 b and 7 q, so we make a table of that. p goes up to 10, q goes up to 10, right?  Ok, so which numbers here are duplicates? Right? So if we say ah, you know, counts are flatten of that. Right? Our mission.. and then we want to say select, hash > 1. Derive those numbers, where do those numbers come from. Do you understand what I am saying?"}],
+"Text",ExpressionUUID -> "7c116420-591f-4d77-ba10-d7d55179b82b"],Cell[
+BoxData[RowBox[
+{"26",":",RowBox[{"00"," ","E"}]}]],"Code",ExpressionUUID -> "48da05c4-c195-4637-b755-ada01a179150"],Cell[
+
+"\<Ahem\>","Text",ExpressionUUID -> "0896732a-bda1-41a2-a2d2-712eccd8698d"],Cell[
+BoxData[
+RowBox[{"26",":",RowBox[{"03"," ","SW"}]}]],"Code",ExpressionUUID -> "db3ca415-b693-4508-bdff-cb69d7bb6eee"],Cell[
+TextData[
+{"Right",StyleBox[RowBox[{"."," "}]],"So"," ","those"," ","are"," ","the"," ","numbers"," ","that"," ","correspond"," ","to"," ","places"," ","where"," ","there"," ","was"," ","more"," ","than"," ","one"," ","way"," ","to"," ","get"," ","to"," ","a"," ","particular"," ","value",StyleBox[
+RowBox[{"."," "}]],"What"," ","isn't"," ","28"," ","in"," ","here","? Am I going crazy here? Why isn't there.. shouldn't there be a value for which you know.. why isn't the LCM in here? DoDo you understand the question? Jonathan, do you understand the question?"}],
+"Text",ExpressionUUID -> "7cafc156-b489-4edd-9c58-da8e7d13cafc"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"42"," ","JG"}]}]],"Code",ExpressionUUID -> "23db68be-62a2-4414-833c-9dea8ecff039"],Cell[
+TextData[
+{"Um",StyleBox[RowBox[{","," "}]],"yeah",StyleBox[RowBox[{","," "}]],"but"," ","I'm"," ","wondering"," ","why"," ","it's"," ","not"," ","just"," ","Bezout's"," ","Identity",StyleBox[
+RowBox[{"."," "}]],"Sorry",StyleBox[RowBox[{","," "}]],"the"," ","answer"," ","to"," ","your"," ","previous"," ","question","."}],
+"Text",ExpressionUUID -> "5d0ef2f2-7454-46a4-a83e-bb44b0404749"],Cell[
+BoxData[RowBox[
+{"26",":",RowBox[{"51"," ","SW"}]}]],"Code",ExpressionUUID -> "c40f865a-9424-4c73-8556-8800de3525f6"],Cell[
+TextData[
+{"Ah",StyleBox[RowBox[{".."," "}]],"I"," ","don't"," ","know",StyleBox[RowBox[{","," "}]],"'cause"," ","I"," ","don't"," ","remember"," ","what"," ","Bezout's"," ","Identiy"," ","is",StyleBox[
+RowBox[{"."," "}]],"It"," ","would"," ","be"," ","a"," ","good"," ","start",StyleBox[
+RowBox[{"."," "}]],"I'm"," ","sure"," ","that"," ","it's"," ","something"," ","elementary",".","What's",".."}],
+"Text",ExpressionUUID -> "4b351580-2217-4305-9a3e-ca0df2a20c23"],Cell[
+BoxData[RowBox[
+{"26",":",RowBox[{"58"," ","JG"}]}]],"Code",ExpressionUUID -> "35b1ad42-1067-4d70-932f-a2bb4815a208"],Cell[
+TextData[
+{"In"," ","the"," ","two"," ","variable"," ","case"," ","it's"," ","saying"," ","that"," ","you"," ","know",StyleBox[
+RowBox[{","," "}]],"a1"," ","x1",StyleBox[RowBox[{" "," ","+"," "}]],"a2"," ","x2",StyleBox[
+RowBox[{" ","="," "}]],"d",StyleBox[RowBox[{" ",","," "}]],"where"," ","d"," ","is"," ","the"," ","greatest"," ","common"," ","divisor"," ","of"," ","the"," ","a's",StyleBox[
+RowBox[{"."," "}]],"It"," ","represents"," ","the"," ","general"," ","form"," ","of"," ","the"," ","diaphantine"," ","equation"," ","for"," ","which"," ","the"," ","extended"," ","euclidean"," ","algorithm"," ","is"," ","the"," ","solution","."}],
+"Text",ExpressionUUID -> "9265402a-4a23-47be-8ec5-1e63d60505e8"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"20"," ","SW"}]}]],"Code",ExpressionUUID -> "11a31f47-c9fa-4a82-909e-774171d66020"],Cell[
+TextData[
+{"Fine",StyleBox[RowBox[{","," "}]],"but"," ","then",StyleBox[RowBox[{".."," "}]],"Ok",StyleBox[
+RowBox[{","," "}]],"ok",StyleBox[RowBox[{","," "}]],"ok",StyleBox[RowBox[{"."," "}]],"So"," ","what"," ","are"," ","you"," ","then"," ","saying"," ","the"," ","answer"," ","is","? So, p_i"}],
+"Text",ExpressionUUID -> "7810be0a-e030-4136-836c-6da6cf01cd24"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"28"," ","JG"}]}]],"Code",ExpressionUUID -> "68f177b6-966a-4a8c-9840-765fbfcc0874"],Cell[
+TextData[
+{"So"," ","for"," ","the"," ","case"," ","where"," ","p_i"," ","a",StyleBox[RowBox[
+{" ","+"," "}]],"q_i"," ","b",StyleBox[RowBox[{" ","="," "}]],"GCD"," ","of"," ","a"," ","and"," ","b","."}],
+"Text",ExpressionUUID -> "917900ec-7e0a-4a15-b6be-e47895b8d65b"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"40"," ","SW"}]}]],"Code",ExpressionUUID -> "b7a89c0f-094c-4485-be62-592f43e795a9"],Cell[
+TextData[
+{"But"," ","I"," ","don't"," ","just"," ","want"," ","that"," ","case",StyleBox[RowBox[
+{","," "}]],"but"," ","that's"," ","a"," ","good"," ","start",StyleBox[RowBox[{","," "}]],"yes","."}],
+"Text",ExpressionUUID -> "697c08d0-838d-49f2-93c0-4f222196c0f6"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"45"," ","JG"}]}]],"Code",ExpressionUUID -> "256cb11a-af83-4d3b-acdc-b961830438c5"],Cell[
+TextData[
+{"But"," ","once"," ","you"," ","know"," ","that"," ","case",StyleBox[RowBox[{","," "}]],"then"," ","Bezout's"," ","Identity"," ","gives"," ","you"," ","all"," ","the"," ","cases",StyleBox[
+RowBox[{","," "}]],"'cause"," ","you"," ","can"," ","just"," ","multiply"," ","things","."}],
+"Text",ExpressionUUID -> "468a0270-ac74-4375-81d9-290e83c85b82"],Cell[
+BoxData[RowBox[
+{"27",":",RowBox[{"49"," ","SW"}]}]],"Code",ExpressionUUID -> "805f9ff5-e91f-469a-8afb-74dcad7075df"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"that's"," ","clever","."}],"Text",ExpressionUUID -> "c0e8d67f-7187-4165-8687-182708c5a129"],Cell[
+BoxData[
+RowBox[{"27",":",RowBox[{"54"," ","JG"}]}]],"Code",ExpressionUUID -> "d978f005-c5f7-469f-889a-350fe576679a"],Cell[
+TextData[
+{"Once"," ","you"," ","have"," ","one"," ","solution",StyleBox[RowBox[{","," "}]],"once"," ","you"," ","have"," ","one"," ","pair"," ","of"," ","Bezout"," ","coefficients"," ","then"," ","the"," ","Bezout"," ","Identity"," ","gives"," ","you"," ","the"," ","set"," ","of"," ","all","."}],
+"Text",ExpressionUUID -> "fe83be44-8229-48ee-bf0b-35e0ba3aedec"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"00"," ","SW"}]}]],"Code",ExpressionUUID -> "0da08212-de51-4a04-a19c-2793c80b5911"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"so"," ","then",StyleBox[RowBox[{","," "}]],"if"," ","I"," ","do"," ","extended"," ","GCD"," ","of"," ","4"," ","and"," ","7",StyleBox[
+RowBox[{","," "}]],"I'm"," ","getting"," ","2","-","1",StyleBox[RowBox[{"."," "}]],"There",StyleBox[
+RowBox[{","," "}]],"right",StyleBox[RowBox[{"."," "}]],"Are"," ","those"," ","the"," ","coefficients"," ","you"," ","are"," ","talking"," ","about","?"}],
+"Text",ExpressionUUID -> "a3dde655-bc97-421f-aa84-d05b3b30b4cb"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"13"," ","JG"}]}]],"Code",ExpressionUUID -> "548ccfb5-15cd-4c27-ad96-9dfe0ca8bfcb"],Cell[
+TextData[
+{"Right",StyleBox[RowBox[{","," "}]],"I"," ","believe"," ","so",StyleBox[RowBox[{"."," "}]],"I"," ","don't"," ","know"," ","exactly"," ","what"," ","extended"," ","GCD"," ","is"," ","returning","."}],
+"Text",ExpressionUUID -> "cd9d8284-412f-4926-ab1f-13bb114e492e"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"21"," ","SW"}]}]],"Code",ExpressionUUID -> "29af6f6e-7989-4c43-ab51-45b9fe3c15f7"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"so"," ","extended"," ","GCD"," ","is"," ","returning"," ","a"," ","list"," ","where",StyleBox[
+RowBox[{".."," "}]]}],"Text",ExpressionUUID -> "b0086bec-dfbd-4edb-86ae-ddbd56363b6f"],Cell[
+BoxData[
+RowBox[{"28",":",RowBox[{"27"," ","JG"}]}]],"Code",ExpressionUUID -> "fb3b3af9-8605-441a-8fd1-96db1d338a68"],Cell[
+TextData[
+{"Yeah",StyleBox[RowBox[{","," "}]],"ok",StyleBox[RowBox[{"."," "}]],"So"," ","r1"}],
+"Text",ExpressionUUID -> "b0a0a9ed-1030-4d64-ac06-0ca40781942b"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"28"," ","SW"}]}]],"Code",ExpressionUUID -> "0622d211-a10a-47fc-be81-61cd5eeaf172"],Cell[
+TextData[
+{"it's"," ","the"," ","remainders"}],"Text",ExpressionUUID -> "11f2cacc-3807-4d4a-b992-aab487a23e6b"],Cell[
+BoxData[
+RowBox[{"28",":",RowBox[{"29"," "," ","JG"}]}]],"Code",ExpressionUUID -> "359b2fb8-3b75-47ac-83e3-1ce3daf28adf"],Cell[
+
+"\<right\>","Text",ExpressionUUID -> "76e54a69-2ba0-4958-bc55-4353de6315c6"],Cell[
+BoxData[
+RowBox[{"28",":",RowBox[{"31"," ","SW"}]}]],"Code",ExpressionUUID -> "9f5a842d-17a6-43ce-9c40-ef5286e5fff9"],Cell[
+TextData[
+{"It's"," ","the"," ","r1"," ","r2"}],"Text",ExpressionUUID -> "e9d97b98-538e-420e-82ea-a3080ebb263f"],Cell[
+BoxData[
+RowBox[{"28",":",RowBox[{"33"," ","JG"}]}]],"Code",ExpressionUUID -> "a122a990-4b05-4308-af7b-aea46af1c959"],Cell[
+TextData[
+{"If"," ","you"," ","have"," ","a"," ","pair"," ","of"," ","coefficients"," ","x",StyleBox[
+RowBox[{","," "}]],"y",StyleBox[RowBox[{"."," "}]],"Um",StyleBox[RowBox[{","," "}]],"I"," ","may"," ","misremember"," ","this",StyleBox[
+RowBox[{"."," "}]],"It"," ","might"," ","be"," ","easier"," ","if"," ","you"," ","look"," ","this"," ","up",StyleBox[
+RowBox[{","," "}]],"but"," ","its"," ","something",StyleBox[RowBox[{".."," "}]],"you"," ","take"," ","x",StyleBox[
+RowBox[{" ","+"," "}]],"something"," ","over"," ","the"," ","GCD",StyleBox[RowBox[
+{","," "}]],"and"," ","you"," ","take"," ","y",StyleBox[RowBox[{" ","-"," "}]],"the"," ","something"," ","over"," ","the"," ","GCD","."}],
+"Text",ExpressionUUID -> "5f7ed929-139f-441f-9b7c-fe2f220038c9"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"48"," ","SW"}]}]],"Code",ExpressionUUID -> "0a9201c8-0c5c-4b4e-b34a-e13ad3c1fe17"],Cell[
+TextData[
+{"What"," ","is"," ","it"," ","called","? Bezout's.. I thought Bezout's formula.."}],
+"Text",ExpressionUUID -> "4ba92728-1f16-4ad9-be33-69f08b4009f5"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"51"," ","JG"}]}]],"Code",ExpressionUUID -> "3323cfe9-29ef-45f8-8669-cdf6733456e5"],Cell[
+TextData[
+{"Bezout's"," ","Identity",StyleBox[RowBox[{","," "}]],"or"," ","Bezout's"," ","Lemma"}],
+"Text",ExpressionUUID -> "e371da52-8ff2-464e-bc51-d3d913f840aa"],Cell[
+BoxData[RowBox[
+{"28",":",RowBox[{"54"," ","SW"}]}]],"Code",ExpressionUUID -> "b751dbf8-78b4-4059-ab28-051506cebb9a"],Cell[
+TextData[
+{"Bezout's"," ","Formula"," ","has"," ","to"," ","do"," ","with"," ","multiple",StyleBox[
+RowBox[{".."," "}]],"alright",StyleBox[RowBox[{".."," "}]],"lets"," ","see"," ","what"," ","Wikipedia"," ","has"," ","to"," ","say"," ","about"," ","this"," ","one","."}],
+"Text",ExpressionUUID -> "03f9df2f-9138-47e7-8c62-1e77a1fb428c"],Cell[
+BoxData[RowBox[
+{"29",":",RowBox[{"05"," ","E"}]}]],"Code",ExpressionUUID -> "7d8133a3-e089-4c28-a8d8-c61823cc4a07"],Cell[
+TextData[
+{"The"," ","reason"," ","28"," ","didn't"," ","work"," ","is"," ","that"," ","you"," ","didn't"," ","include"," ","zero",StyleBox[
+RowBox[{"."," "}]],"It"," ","was"," ","LCM","."}],"Text",ExpressionUUID -> "e9894488-f6e0-4788-851e-d5e20649c2d1"],Cell[
+BoxData[
+RowBox[{"29",":",RowBox[{"14"," ","SW"}]}]],"Code",ExpressionUUID -> "229991b2-deb8-44ab-954f-b3a04a1eb951"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{","," "}]],"alright",StyleBox[RowBox[{"."," "}]],"Using"," ","extended",StyleBox[
+RowBox[{","," "}]],"all"," ","pairs"," ","can"," ","be"," ","represented",".."}],
+"Text",ExpressionUUID -> "c7080c88-35a6-48d6-865c-14478e1eb5b4"],Cell[
+BoxData[RowBox[
+{"29",":",RowBox[{"21"," ","JG"}]}]],"Code",ExpressionUUID -> "c907d005-afe1-4c4f-90f9-54eb338c96ae"],Cell[
+TextData[
+{"Right",StyleBox[RowBox[{","," "}]],"so"," ","extended"," ","GCD"," ","is"," ","giving"," ","you"," ","one"," ","pair"," ","x",",","y"," ","and"," ","then"," ","Bezout's"," ","Identity"," ","is"," ","telling"," ","you"," ","how"," ","to"," ","get"," ","all"," ","pairs",StyleBox[
+RowBox[{"."," "}]]}],"Text",ExpressionUUID -> "d3d3ebf3-96fc-4586-ae62-101ab1ce632a"],Cell[
+BoxData[
+RowBox[{"29",":",RowBox[{"30"," ","SW"}]}]],"Code",ExpressionUUID -> "f7ed98cc-84e4-4667-a630-b465007d9d35"],Cell[
+TextData[
+{"Ok",StyleBox[RowBox[{"."," "}]],"Let's"," ","understand"," ","what"," ","that"," ","is",StyleBox[
+RowBox[{"."," "}]],"So"," ","then",".."}],"Text",ExpressionUUID -> "1ab9226a-009e-4c9c-aef1-206f81358e75"],Cell[
+BoxData[
+RowBox[{"29",":",RowBox[{"37"," ","JG"}]}]],"Code",ExpressionUUID -> "1388a16b-fe2b-496d-b3b2-858cc7bb88cb"],Cell[
+TextData[
+{"So"," ","for"," ","any"," ","arbitrary"," ","integer"," ","k",StyleBox[RowBox[{","," "}]],"just"," ","take"," ","one"," ","coefficient"," ","add"," ","k",StyleBox[
+RowBox[{" ","*"," "}]],"b"," ","over"," ","the"," ","GCD"," ","and"," ","take"," ","the"," ","other"," ","coefficient"," ","and"," ","subtract"," ","k",StyleBox[
+RowBox[{" ","*"," "}]],"a"," ","over"," ","the"," ","GCD","."}],"Text",ExpressionUUID -> "c4661a16-19a6-46f0-b56c-6393b286b3e2"],Cell[
+BoxData[
+RowBox[{"29",":",RowBox[{"48"," ","SW"}]}]],"Code",ExpressionUUID -> "84f576c5-5cb6-428c-8f81-d6e7c3bfdf38"],Cell[
+TextData[
+{"So"," ","let's"," ","take"," ","these"," ","coefficients"," ","so"," ","that"," ","we're"," ","basically"," ","taking"," ","\n"}],
+"Text",ExpressionUUID -> "642f1341-6298-4145-bd98-2470c00d6095"]},Open],ExpressionUUID -> "fbd4474e-b8cd-47cf-83af-a6f3e95e7179"]},
+Open],ExpressionUUID -> "a5d25786-d6d0-490a-b228-d6c7bc5ee561"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.54.2 (March 10, 2020)"]

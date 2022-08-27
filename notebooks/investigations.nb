@@ -1,0 +1,239 @@
+Notebook[{Cell[
+TextData[ButtonBox["Notes",BaseStyle -> "Hyperlink",ButtonData -> {URL[
+"https://www.wolframcloud.com/env/paul104/notes.nb"],None}]],"Text",ExpressionUUID -> "ea9a39ff-b134-490b-a596-e339101bb542"],Cell[
+CellGroupData[
+{Cell[
+"\<Investigations\>","Title",ExpressionUUID -> "7e62e9c9-ee6c-4a40-acb7-1de707ea3b68"],Cell[
+TextData[
+{"1D"," ","Quantum"," ","Mechanics"," ","and"," ","Schrodinger"," ","Equation","\n",StyleBox[
+RowBox[{"-"," "}]],"computation"," ","model","\n",ButtonBox["Workbook",BaseStyle -> "Hyperlink",
+ButtonData -> {URL["https://www.wolframcloud.com/env/f0d71384-8be8-4dae-876e-345e7b5d7b3e"],None}]}],
+"Text",ExpressionUUID -> "35d19e76-7c9e-4865-92f8-956499b85436"],Cell[
+TextData[{"2D"," ","Quantum"," ","Mechanics"}],
+"Text",ExpressionUUID -> "9d3eb139-5689-4555-b216-34ffa9d02df8"],Cell[
+TextData[{"3D"," ","Quantum"," ","Mechanics"}],
+"Text",ExpressionUUID -> "e6cc5349-dc15-4d6e-923d-19c186576170"],Cell[
+TextData[{"Division"," ","Algebras"," ","and"," ","Mathematica","\n",ButtonBox[
+"Workbook",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://www.wolframcloud.com/env/paul104/division-algebras.nb"],None}]}],
+"Text",ExpressionUUID -> "83f99e4f-77fd-4370-b3a3-162e1c677aaa"],Cell[
+TextData[{"G2"," ","Algebra","\n",ButtonBox[
+"Workbook",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://www.wolframcloud.com/env/paul104/g2-construction.nb"],None}]}],
+"Text",ExpressionUUID -> "fa470b07-7722-4f2e-b7f5-8811a1eba5d4"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "a1437bad-c704-4c1a-b885-86e869561b61"],Cell[
+CellGroupData[
+{Cell[
+"\<Questions\>","Section",ExpressionUUID -> "a547f850-40bd-4059-a721-8208001c4c5a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"How"," ","does"," ","Hilbert"," ","Space"," ","arise"," ","in"," ","the"," ","continuum"," ","limit"," ","for"," ","the"," ","discrete"," ","graph","? "}],
+"Subsubsection",ExpressionUUID -> "bd92601d-1e73-40cc-9e84-7385431eff6f"],Cell[
+TextData[
+{StyleBox["Definition",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold]," "}]],"Hilbert"," ","space"," ","H"," ","is"," ","a"," ","real"," ","or"," ","complex"," ","inner"," ","product"," ","space"," ","that"," ","is"," ","also"," ","a"," ","complete"," ","metric"," ","space"," ","with"," ","respect"," ","to"," ","the"," ","distance"," ","function"," ","induced"," ","by"," ","the"," ","inner"," ","product","."}],
+"Text",ExpressionUUID -> "c1c35d95-1bda-42ed-a123-8e3768a5459a"],Cell[
+TextData[{StyleBox[
+"Question",FontWeight -> Bold],StyleBox[RowBox[{StyleBox[":",FontWeight -> Bold],StyleBox[
+" ",FontWeight -> Bold],StyleBox[" ",FontWeight -> Plain]}]],StyleBox["Can",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["other",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"division",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["algebras",
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["be",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["used",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"in",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["the",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["Hilbert",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"Space",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["definition",
+FontWeight -> Plain],StyleBox[RowBox[{StyleBox["?",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain]}]],StyleBox["Can",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"they",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["also",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["arise",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"in",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["the",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["continuum",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"limit",FontWeight -> Plain],StyleBox["?",FontWeight -> Plain],"\n",StyleBox["Recent",
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["work",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["by",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+ButtonBox["Furey",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://www.furey.space/"],None}],
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["show",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["structures",FontWeight -> Plain],StyleBox[" ",
+FontWeight -> Plain],StyleBox["in",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"division",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["algrebras",
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["which",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["reflect",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"symmetry",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["structure",
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["of",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["the",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"Standard",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["Model",
+FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox["of",FontWeight -> Plain],StyleBox[
+" ",FontWeight -> Plain],StyleBox["particle",FontWeight -> Plain],StyleBox[" ",FontWeight -> Plain],StyleBox[
+"physics",FontWeight -> Plain],StyleBox[".",FontWeight -> Plain]}],"Text",ExpressionUUID -> "afe64933-b69b-42b7-893e-a5aa40dfbfb2"]},
+Open],ExpressionUUID -> "a246bbf7-8f5c-40ca-b7b2-3ab47358e77b"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Size"," ","of"," ","'Geodesic"," ","Ball'"," ","in"," ","2D"," ","Spacetime"}],
+"Subsubsection",ExpressionUUID -> "72d997c4-a336-4f63-a456-61c2a62a4e7c"],Cell[
+TextData[
+{"Recent"," ","work"," ","in"," ","calculating"," ","the"," ","size",StyleBox[RowBox[
+{" ","("}]],"in"," ","state-space",StyleBox[RowBox[{")"," "}]],"of"," ","geodesic-balls"," ","in"," ","2D"," ","spacetime"," ","hypergraph"," ","has"," ","generated"," ","an"," ","integer"," ","sequence"," ","currently"," ","not"," ","in"," ","the"," ",ButtonBox[
+"Online",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+" ",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+"Encyclopedia",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+" ",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+"of",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+" ",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+"Integer",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+" ",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],ButtonBox[
+"Sequences",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://oeis.org/"],None}],StyleBox[
+RowBox[{" ","("}]],"OEIS",StyleBox[RowBox[{")."," "}]],"In"," ","the"," ","1D"," ","spacetime"," ","case",StyleBox[
+RowBox[{","," "}]],"this"," ","sequence"," ","is"," ","a","(","n",StyleBox[RowBox[
+{"),"," "}]],"the"," ","number"," ","of"," ","partitions"," ","of"," ","the"," ","integer"," ","n",StyleBox[
+RowBox[{" ","("}]],ButtonBox["A00041",BaseStyle -> "Hyperlink",ButtonData -> {URL[
+"https://oeis.org/A000041"],None}],")."}],"Text",ExpressionUUID -> "fba3a4cb-c93a-453b-b080-dd400ec5c3c2"]},
+Open],ExpressionUUID -> "3d770a40-092a-4d8c-b0bb-97ebac7908c3"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"CPT"," ","Symmetry"}],"Subsubsection",ExpressionUUID -> "c32216a2-e0af-4c0f-832b-4011994f91f6"],Cell[
+TextData[
+{"How"," ","is"," ","this"," ","manifested"," ","in"," ","the"," ","Wolfram"," ","Physics"," ","Model","?"}],
+"Text",ExpressionUUID -> "c9c40f9f-a109-4815-bd8e-4e8f3cd98994"]},Open],ExpressionUUID -> "0ee5b115-493f-44f4-8842-5b8957296746"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Zeros"," ","in"," ","Quantum"," ","Action"," ","and"," ","Legrangian"}],
+"Subsubsection",ExpressionUUID -> "cc422cc2-4ef8-4793-b982-74bd1b1fb347"],Cell[
+TextData[
+{"In"," ","QFT"," ","the"," ","zero",StyleBox[RowBox[{" ","("}]],"poles",StyleBox[
+RowBox[{")"," "}]],"of"," ","the"," ","particle"," ","field"," ","propagators"," ","relate"," ","to"," ","the"," ","mass"," ","of"," ","the"," ","particle",StyleBox[
+RowBox[{"."," "}]],"How"," ","is"," ","this"," ","related"," ","to"," ","the"," ","WFM","?"}],
+"Text",ExpressionUUID -> "316acff6-6478-4d22-a3e2-1c5617c7ba16"],Cell[
+BoxData[" "],
+"Input",ExpressionUUID -> "c40fabd8-7175-440e-8dcd-d904509be643"]},Open],ExpressionUUID -> "db7caf68-7042-42a6-aa73-2145bdb6d91e"]},
+Open],ExpressionUUID -> "42ad1678-da41-4dfb-93ea-da2b6294a71a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Connections"," ","with"," ","Physical"," ","Phenomena"}],"Section",
+ExpressionUUID -> "a7f5be26-caa4-4832-980b-d9308411de54"],Cell[
+CellGroupData[{Cell[
+TextData[
+{"Black"," ","Body"," ","Radiation",StyleBox[RowBox[{" ","-"," "}]],"Planck''s"," ","Law"}],
+"Subsection",ExpressionUUID -> "821b69fe-f6a0-4230-a829-ce561ee095f5"],Cell[
+TextData[
+{ButtonBox["Wikipedia",BaseStyle -> "Hyperlink",ButtonData -> {URL["https://en.wikipedia.org/wiki/Black-body_radiation"],None}],StyleBox[
+RowBox[{" ","-"," "}]],"Can"," ","the",StyleBox[RowBox[{" "," "}]],"Black"," ","Body"," ","Distribution",StyleBox[
+RowBox[{" ","("}]],"Planck's"," ","Law",StyleBox[RowBox[{")"," "}]],"be"," ","predicted"," ","from"," ","the"," ","Wolfram"," ","Physics"," ","Model","? Is the prediction simpler or more complicated than the regular derivation."}],
+"Text",ExpressionUUID -> "45ac9ba1-a301-4cdd-9904-3ae3a68fdb8f"],Cell[
+CellGroupData[
+{Cell[
+BoxData[RowBox[{"ToExpression","[",RowBox[{"\"$B(\\\\nu,T) = \\\\frac{2 h \\\\nu^3}{c^2} \\\\frac{1}{e^\\\\frac{h \\\\nu}{k_B T} - 1 } $\"",",","TeXForm"}],"]"}]],
+"Input",CellLabel -> "In[62]:= ",ExpressionUUID -> "445ab7e4-75ae-40d9-aa93-ae9b6bac3c65"],Cell[
+BoxData[
+RowBox[{RowBox[{"B","[",RowBox[{"\[Nu]",",","T"}],"]"}],"\[Equal]",FractionBox[RowBox[
+{"2"," ","h"," ",SuperscriptBox["\[Nu]","3"]}],RowBox[{SuperscriptBox["c","2"]," ",RowBox[
+{"(",RowBox[{RowBox[{"-","1"}],"+",SuperscriptBox["e",FractionBox[RowBox[{"h"," ","\[Nu]"}],
+RowBox[{"T"," ",SubscriptBox["k","B"]}]]]}],")"}]}]]}],StandardForm],"Output",CellLabel -> "Out[62]= ",
+ExpressionUUID -> "8d55d098-7bc4-4231-b816-06ef8bf3d562"]},Open],ExpressionUUID -> "ca06049f-5f9c-463d-b6d4-26f9932ddac6"]},
+Open],ExpressionUUID -> "888ff330-4b53-44b9-b334-641155f1895b"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Renormalization"," ","in"," ","QED"}],"Subsection",ExpressionUUID -> "881afa05-3d59-4839-ac89-2544eb7b1637"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "537b6486-65a8-486a-9b30-cb6846fb9423"]},Open],ExpressionUUID -> "88872430-d38c-4ea2-afdc-92007353ee59"],Cell[
+TextData[
+{"Particle"," ","Statistics"," ","and"," ","Entropy"}],"Subsection",ExpressionUUID -> "bd9b37da-2f79-4a84-860f-2a591e655cfd"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Standard"," ","Model"}],"Subsection",ExpressionUUID -> "5596abcb-fc45-40d4-9f90-a1b5c1ccfaad"],Cell[
+TextData[
+{"Particle"," ","Families"}],"Subsubsection",ExpressionUUID -> "92274630-0de5-430a-a755-10e2e82ba755"],Cell[
+TextData[
+{"Particle"," ","Masses"}],"Subsubsection",ExpressionUUID -> "bba2bcf3-0ed8-4585-99d8-055e715d5122"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Neutrino"," ","Mixing"}],"Subsubsection",ExpressionUUID -> "7b15bb3e-74a9-4cbe-98d5-60db0aab5549"],Cell[
+TextData[
+{"Possible"," ","experimental"," ","test",StyleBox[RowBox[{":"," "}]],"Relate"," ","the"," ","neutrino"," ","mixing"," ","angles"," ","of"," ","neutrino"," ","from"," ","the"," ","sun"," ","to"," ","mass"," ","of"," ","Sun",StyleBox[
+RowBox[{","," "}]],"Distance","/","time"," ","traveled",StyleBox[RowBox[{","," "}]],"curved"," ","spacetime","."}],
+"Text",ExpressionUUID -> "91c6482f-ff0e-41a4-8b55-965f52a2e410"],Cell[
+BoxData[""],
+"Input",ExpressionUUID -> "83a07860-c72f-45a7-9bfb-35142adb085b"]},Open],ExpressionUUID -> "c38c5007-4bbc-4993-aa54-a3e70af4c304"]},
+Open],ExpressionUUID -> "77451d0a-5912-4b42-8567-20c4f6a95d86"]},Open],ExpressionUUID -> "1983597c-6e35-404d-ab19-b93754f1a17f"],Cell[
+TextData[
+{"Other"," ","References","\n"}],"Section",ExpressionUUID -> "80b4bb52-ed5e-4391-bbd7-ef299f81dd1f"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Computational"," ","hierarchy"}],"Section",ExpressionUUID -> "db5e99bb-a78c-4ef9-a9d0-a8fe41b3572a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Type"," ","I"," ","-"," ","Classical"," ","computing"}],"Subsection",
+ExpressionUUID -> "7b9eb674-0e42-4b84-9908-50323504f40d"],Cell[
+TextData[{" ","Classical"," ","computing"," ","is"," ","developed"," ","in"," ","the"," ","framework"," ","of"," ","the"," ","Wolfram"," ","Model",StyleBox[
+RowBox[{"."," "}]],"This"," ","category"," ","includes"," ","foundations"," ","of"," ","mathematics"," ","as"," ","a"," ","particular"," ","case"," ","of"," ","computation","."}],
+"Text",ExpressionUUID -> "1022feec-f6ad-429f-8b91-50ae470ee905"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Example"," ","of"," ","Type"," ","I"," ","-"," ","Classical"," ","computing"}],
+"Subsubsection",ExpressionUUID -> "88415489-67b1-4933-9aa6-fc9cf012dd16"],Cell[
+BoxData[
+RowBox[{RowBox[{"S","."," ","Wolfram"}],","," ","\"Exploring Rulial Space: The Case of Turing Machines\""}]],
+"Input",ExpressionUUID -> "9279c7c9-9fe7-46c0-9779-af6e15293652"],Cell[
+BoxData[RowBox[
+{RowBox[{"S","."," ","Wolfram"}],","," ","\"The Empirical Metamathematics of Euclid and Beyond\""}]],
+"Input",ExpressionUUID -> "d8d5c3de-33ee-43fe-99fa-44e66576e8c8"],Cell[
+BoxData[RowBox[
+{RowBox[{"J","."," ","Gorard"}],","," ","\"A Candidate Geometrical Formalism for the Foundations of Mathematics and Physics\""}]],
+"Input",ExpressionUUID -> "80754441-ab21-46bf-8546-bbb6b5459c9d"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Type"," ","II"," ","-"," ","Quantum"," ","computing"}],"Subsection",
+ExpressionUUID -> "bb70742c-5470-45f7-b050-95cdcc4de5bb"],Cell[
+TextData[{"Quantum"," ","computing"," ","is"," ","developed"," ","in"," ","the"," ","framework"," ","of"," ","the"," ","Wolfram"," ","Model","."}],
+"Text",ExpressionUUID -> "542676b8-c3cf-455c-a9ac-106049042521"]},Open],ExpressionUUID -> "3720a2a5-36c5-4f63-8f88-9f7c856bca26"]},
+Open],ExpressionUUID -> "26c5b3cd-71fa-462e-b172-0ac6626525cc"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Example"," ","of"," ","Type"," ","II"," ","-"," ","Quantum"," ","Computing"}],
+"Subsubsection",ExpressionUUID -> "d45c55fa-0168-4c9b-8090-7a982474811d"],Cell[
+BoxData[
+RowBox[{"J","."," ","Gorard",","," ","M","."," ","Namuduri",","," ","X","."," ","D","."," ","Arsiwalla"," ","\"ZX-Calculus and Extended Hypergraph Rewriting Systems I: A Multiway Approach to Categorical Quantum Information Theory\""}]],
+"Input",ExpressionUUID -> "f5ea4660-f8ab-426e-bf2e-ccd40f4799f0"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Type"," ","III"," ","-"," ","Mainstream"," ","Physics"}],"Subsection",
+ExpressionUUID -> "2b7aee74-bc6e-49cd-ad0f-c58a7641736d"],Cell[
+TextData[{"Mainstream"," ","physics"," ","is"," ","developed"," ","in"," ","the"," ","framework"," ","of"," ","the"," ","Wolfram"," ","Model","."}],
+"Text",ExpressionUUID -> "72779254-a8a4-4d43-a15f-158e5eec12fc"]},Open],ExpressionUUID -> "910a1891-422d-4589-80bc-8b9f8eeaa7a1"]},
+Open],ExpressionUUID -> "24de7a9b-3e58-40ba-af1c-f9355e0d5512"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Example"," ","of"," ","Type"," ","III"," ","-"," ","Mainstream"," ","Physics"}],
+"Subsubsection",ExpressionUUID -> "32db43e4-43ac-4291-8843-fc482dc52d3a"],Cell[
+BoxData[
+RowBox[{RowBox[{"S","."," ","Wolfram"}],","," ","\"Event Horizons, Singularities and Other Exotic Spacetime Phenomena\""}]],
+"Input",ExpressionUUID -> "91dd4dff-6eda-41ca-9a11-5b2fdf1c0084"],Cell[
+BoxData[RowBox[
+{RowBox[{"J","."," ","Gorard"}],","," ",RowBox[{"\[OpenCurlyDoubleQuote]",RowBox[
+{"Some"," ","Relativistic"," ","and"," ","Gravitational"," ","Properties"," ","of"," ","the"," ","Wolfram"," ","Model"}],"\[CloseCurlyDoubleQuote]"}]}]],
+"Input",ExpressionUUID -> "d4eb979d-a036-46c6-b2fe-bde4b75ae695"],Cell[
+BoxData[RowBox[
+{RowBox[{"J","."," ","Gorard"}],","," ",RowBox[{"\[OpenCurlyDoubleQuote]",RowBox[
+{"Some"," ","Quantum"," ","Mechanical"," ","Properties"," ","of"," ","the"," ","Wolfram"," ","Model"}],"\[CloseCurlyDoubleQuote]"}]}]],
+"Input",ExpressionUUID -> "be6b8f5f-53dc-4262-a60c-07e3880f0bda"],Cell[
+BoxData[RowBox[
+{RowBox[{"J","."," ","Gorard"}],","," "," ","\"A Short Note on the Double-Slit Experiment and Other Quantum Interference Effects in the Wolfram Model\""}]],
+"Input",ExpressionUUID -> "66f01699-f28f-424f-b091-5cf97e351391"]},Open],ExpressionUUID -> "265ee56c-cc00-4b27-8cac-8a50c5d0fdde"]},
+Open],ExpressionUUID -> "80dc9dde-790b-47d4-8856-00fb8f83d868"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Type"," ","IV"," ","-"," ","New"," ","Physics"}],"Subsection",ExpressionUUID -> "db7a1267-3c98-4ef7-b211-778d26589fa8"],Cell[
+TextData[
+{"Unknown"," ","phenomena"," ","e",".","g",StyleBox[RowBox[{".,"," "}]],"dark"," ","matter",StyleBox[
+RowBox[{","," "}]],"dark"," ","energy",StyleBox[RowBox[{","," "}]],"are"," ","explained"," ","using"," ","the"," ","Wolfram"," ","Model",StyleBox[
+RowBox[{"."," "}]],"This"," ","category"," ","includes"," ","the"," ","theory"," ","of"," ","everything","."}],
+"Text",ExpressionUUID -> "bd1668fc-a4f2-4c22-9bde-d1800b7e5c1a"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Examples"," ","of"," ","Type"," ","IV"," ","-"," ","New"," ","Physics"}],
+"Subsubsection",ExpressionUUID -> "adfb7e59-b66f-4a0b-87f6-b85e067f7bce"],Cell[
+BoxData[
+RowBox[{RowBox[{"S","."," ","Wolfram"}],","," ","\"Faster than Light in Our Model of Physics: Some Preliminary Thoughts\""}]],
+"Input",ExpressionUUID -> "7c428528-d062-42a3-acff-887fa076dd79"]},Open],ExpressionUUID -> "c57a8907-59d3-45cc-a192-a1d2133da456"]},
+Open],ExpressionUUID -> "107c64af-ac25-4922-b140-480cddb5f383"]},Open],ExpressionUUID -> "1ffe7e6e-e205-4c59-adae-40914530cd92"]},
+Open],ExpressionUUID -> "d43d34be-9343-4452-8d56-cb5aec2845f6"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.56 (September 30, 2020)",TaggingRules -> {"TryRealOnly" -> False}]

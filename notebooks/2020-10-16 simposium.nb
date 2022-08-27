@@ -1,0 +1,170 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+"\<Simposium\>","Title",ExpressionUUID -> "9126874c-3d4b-42b6-8e37-bc03b815a5e3"],Cell[
+BoxData[
+RowBox[{RowBox[{"https",":"}],"//",RowBox[{RowBox[{RowBox[{"www",".","wolframscience",".","com"}],"/","nks"}],"/"," "}]}]],
+"Input",ExpressionUUID -> "35517a14-369c-4b58-9a21-2eb8d7a77559"],Cell[
+TextData[
+{"If"," ","I"," ","well-understood",StyleBox[RowBox[{","," "}]],"a"," ","combinator"," ","is"," ","an"," ","expression"," ","of"," ","well-matched"," ","parentheses",StyleBox[
+RowBox[{","," "}]],"where"," ","the"," ","open"," ","parentheses"," ","are"," ","functions"," ","and"," ","the"," ","closing"," ","parentheses"," ","are"," ","the"," ","inputs"," ","of"," ","the"," ","corresponding"," ","function",StyleBox[
+RowBox[{"."," "}]],"The"," ","output"," ","is"," ","the"," ","corresponding"," ","pair"," ","of"," ","parentheses",StyleBox[
+RowBox[{"."," "}]],"\n","I"," ","have"," ","a"," ","paper"," ","of"," ","how"," ","to"," ","transform"," ","a"," ","number"," ","into"," ","well-matched"," ","parentheses"," ","using"," ","this"," ","function",StyleBox[
+RowBox[{":"," "}]],"DyckWord","[","n_","]:=","StringJoin","[","If","[","Mod","[#,","2","]==","1",",\"(\",\")\"]&/@","Select","[","Divisors","[#],","Fun"}],
+"Text",ExpressionUUID -> "7eaef94a-b5bd-44da-83ce-4dc097ffada4"],Cell[
+BoxData["Jose"],
+"Input",ExpressionUUID -> "f1c972c1-6fce-489a-afd3-af0ca7279fa9"],Cell[
+TextData[
+{"in"," ","order"," ","to"," ","express"," ","concurrent"," ","processes"," ","using"," ","combinators",StyleBox[
+RowBox[{","," "}]],"the"," ","combinators"," ","should"," ","be"," ","embedded"," ","in"," ","the"," ","lambda"," ","calculus"," ","and"," ","then"," ","the"," ","lambda"," ","calculus"," ","in"," ","the"," ","pi-calculus",StyleBox[
+RowBox[{":"," "}]],"both"," ","embeddings"," ","are"," ","well-known"," ","\n","Here"," ","is"," ","the"," ","embedding"," ","of"," ","lambda"," ","calculus",StyleBox[
+RowBox[{" ","("}]],"sequential",StyleBox[RowBox[{")"," "}]],"into"," ","pi-calculus",StyleBox[
+RowBox[{" ","("}]],"concurrent",StyleBox[RowBox[{"):"," "}]],"https","://","citeseerx",".","ist",".","psu",".","edu","/","viewdoc","/","download","?doi=10.1.1.880.8011&rep=rep1&type=pdf "}],
+"Text",ExpressionUUID -> "d4de89de-f077-4a0d-9f17-0f6401a80838"],Cell[
+CellGroupData[
+{Cell[
+"\<Discussion\>","Chapter",ExpressionUUID -> "86a12e82-23b3-4b1e-aca5-6b8a5367641a"],Cell[
+
+"\<Leftmost-outermost\>","Text",ExpressionUUID -> "f28c6da3-be5e-4906-9a34-a1b0bfc02bb1"],Cell[
+TextData[
+{"Fixed"," ","Points"}],"Text",ExpressionUUID -> "891cd88e-5be0-4fa5-a0b7-74d3539f2428"],Cell[
+TextData[
+{"Are"," ","s",",","k"," ","the"," ","minimal"," ","set"," "}],"Text",ExpressionUUID -> "01a8c3ec-44ed-4b85-ba53-68da0591bdda"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","k"," ","terms"," ","eat"," ","an"," ","expression"," ","-"," ","Kxy"," ","-",StyleBox[
+RowBox[{">"," "}]],"x"}],"Item",ExpressionUUID -> "1603ba12-5c92-45ad-b370-7acc45e3998f"],Cell[
+TextData[
+{"s"," ","-"," ","Sxyz"," ","-",StyleBox[RowBox[{">"," "}]],"xz","(","yz",StyleBox[
+RowBox[{")"," "}]]}],"Item",ExpressionUUID -> "a079f978-8023-4f37-831f-5538851297ef"]},
+Open],ExpressionUUID -> "2dfc50f2-9dad-48d5-9ecf-2ea427dc3e9a"],Cell[
+TextData[{"Is"," ","it"," ","decidable"," ","that"," ","these"," ","expressions"," ","halt","?"}],
+"Text",ExpressionUUID -> "e76fdb89-6638-451a-923a-9542838f1f40"],Cell[
+"\<\>","Text",
+ExpressionUUID -> "664d0153-49d3-4b8e-b728-e17912995b21"],Cell[
+TextData[{"Lambda"," ","Calculus"," ","-"}],
+"Item",ExpressionUUID -> "6f7d0264-d2be-41fc-8021-9b6c82a627ec"],Cell[
+TextData[{"Lambda"," ","i"," ","-",StyleBox[
+RowBox[{" ","("}]],"restriction",StyleBox[RowBox[{")"," "}]],"All"," ","variables"," ","on"," ","left"," ","appear"," ","always"," ","appear"," ","on"," ","right"}],
+"Text",ExpressionUUID -> "447e43a5-8ba4-4361-bb7b-4ebb053cbb3d"],Cell[
+TextData[{" ","Do"," ","can"," ","expressions"," ","be"," ","re-written"," ","into"," ","a"," ","normal"," ","form","?"}],
+"Item",ExpressionUUID -> "769c6bc8-5f86-4642-9c0e-3776f4f88a5d"],Cell[
+TextData[{"Conway's"," ","Sereal"," ","Numbers"}],
+"Text",ExpressionUUID -> "8b523b72-1f53-4eed-9204-67c061668096"],Cell[
+TextData[{"NKS"," ","Section"," ","3",".","10"}],
+"Text",ExpressionUUID -> "72fac818-8879-454c-8eb6-46aff064438d"],Cell[
+TextData[{"Conditional"," ","for"," ","Universality"}],
+"Text",ExpressionUUID -> "bc85e929-e8b1-41fd-9f5a-f281c783a773"],Cell[
+TextData[{"If"," ","system"," ","can"," ","be"," ","shown"," ","to"," ","be"," ","halting",StyleBox[
+RowBox[{" ","("}]],"all"," ","evaluation"," ","sequences"," ","terminate",StyleBox[
+RowBox[{")"," "}]],"then"," ","the"," ","system"," ","is"," ","not"," ","universal","."}],
+"Item",ExpressionUUID -> "3b8ae9d8-45de-48e6-8761-91fa22c4a1a7"],Cell[
+TextData[{"Schonfinkel"," ","B",StyleBox[
+RowBox[{":"," "}]],"1888"}],"Text",ExpressionUUID -> "81fa73d2-d1ff-4864-822a-f2ca9f797fdc"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Formal"," ","system"," ","to"," ","avoid"," ","use"," ","of"," ","bound"," ","variables"}],
+"Item",ExpressionUUID -> "95557ac3-d851-4e80-ac55-5de033b19f2e"],Cell[
+TextData[{" ","Equivalent"," ","to"," ","Combinators"," ","B",",","C",",","K",",","S"}],
+"Item",ExpressionUUID -> "73bdee4b-26b6-4283-b76a-c83bb0f146e6"],Cell[
+TextData[{"Article"," ","based"," ","on"," ","Talk"," ","in"," ","1920"," ","-"," ","Building"," ","Blocks"," ","of"," ","Nature"," "}],
+"Item",ExpressionUUID -> "1e5463e1-59bc-4bbf-9ce1-5650cde979e8"],Cell[
+TextData[{"Logic"," ","from"," ","AND",",","OR",",","NOT"}],
+"Item",ExpressionUUID -> "6ee495b8-52fa-44fb-b1db-efd632443488"],Cell[
+TextData[{"NAND"," ","-"," ","sufficient"}],
+"Item",ExpressionUUID -> "0e0fd9f8-ac06-4d04-9939-aed670245813"],Cell[
+TextData[{"Currying"," ","-"," ","Variables"," ","in"," ","a"," ","function"}],
+"Item",ExpressionUUID -> "0b5fa679-aa94-43ad-8e9a-3f3d82108a4a"],Cell[
+TextData[{"I",StyleBox[
+RowBox[{" ","="," "}]],"SKK"}],"Item",ExpressionUUID -> "8ac1f052-4e1e-4f05-9fbf-d3a9c4517f70"]},
+Open],ExpressionUUID -> "ea14b82d-3de4-49d9-8dd1-ab984d79cd87"],Cell[
+TextData[{"Hilbert",StyleBox[
+RowBox[{","," "}]],"David"}],"Text",ExpressionUUID -> "97d3c26c-f540-43ab-8990-810d0d705298"],Cell[
+CellGroupData[
+{Cell[
+"\<\>","Item",ExpressionUUID -> "b9a28421-7ae6-4b3c-9d16-807168b8d2ca"],Cell[
+TextData[
+{"Posed"," ","23"," ","problems"," ","-"," ","Set"," ","of"," ","interesting"," ","problems","/","questions"}],
+"Item",ExpressionUUID -> "cf29b8b9-35c5-4810-8ead-ec091660d19a"],Cell[
+TextData[{"6th"," ","problem"}],
+"Item",ExpressionUUID -> "b0032b63-56c3-4339-8fa0-0868496c7197"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Hilbert"," ","Book"," ","-"," "}],"Item",ExpressionUUID -> "d1a93e31-5af7-4dac-b162-485954fade51"],Cell[
+TextData[
+{"In"," ","race"," ","with"," ","Einstein"," ","for"," ","General"," ","Relativity"," "}],
+"Item",ExpressionUUID -> "daf80c84-7234-4514-bf1e-73ec2b2e0dc3"]},Open],ExpressionUUID -> "f5fced98-44ad-4fc7-8984-b3ead89e5879"]},
+Open],ExpressionUUID -> "ee6ededa-bc37-4be7-9e13-f0082fd3deda"],Cell[
+TextData[{"Haskel"," ","Curry"}],
+"Text",ExpressionUUID -> "ebc6c8a9-c41d-4be3-9778-e43effa10f9d"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Career"," ","of"," ","Combinators"}],"Item",ExpressionUUID -> "19865872-401d-48a1-b2b3-fd222bda4262"],Cell[
+TextData[
+{"Extraction"," ","Operation",StyleBox[RowBox[{" ","("}]],"required"," ","lambda"," ","calculus",")"}],
+"Item",ExpressionUUID -> "d035b22e-076e-4f6f-8412-3cd4d567abf3"],Cell[
+TextData[{"Y"," ","combinator","?"}],
+"Item",ExpressionUUID -> "1725ae5e-8c48-4854-947e-ed190632f7ea"]},Open],ExpressionUUID -> "d6870215-8d56-4aa2-bc00-1aa817204536"],Cell[
+TextData[
+{"Turing"," "}],"Text",ExpressionUUID -> "adeeb3c6-15bb-49fe-a603-f16eddcce5e4"],Cell[
+
+"\<\>","Item",ExpressionUUID -> "170b621b-4f18-4496-965a-d9f4db61b671"],Cell[
+TextData[
+{"Law"," ","if"," ","Excluded"," ","Middle"}],"Text",ExpressionUUID -> "e43a7890-cc60-495d-8a1b-74b8ee95e407"],Cell[
+TextData[
+{" ","Relationship"," ","with"," ","Communistic"," ","Philosophy"}],"Item",ExpressionUUID -> "5b81a2da-a8bc-462d-86c4-c0f6eaa0cc4e"],Cell[
+
+"\<Jose\>","Text",ExpressionUUID -> "80070e4f-d789-4db6-b25c-73ac8f8cecb2"],Cell[
+TextData[
+{"In"," ","Hegelian"," ","dialectic",StyleBox[RowBox[{","," "}]],"double"," ","negation"," ","is"," ","not"," ","identity"}],
+"Item",ExpressionUUID -> "a5722673-8302-4f82-afcf-7cf9fa12879b"],Cell[
+TextData[{"Whitehead",StyleBox[
+RowBox[{","," "}]],"Russel"," ","-"," ","Book","?"}],"Text",ExpressionUUID -> "5ea3039f-c36a-41ef-a6f9-c06a2686db37"],Cell[
+CellGroupData[
+{Cell[
+"\<Papers\>","Section",ExpressionUUID -> "a241562b-0847-480c-a669-5b70f3409e2a"],Cell[
+TextData[
+{"McCathy"," ","-"," ","Recursive"," ","Functions"," ","of"," ","Symbolic"," ","Expressions"," ","and"," ","Their"," ","Computation"," ","by"," ","Machine"," ","1958"}],
+"Text",ExpressionUUID -> "f2b2634a-91b2-41fb-9fe1-a15fe47aa235"],Cell[
+TextData[{"Recursive"," ","Functions"," ","of"," ","Symbolic"," ","Expressions"," ","and"," ","Their"," ","Computation"," ","by"," ","Machine"," ","1998"}],
+"Text",ExpressionUUID -> "9a3696db-e0d3-4db6-9a5b-f52327bd8ef7"],Cell[
+TextData[{"Combinators"," ","in"," ","quantum"," ","mechanics",StyleBox[
+RowBox[{" ","("}]],"the"," ","colors"," ","are"," ","different"," ","functions",StyleBox[
+RowBox[{"):"," "}]],"https","://","www",".","mdpi",".","com","/","2073-8994","/","12","/","6","/","916","/","htm",StyleBox[
+RowBox[{" "," "}]],"link"," ","to"," ","the"," ","paper",StyleBox[RowBox[{":"," "}]],"https","://","www",".","mdpi",".","com","/","2073-8994","/","12","/","6","/","916","/","htm"," "}],
+"Text",ExpressionUUID -> "eccf1bbf-eef5-42cf-b39a-48e7f505f2a3"],Cell[
+TextData[{"Fumihiko"," ","Sugino"," ","-"," ","Highly"," ","Entangled"," ","Spin"," ","Chains"," ","and"," ","2D"," ","Quantum"," ","Gravity",StyleBox[
+RowBox[{" "," "}]],"2020"}],"Item",ExpressionUUID -> "4f81342a-da0b-492c-bd77-672fb1bbb4bc"],Cell[
+TextData[
+{"Johannes"," ","Waldmann"," ","-"," ","The"," ","Combinator"," ","S"," ","-"," ","2000"}],
+"Text",ExpressionUUID -> "e0b72bc4-f849-4e5e-a693-37c8b3c42b39"],Cell[
+TextData[{" ","infinite"," ","reductions"," "}],
+"Item",ExpressionUUID -> "7c97f40f-1fad-43f7-bdd9-d57e62f90c35"]},Open],ExpressionUUID -> "4e937967-f73d-4b8f-8e11-34e90be74008"],Cell[
+CellGroupData[
+{Cell[
+"\<Books\>","Section",ExpressionUUID -> "081ba53d-7a9f-41e0-9cfb-ca37b5e0dbf5"],Cell[
+TextData[
+{"The"," ","Development"," ","of"," ","Logic"," ","Paperback",StyleBox[RowBox[{" ","\[Dash]"," "}]],"1"," ","May"," ","1985","\n","by"," ","William"," ","Kneale",StyleBox[
+RowBox[{" ","("}]],"Author",StyleBox[RowBox[{"),"," "}]],"W",StyleBox[RowBox[{"."," "}]],"C",StyleBox[
+RowBox[{"."," "}]],"Kneale",StyleBox[RowBox[{" ","("}]],"Author",")","\n","Amazon",StyleBox[
+RowBox[{" ","$"}]],"68"}],"Text",ExpressionUUID -> "375e91ae-5da8-48c3-88a4-311000196b3a"]},
+Open],ExpressionUUID -> "dfc1be2d-f05b-40ca-b769-e0607d9ff00b"]},Open],ExpressionUUID -> "7672845e-ffeb-4921-8408-bc7f9d44ca84"],Cell[
+CellGroupData[
+{Cell[
+"\<Musings\>","Chapter",ExpressionUUID -> "7df03283-7f78-41a8-a4a1-5f7a3c9e42f8"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Paper"," ","Ideas"}],"Subsection",ExpressionUUID -> "a630fc98-c5ee-4e87-ada0-59e94c6c33f0"],Cell[
+TextData[
+{"Relationship"," ","between"," ","properties"," ","of"," ","Division"," ","algebras",StyleBox[
+RowBox[{","," "}]],"Combinators",StyleBox[RowBox[{" "," "}]],"and"," ","the"," ","Wolfram"," ","Model"}],
+"Text",ExpressionUUID -> "b791314d-c048-490e-9bc5-c3cd7261e35c"],Cell[
+CellGroupData[
+{Cell[
+TextData[{" ","Lambda"," ","Calculus",StyleBox[RowBox[{","," "}]],"Lambda-i"," ","Calculus"}],
+"Item",ExpressionUUID -> "7dcb1e50-786f-44f6-b263-3c74460443b8"],Cell[
+TextData[{" ","Relationship"," ","to"," ","LISP"}],
+"Item",ExpressionUUID -> "d46d0390-2e54-427a-ac1a-b5771444a602"]},Open],ExpressionUUID -> "c719cfec-b1ef-4d65-8f84-e8297db21e52"],Cell[
+BoxData[
+" "],"Input",ExpressionUUID -> "e54488bf-80b4-4c0f-a627-3b7c3c200066"]},Open],ExpressionUUID -> "2247ba33-915e-4a9d-80bf-32d247ebf4b6"]},
+Open],ExpressionUUID -> "7e7ee8cc-fb7f-41fb-9749-0432784f496b"]},Open],ExpressionUUID -> "beb53beb-23e6-4eb3-b08b-f324da18bf66"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "12.1 for Wolfram Cloud 1.56 (September 30, 2020)"]

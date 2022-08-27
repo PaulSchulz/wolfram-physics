@@ -1,0 +1,89 @@
+Notebook[{Cell[
+TextData[{"\n","Wolfram"," ","Physics"," ","Project"," ","Functions"}],
+"Title",ExpressionUUID -> "d6179e5a-e163-4b38-b283-cb20829d1250"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Basic"," ","Model"," ","Implementation"}],"Chapter",ExpressionUUID -> "9f337247-d5d7-4682-a66a-2df149e625f0"],Cell[
+BoxData[
+RowBox[{"Generally",","," ",RowBox[{"these"," ","are"," ","wrappers"," ",RowBox[{"around"," ","'"}],RowBox[
+{"setreplace","'"}]}]}]],"Input",ExpressionUUID -> "1af2567a-750b-4b3a-a4b4-7b016fd58096"],Cell[
+
+"\<WolframModel\>","Subchapter",ExpressionUUID -> "2a975874-d0d4-4129-a82d-e0fc9259e639"],Cell[
+
+"\<WolframModelEvolutionObject\>","Subchapter",ExpressionUUID -> "e20b4624-0500-4422-bed9-ae998ee35e43"],Cell[
+
+"\<WolframModelPlot\>","Subchapter",ExpressionUUID -> "232082df-cebd-489d-9f42-87bd272fa76c"],Cell[
+
+"\<QuantumToMultiwaySystem\>","Subchapter",ExpressionUUID -> "e680dd8b-a84e-40c1-bda7-d52284ca51bf"],Cell[
+
+"\<SetReplace\>","Subchapter",ExpressionUUID -> "def7183d-f519-45ce-8b93-146a98bb9aec"],Cell[
+BoxData[
+{RowBox[{"Using"," ","Set"," ","Replace"," ","directly"}],"\n",RowBox[{RowBox[{"-"," ","Requires"}]," ","internet"," ","connection"}],"\n",RowBox[
+{RowBox[{"-"," ","In"}]," ","Github"," ","repository"}],"\n",RowBox[{RowBox[{"-"," ","Require"}]," ","Wolfram"," ","Script"}]}],
+"Input",ExpressionUUID -> "9be8a7cb-229c-40c0-94a8-620753951b80"],Cell[
+"\<WolframModel\>",
+"Subsubsection",ExpressionUUID -> "c04d7640-789d-4901-bdde-0df62054def6"],Cell[
+"\<WolframModelEvolutionObject\>",
+"Subsubsection",ExpressionUUID -> "21a35547-b537-4d26-bb28-2a8a488c5c1c"],Cell[
+CellGroupData[
+{Cell[
+"\<WolframModelPlot\>","Subsubsection",ExpressionUUID -> "a5250ceb-7689-425b-872c-eb07ba928d22"],Cell[
+BoxData[
+""],"Input",ExpressionUUID -> "887213b9-57b6-428e-8ded-ac076af9563a"]},Open],ExpressionUUID -> "329a47d8-ce86-4914-ae03-4204a7c17db4"]},
+Open],ExpressionUUID -> "78976f57-f446-412d-b034-b48d66255f89"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Using"," ","Set"," ","Substitution"," ","System"}],"Chapter",ExpressionUUID -> "79e33fc3-5cba-40a3-9af8-5bd38893f840"],Cell[
+BoxData[
+RowBox[{"Function",":"," ","SubsetReplace"}]],"Input",ExpressionUUID -> "4a212dad-5d1c-4b5b-9c0f-a69128395505"],Cell[
+BoxData[
+RowBox[{"Expression",":"," ",RowBox[{"Ordered"," ","List"," ","of"," ","Atoms"}]}]],
+"Input",ExpressionUUID -> "f7b9a8d1-409e-446d-b034-ff58e2d3ba34"]},Open],ExpressionUUID -> "e45a7afc-b36e-4ddb-9f7c-07046f8d631e"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Wolfram"," ","Models","\n","Basic"," ","Vocabulary"}],"Chapter",
+ExpressionUUID -> "cb249ef1-989c-4e9d-947d-c280edd82010"],Cell[
+BoxData[RowBox[{RowBox[
+{"In"," ","SetReplace"}],"\n",RowBox[{RowBox[{RowBox[{"-"," ","Expression"}]," ","-"," ",RowBox[
+{"an"," ","element"," ","of"," ","an"," ","unordered"," ","set"}]}],","," ","hyperedge"}],"\n",RowBox[
+{RowBox[{RowBox[{"-"," ","Atom"}]," ","-"," ",RowBox[{"Atomic"," ","part"," ","of"," ","an"," ","expression"}]}],","," ","vertex"}],"\n",RowBox[
+{RowBox[{RowBox[{"-"," ","Set"}]," ","-"," ",RowBox[{"The"," ","state"," ","of"," ","the"," ","system"}]}],","," ",RowBox[
+{"the"," ","hypergraph"}]}],"\n",RowBox[{RowBox[{"-"," ","Rule"}]," ","-"," ",RowBox[
+{"a"," ","rule"," ","replacing"," ","a"," ","subset"," ","with"," ","another"," ","subset"}]}],"\n",RowBox[
+{RowBox[{"-"," ","Event"}]," ","-"," ",RowBox[{"an"," ","instantiated"," ","application"," ","of"," ","a"," ","rule"}]}],"\n",RowBox[
+{RowBox[{RowBox[{"-"," ","Match"}]," ","-"," ",RowBox[{"a"," ","potential"," ","event"," ","that"," ","could"," ","be"," ","instantiated"}]}],","," ",RowBox[
+{"but"," ","has"," ","not"," ","been"," "}]}]}]],"Input",ExpressionUUID -> "87c08fd1-9317-48dc-891c-6ee2d51a46b9"]},
+Open],ExpressionUUID -> "6367f849-0f28-4ef4-9e7e-30f0ce170e72"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Expressions"," ","vs",StyleBox[RowBox[{"."," "}]],"States"}],"Chapter",
+ExpressionUUID -> "c7d90d14-852f-4240-87ba-89256ab716e1"],Cell[
+BoxData[{RowBox[{"Three"," ","Tings"}],"\n",RowBox[
+{"-"," ","AtomLists"}],"\n",RowBox[{"-"," ","EventRuleIDs"}],"\n",RowBox[{"-"," ","EventOutputs"}]}],
+"Input",ExpressionUUID -> "b645dd1f-79df-494f-9064-5fb835b587b1"],Cell[
+BoxData[RowBox[
+{RowBox[{"Layers","."," ","Not"}]," ","always"," ","competed"," ","before"," ","previous"," ","layer"," ","is"," ",RowBox[
+{"complete","."}]}]],"Input",ExpressionUUID -> "dd5266b8-ffeb-43d3-a8a2-3d0d3bdcfa97"],Cell[
+BoxData[
+RowBox[{"README"," ","of"," ","SetReplace"}]],"Input",ExpressionUUID -> "6056de37-f347-481f-b961-e40ae20b7dcf"]},
+Open],ExpressionUUID -> "7f5fea5d-5ea4-49e0-ad9d-a9d752de4c21"],Cell[
+CellGroupData[
+{Cell[
+"\<WolframModelPlot\>","Chapter",ExpressionUUID -> "636f8f8a-681b-4f3c-9afd-a29e2e3a23cd"],Cell[
+TextData[
+{"Convex"," ","Ploygon","\n","-"," ","Drawn"," ","around"," ","graph"," ","elements"," ","to"," ","distinguish"," ","between"," ","double"," ","and"," ","triple"," ","expression","\n","-"," ","Uniary"," ","edges"," ","shown"," ","as"," ","circles"," ","around"," ","nodes",".","\n","-"," ","Option"," ","Edgestyle"," "}],
+"Subsubsection",ExpressionUUID -> "046059c8-b074-401d-a9d2-350a924d4deb"]},Open],
+ExpressionUUID -> "0bf072a6-16ea-43a7-b60d-d677aee8b664"],Cell[
+CellGroupData[{Cell[
+
+"\<RulePlot\>","Chapter",ExpressionUUID -> "859c8dd8-d174-4fdb-bdc3-d72acd173746"],Cell[
+BoxData[
+RowBox[{RowBox[{"-"," ","Shows"}]," ","identical"," ","atoms"," ","in"," ","identical"," ","positions"," "," ","on"," ","left"," ","and"," ","right"," ","side"}]],
+"Input",ExpressionUUID -> "94a010b6-93d9-450a-a43c-23b92deb9d5f"]},Open],ExpressionUUID -> "30c834e1-bd05-4efd-9b6f-ca3d7d75a8a9"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Evolution"," ","Objects"}],"Chapter",ExpressionUUID -> "455ce465-1f6e-4a6e-8578-553585732cb1"],Cell[
+BoxData[
+RowBox[{"Option",":"," ","MaxCompleteGenerations"}]],"Input",ExpressionUUID -> "37f9bac2-aac8-4735-9fc1-8e4ad9f9a230"]},
+Open],ExpressionUUID -> "fc9bdb94-ebe0-435d-8cf0-3d50426409cc"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.55 (July 7, 2020)"]

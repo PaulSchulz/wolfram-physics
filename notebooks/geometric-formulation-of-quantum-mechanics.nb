@@ -1,0 +1,55 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+TextData[{"Geometric"," ","Formulation"," ","of"," ","Quantum"," ","Mechanics"}],
+"Title",ExpressionUUID -> "deae3faa-373d-438d-991c-d0b30808d945"],Cell[
+CellGroupData[
+{Cell[
+"\<References\>","Section",ExpressionUUID -> "87c5d325-454b-41b4-9895-fbd3924cc7bb"],Cell[
+TextData[
+{"Abhay"," ","Ashtekar"," ","and"," ","Troy"," ","A",StyleBox[RowBox[{"."," "}]],"Schilling",StyleBox[
+RowBox[{" ","\""}]],"Geometrical"," ","Formulation"," ","of"," ","Quantum"," ","Mechanics",StyleBox[
+RowBox[{"\""," ","("}]],"1998",")"}],"Text",ExpressionUUID -> "9f7648c7-418a-4a8f-aff6-0ce0b0d41a35"]},
+Open],ExpressionUUID -> "0f1c1f63-ed70-43dc-9ffb-bb46970de12f"],Cell[
+CellGroupData[
+{Cell[
+"\<Definitions\>","Section",ExpressionUUID -> "a8c89313-7933-4f2d-a212-9ded6cac55ef"],Cell[
+TextData[
+{"Hilbert"," ","Space"}],"Subsection",ExpressionUUID -> "26e8ce2a-30bb-4c8e-ae9e-b87d5a082af8"],Cell[
+TextData[
+{"Projective"," ","Hilbert"," ","Space"}],"Subsection",ExpressionUUID -> "69f0fc85-58b4-4b66-83cf-7ead119c9676"],Cell[
+TextData[
+{"Kahler"," ","Space"}],"Subsection",ExpressionUUID -> "2471b9c5-3d5e-4002-8c54-cf30e6064620"],Cell[
+TextData[
+{"Hamiltons"," ","Equation"}],"Subsection",ExpressionUUID -> "fcc66fc6-4d1f-463f-9e41-79a60fabe8d6"],Cell[
+TextData[
+{"Symplectic"," ","Form"}],"Subsection",ExpressionUUID -> "cc2a02bb-4af4-4d09-8baf-57f831ce34b6"],Cell[
+TextData[
+{"Symplectic"," ","Manifold"}],"Subsection",ExpressionUUID -> "5e4a4159-74c5-41aa-8422-da70ff55e460"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Reduced"," ","Phase"," ","Space"}],"Subsection",ExpressionUUID -> "2c00add6-934a-482d-95b5-111d989304a0"],Cell[
+TextData[
+{"Quotient"," ","of"," ","constraint"," ","surface"," ","by"," ","action"," ","of"," ","gauge"," ","transformation"}],
+"Text",ExpressionUUID -> "85e490dc-0551-4fe7-8f5c-004898dc8f0f"]},Open],ExpressionUUID -> "7b295d4d-5ae1-4a81-a585-bfa6c9b18350"],Cell[
+TextData[
+{"Symplectic"," ","Structure"," "}],"Subsection",ExpressionUUID -> "f9000a0e-e789-4bdd-9cdd-2c5ab79a3e4f"]},
+Open],ExpressionUUID -> "e99d4e0a-b3a3-4349-aff9-c6f959e029ec"],Cell[
+CellGroupData[
+{Cell[
+TextData[{"Symplectic"," ","Geometry"}],"Section",ExpressionUUID -> "a8f170ec-9a70-47a2-bdc0-f81f4511c514"],Cell[
+TextData[
+{"Quantum"," ","phase"," ","space"," ","-",StyleBox[RowBox[{"\[ScriptCapitalP]"," "}]],"\n","Self-adjoint"," ","operator"," ","-"," ","F",StyleBox[
+RowBox[{"^"," ","("}]],"Fhat",")","\n","Hilbert"," ","Space"," ","-",StyleBox[RowBox[
+{" ","\[ScriptCapitalH]"}]],"\n","Constraint"," ","surface"," ","-"," ","S"}],"Text",
+ExpressionUUID -> "575a2a4e-e0c8-4429-9330-02a152b8dbfa"],Cell[
+TextData[{"Inclusion"," ","Mapping"," ","-"," ","i",":","S",StyleBox[
+RowBox[{"\[Rule]"," ","\[ScriptCapitalH]"}]],"\n","Projection",StyleBox[RowBox[{":"," ","\[Pi]:"}]],"S-",">\[ScriptCapitalP]"}],
+"Text",ExpressionUUID -> "bb15a84f-b300-4aaa-ad10-ebe80bcd5253"],Cell[
+BoxData[RowBox[
+{RowBox[{"F",RowBox[{"(","\[Psi]",")"}]}]," ",":="," ",RowBox[{"\[LeftAngleBracket]",RowBox[
+{"\[Psi]",".",RowBox[{"F","^"," ","\[Psi]"}]}],"\[RightAngleBracket]"}]}]],"Code",
+ExpressionUUID -> "f90b46d0-d78f-42ea-9336-e0988b3c466a"],Cell[
+BoxData[" "],"Input",
+ExpressionUUID -> "86b6f10d-540e-4193-9025-6855c3f39014"]},Open],ExpressionUUID -> "0d541907-f3a1-4138-ab66-d47c1c4f6afc"]},
+Open],ExpressionUUID -> "908046bc-d511-4bbc-95e2-488f7b46e981"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "12.1 for Wolfram Cloud 1.54.2 (March 10, 2020)"]
