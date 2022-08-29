@@ -220,7 +220,6 @@ void node_make_active (
     Node* node_c,
     Node* node_d
     ) {
-
 }
 
 void node_reset (Node* node) {
@@ -241,6 +240,23 @@ void node_resolution (Node* node) {
 
 }
 
+int is_node_minimum (Node* data, int i, int j){
+
+    Node* node   = &data[data_index(i,j)];
+    Node* node_a = &data[data_index(i+1,j)];
+    Node* node_b = &data[data_index(i,j-1)];
+    Node* node_c = &data[data_index(i-1,j)];
+    Node* node_d = &data[data_index(i,j+1)];
+
+    if((node->lx == 0)
+       && (node->ly == 0)
+       && (node_c->lx == 1)
+       && (node_b->ly == 1)){
+        return TRUE;
+    } else {
+        return FALSE;
+    }
+}
 //////////////////////////////////////////////////////////////////////////////
 // Functions used to update field data
 // Field directions
@@ -340,6 +356,65 @@ void field_resolution (Field* field) {
 
 }
 
+// Process fields in data step
+void fields_step (Node *data, int i, int j) {
+
+    // Define pointers
+    //      b
+    //      |
+    // c <- . -> a
+    //      |
+    //      d
+
+    Node* node = &data[data_index(i,j)];
+    Node* node_a = &data[data_index(i+1,j)];
+    Node* node_b = &data[data_index(i,j-1)];
+    Node* node_c = &data[data_index(i-1,j)];
+    Node* node_d = &data[data_index(i,j+1)];
+
+    int k;
+    for(int k=0; k<NFIELDS; k++){
+        Field* field   = &node->fields[k];
+        Field* field_a = &node_a->fields[k];
+        Field* field_b = &node_b->fields[k];
+        Field* field_c = &node_c->fields[k];
+        Field* field_d = &node_d->fields[k];
+
+        field_make_active(field, field_a, field_b, field_c, field_d);
+        field_reset(field);
+        field_propagation(field, field_a, field_b, field_c, field_d);
+        field_resolution(field);
+
+        // Statistics
+        if (field->fa == 1) field->total_fa = field->total_fa + 1;
+        if (field->fb == 1) field->total_fb = field->total_fb + 1;
+        if (field->fc == 1) field->total_fc = field->total_fc + 1;
+        if (field->fd == 1) field->total_fd = field->total_fd + 1;
+    }
+}
+
+void node_step (Node* data, int i, int j){
+    // Define pointers
+    //      b
+    //      |
+    // c <- . -> a
+    //      |
+    //      d
+
+    Node* node = &data[data_index(i,j)];
+    Node* node_a = &data[data_index(i+1,j)];
+    Node* node_b = &data[data_index(i,j-1)];
+    Node* node_c = &data[data_index(i-1,j)];
+    Node* node_d = &data[data_index(i,j+1)];
+
+    node->lx = 1;
+    node->ly = 1;
+    node_c->lx = 0;
+    node_b->ly = 0;
+    node->level += 2;
+}
+
+//////////////////////////////////////////////////////////////////////////////
 // Algorithm: Randomly pick a point in the array, then move down from this point
 // until a (local) minimum is found which can be updated.
 int
@@ -351,7 +426,7 @@ data_step_random (Node* data, int step){
     j = rand() % maxy;
 
     int search = true;
-     // Search for an updateable 'minimum' point.
+    // Search for an updateable 'minimum' point.
     while (search) {
 
         // Define pointers
@@ -367,59 +442,21 @@ data_step_random (Node* data, int step){
         Node* node_c = &data[data_index(i-1,j)];
         Node* node_d = &data[data_index(i,j+1)];
 
-        if ((node->lx == 0)
-            && (node->ly == 0)
-            && (node_c->lx == 1)
-            && (node_b->ly == 1)) {
+        // Can node be updated? (Are all dependencies are available?)
+        if (is_node_minimum(data,i,j) == TRUE) {
 
             // Minimum node found - can be updated
-            // Finish search
-            search = false;
-
             // Stop conditions
             if (node->level >= level_max){
-                break;
-            };
-
-            // Update node
-            step++;
-
-            // Update fields
-
-            // Field - Domino Tile
-            //       fb
-            //       ^
-            //       |
-            // fc <- o -> fa
-            //       |
-            //       v
-            //       fd
-
-            for(int k=0; k<NFIELDS; k++){
-                Field* field = &node->fields[k];
-                Field* field_a = &node_a->fields[k];
-                Field* field_b = &node_b->fields[k];
-                Field* field_c = &node_c->fields[k];
-                Field* field_d = &node_d->fields[k];
-
-                field_make_active(field, field_a, field_b, field_c, field_d);
-                field_reset(field);
-                field_propagation(field, field_a, field_b, field_c, field_d);
-                field_resolution(field);
-
-                // Statistics
-                if (field->fa == 1) field->total_fa = field->total_fa + 1;
-                if (field->fb == 1) field->total_fb = field->total_fb + 1;
-                if (field->fc == 1) field->total_fc = field->total_fc + 1;
-                if (field->fd == 1) field->total_fd = field->total_fd + 1;
+                return step;
             }
 
-            // Update links
-            node->lx = 1;
-            node->ly = 1;
-            node_c->lx = 0;
-            node_b->ly = 0;
-            node->level += 2;
+            // Update node
+            fields_step(data,i,j);  // Update fields
+            node_step(data,i,j);   // Update links
+            step++;
+
+            search = false;
 
         } else {
             // Randomly move to an adjacent node (downhill)
@@ -439,7 +476,6 @@ data_step_random (Node* data, int step){
                 break;
             }
         }
-
     }
 
     // Global Statistics
@@ -458,22 +494,22 @@ data_step_full (Node* data, int step) {
 
     for (j==0; j<maxy; j++) {
         for (i==0; i<maxx; i++) {
-            if ((data[data_index(i,j)].lx == 0)
-                && (data[data_index(i,j)].ly == 0)
-                && (data[data_index(i-1,j)].lx == 1)
-                && (data[data_index(i,j-1)].ly == 1)) {
-                // Change links
-                data[data_index(i,j)].lx = 1;
-                data[data_index(i,j)].ly = 1;
-                data[data_index(i-1,j)].lx = 0;
-                data[data_index(i,j-1)].ly = 0;
-                data[data_index(i,j)].level += 2;
 
+            if (is_node_minimum(data,i,j) == TRUE) {
+                Node* node = &data[data_index(i,j)];
+
+                // Stop update conditions
+                if (node->level >= level_max){
+                    return step;
+                }
+
+                // Update node
+                fields_step(data,i,j); // Update fields
+                node_step(data,i,j);   // Update links
                 step++;
             }
         }
     }
-
     return step;
 }
 
@@ -485,16 +521,6 @@ draw_function (GtkDrawingArea *area, cairo_t *cr, int width, int height, gpointe
 
     cairo_set_source_rgb (cr, 0.0, 0.0, 0.0); /* black */
     cairo_paint (cr);
-
-    // Scaling
-    if (false) {
-        cairo_translate(cr, 500.0, 500.0);
-        cairo_scale(cr, 0.8, 0.8);
-        angle += 0.002;
-        cairo_rotate (cr, angle);
-
-        cairo_translate(cr, -500.0, -500.0);
-    }
 
     int nmin = 0;  // Number of minima
     int nmax = 0;  // Number of maxima
@@ -604,7 +630,7 @@ save_data (int level) {
             Field* field = &node->fields[nfield];
             char   nodechar = ' ';
 
-            if ((i+j)%2 == 0) {
+            if ((i+j+level)%2 == 0) {
                 if (field->fa != 0 && field->fc != 0){
                     nodechar = '-';
                 } else if (field->fb != 0 && field->fd != 0){
@@ -776,10 +802,10 @@ report_statistics (gpointer area) {
 
 //////////////////////////////////////////////////////////////////////////////
 gboolean time_handler(GtkWidget* widget) {
-    //if (widget->window == NULL) return FALSE;
+    // if (widget->window == NULL) return FALSE;
 
-    step = data_step_random(data, step);
-    // step = data_step_full(data, step);
+     step = data_step_random(data, step);
+     //     step = data_step_full(data, step);
      return TRUE;
 }
 
