@@ -260,7 +260,7 @@ void field_make_active (
     Field* field_d
     )
 {
-    // Activate node if required / disturbed
+    // Activate node if adjacent nodehas field
     if (field_a->fa == 1
         || field_a->fb == 1
         || field_a->fc == 1
@@ -778,8 +778,8 @@ report_statistics (gpointer area) {
 gboolean time_handler(GtkWidget* widget) {
     //if (widget->window == NULL) return FALSE;
 
-     step = data_step_random(data, step);
-     // step = data_step_full(data, step);
+    step = data_step_random(data, step);
+    // step = data_step_full(data, step);
      return TRUE;
 }
 
