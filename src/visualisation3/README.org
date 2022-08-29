@@ -1,0 +1,30 @@
+#+TITLE: Hypergraph Visualisation
+
+* Preamble
+This application was developed also as part of a self-education tutorial into
+developing a GTK4 Application.
+
+There is a great series of GTK4 tutorials here:
+https://github.com/ToshioCP/Gtk4-tutorial
+
+* Introduction
+This application is being developed on Ubuntu, but should also run as-is on
+other Debian based distributions.
+
+* Build 
+** Dependancies
+#+begin_src shell
+  sudo apt-get install libgtk-4-bin libgtk-4-common libgtk-4-dev libgtk-4-doc
+#+end_src
+
+** Compile
+#+begin_src shell
+  make
+#+end_src
+
+** Run
+#+begin_src shell
+  ./wp-vis
+#+end_src
+
+

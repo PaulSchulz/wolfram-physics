@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <object class="GtkApplicationWindow" id="win">
+    <property name="title">Visualiser</property>
+    <property name="default-width">1000</property>
+    <property name="default-height">1010</property>
+    <!--
+    <property name="vexpand">true</property>
+    <property name="vexpand-set">true</property>
+    <property name="hexpand">true</property>
+    <property name="hexpand-set">true</property>
+    -->
+    <!--
+    <property name="fullscreened">true</property>
+    -->
+    <child>
+      <object class="GtkBox" id="boxv">
+        <property name="orientation">GTK_ORIENTATION_VERTICAL</property>
+        <child>
+          <object class="GtkImage" id="image">
+            <property name="vexpand">true</property>
+            <property name="hexpand">true</property>
+            <!--
+            <property name="vexpand-set">true</property>
+            <property name="hexpand-set">true</property>
+            -->
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="btns">
+            <property name="label">Start</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+
+  <object class="GtkApplicationWindow" id="monitor">
+    <property name="title">Monitor</property>
+    <property name="default-width">400</property>
+    <property name="default-height">200</property>
+    <child>
+      <object class="GtkBox" id="monitor-boxy">
+        <property name="orientation">GTK_ORIENTATION_VERTICAL</property>
+        <child>
+          <object class="GtkImage" id="statistics">
+            <property name="vexpand">true</property>
+            <property name="hexpand">true</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkImage" id="graph">
+            <property name="vexpand">true</property>
+            <property name="hexpand">true</property>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
