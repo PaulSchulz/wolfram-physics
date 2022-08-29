@@ -601,21 +601,25 @@ save_data (int level) {
         for(int i=0; i<maxx; i++){
 
             Node*  node = &data[data_index(i,j)];
-            Field* field = &node->fields[nfield];g
-                                                    char   nodechar = ' ';
+            Field* field = &node->fields[nfield];
+            char   nodechar = ' ';
 
-            if (field->fa != 0 && field->fc != 0){
-                nodechar = '-';
-            } else if (field->fb != 0 && field->fd != 0){
-                nodechar = '|';
-            } else if (field->fa != 0) {
-                nodechar = '>';
-            } else if (field->fb != 0) {
-                nodechar = '^';
-            } else if (field->fc != 0) {
-                nodechar = '<';
-            } else if (field->fd != 0) {
-                nodechar = 'v';
+            if ((i+j)%2 == 0) {
+                if (field->fa != 0 && field->fc != 0){
+                    nodechar = '-';
+                } else if (field->fb != 0 && field->fd != 0){
+                    nodechar = '|';
+                } else if (field->fa != 0) {
+                    nodechar = '>';
+                } else if (field->fb != 0) {
+                    nodechar = '^';
+                } else if (field->fc != 0) {
+                    nodechar = '<';
+                } else if (field->fd != 0) {
+                    nodechar = 'v';
+                } else {
+                    nodechar = '.';
+                };
             };
 
             fprintf(fileout,"%c", nodechar);
