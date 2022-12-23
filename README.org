@@ -14,7 +14,12 @@ Paul Schulz
 
 * Directories
 - notebooks: Wolfram notebooks (.nb) on various topics
-- src: Source for programs developed to investigate the Wolfram Physics Model
+- src: Source for (C) programs developed to investigate the Wolfram Physics
+  Model
+  - hypergraph
+  - visualisation
+  - visualisation2
+  - visualisation3
 - studies: Notes on studies on more specific topics
 - wolfram-physics: Clojure code, and sub-project
 
