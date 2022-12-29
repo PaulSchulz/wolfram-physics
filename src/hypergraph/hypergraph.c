@@ -82,6 +82,7 @@ long add_node(long node) {
 
     // Initialize node data
     node_a->nlinks = 0;  // No links
+    node_a->data   = 0;
 }
 
 // Node/link indexing
@@ -161,6 +162,17 @@ void create_initial_state(void) {
 
 //////////////////////////////////////////////////////////////////////////////
 // Utilities
+bool check_link(Node* node, int l) {
+    Link* link = node->link[l];
+
+    if (link == NULL) {
+        printf("*** ERROR - Null link found\n");
+        printf("***   nlinks:     %d\n", node->nlinks);
+        printf("***   link index: %d\n", l);
+        exit(1);
+    }
+}
+
 bool is_forward_link(Node* node, int link_number) {
     int is_forward = false;
     int dir = BACKWARD;
@@ -189,6 +201,55 @@ bool is_forward_link(Node* node, int link_number) {
      return is_forward;
 }
 
+bool is_source_node(Node* node) {
+    int l;
+    int forward = 0;
+    int nlinks = node->nlinks;
+    bool result = false;
+
+    for (l=0; l<nlinks; l++) {
+        check_link(node, l);
+        Link* link = node->link[l];
+
+        if (is_forward_link(node, l) == true){
+            forward++;
+        }
+    }
+
+    if (nlinks != 0 && nlinks == forward) {
+        result = true;
+    } else {
+        result = false;
+    }
+
+    return result;
+}
+
+bool is_sink_node(Node* node) {
+    int l;
+    int backward = 0;
+    int nlinks = node->nlinks;
+    bool result = false;
+
+    for (l=0; l<nlinks; l++) {
+        check_link(node, l);
+        Link* link = node->link[l];
+
+        // Not a forward link
+        if (is_forward_link(node, l) != true){
+            backward++;
+        }
+    }
+
+    if (nlinks != 0 && nlinks == backward) {
+        result = true;
+    } else {
+        result = false;
+    }
+
+    return result;
+}
+
 //////////////////////////////////////////////////////////////////////////////
 // Dynamics
 void random_init (void){
@@ -205,6 +266,22 @@ Node* random_node (void) {
     int max_nodes = maxx*maxy*maxz;
     int r = rand()%max_nodes;
     return &nodes[r];
+}
+
+Node* process_node(Node* node) {
+    int l;
+    int nlinks = node->nlinks;
+
+    // Process data
+    for (l=0; l<nlinks; l++){
+        Link* link = node->link[l];
+
+        if (node->link[l]->dir == FORWARD) {
+            node->link[l]->dir = BACKWARD;
+        } else {
+            node->link[l]->dir = FORWARD;
+        }
+    }
 }
 
 //////////////////////////////////////////////////////////////////////////////
@@ -252,25 +329,15 @@ void show_statistics(void) {
                 int backward = 0;
 
                 for (int l=0; l<nlinks; l++) {
+                    check_link(node,l);
                     link = node->link[l];
-                    // Error
-                    if (link == NULL) {
-                        printf("*** ERROR - Null link found\n");
-                        printf("***   pos i,j,k: %d,%d,%d\n", i,j,k);
-                        printf("***   nlinks:     %d\n", nlinks);
-                        printf("***   link index: %d\n", l);
-                        exit(1);
-                    }
 
                     if (is_forward_link(node, l) == true){
                         forward++;
-                        // printf(">");
                     } else {
                         backward++;
-                        // printf("<");
                     }
                 }
-                // printf(" ");
 
                 if (nlinks == 0) {
                     null_count++;
@@ -299,12 +366,43 @@ int main(int argc, char *argv[]) {
     show_configuration();
 
     create_initial_state();
-
 //    create_hypergraph();
 
-    show_statistics();
+    int xi = 51;
+    int yi = 50;
+    int zi = 50;
 
+    Node* node;
+    node = &nodes[node_id(xi,yi,zi)];
+// random_init();
+    // node = random_node();
+
+    printf("Node %d %d %d: %d %d %d %d %d %d\n",
+           xi, yi, zi,
+           is_forward_link(node,0),
+           is_forward_link(node,1),
+           is_forward_link(node,2),
+           is_forward_link(node,3),
+           is_forward_link(node,4),
+           is_forward_link(node,5));
+    printf("is_source_node: %d\n",
+           is_source_node(node));
+    printf("is_sink_node: %d\n",
+           is_sink_node(node));
+    printf("\n");
+
+    process_node(node);
+
+    printf("is_source_node: %d\n",
+           is_source_node(node));
+    printf("is_sink_node: %d\n",
+           is_sink_node(node));
+
+    printf("\n");
+
+
+    show_statistics();
 //    display_graph();
 
-    return 0;
-}
+           return 0;
+           }
